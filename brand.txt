@@ -3,9 +3,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
 <style>
-/* 아임웹 기본 헤더/푸터 숨김 + 여백 제거 (코드위젯 전용) */
-#header, #footer, .site_header, .site_footer, #hd, #ft { display:none !important; }
-.inline_page .container, #content, .site_content, .page_content { padding:0 !important; margin:0 !important; max-width:none !important; width:100% !important; }
+/* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
+#doz_header_wrap, #doz_footer_wrap { display:none !important; }
+#doz_content_wrap, .inline_page { padding:0 !important; margin:0 !important; }
 body.ca-has-stickybar { padding-bottom:64px; }
 </style>
 
