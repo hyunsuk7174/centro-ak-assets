@@ -533,7 +533,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <h2 class="ca-h2" id="consult-heading">지금 바로 상담을 시작하세요</h2>
           <p class="ca-lead ca-mt-md">견적, 시승, 딜러 상담 중 원하는 항목을 선택해 주세요. 담당 컨설턴트가 빠르게 연락드립니다.</p>
           <div class="ca-lead-cta-list">
-            <a href="tel:1588-0000"><span><i class="fa-solid fa-phone"></i> &nbsp;전화 상담 1588-0000</span><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="tel:070-8657-0905"><span><i class="fa-solid fa-phone"></i> &nbsp;전화 상담 070-8657-0905</span><i class="fa-solid fa-arrow-right"></i></a>
             <a href="#ca-lead-form"><span><i class="fa-solid fa-car-side"></i> &nbsp;시승 신청하기</span><i class="fa-solid fa-arrow-right"></i></a>
             <a href="/service"><span><i class="fa-solid fa-map-location-dot"></i> &nbsp;가까운 서비스센터 찾기</span><i class="fa-solid fa-arrow-right"></i></a>
           </div>
@@ -621,14 +621,14 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <ul>
           <li><a href="/service">서비스센터 찾기</a></li>
           <li><a href="/purchase#consult">견적·시승 신청</a></li>
-          <li><a href="tel:1588-0000">1588-0000</a></li>
+          <li><a href="tel:070-8657-0905">070-8657-0905</a></li>
         </ul>
       </div>
     </div>
     <div class="ca-footer-corp">
       <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 김은옥 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
       사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
-      대표전화: 1588-0000 &nbsp;|&nbsp; 이메일: contact@centro-ak.com</p>
+      대표전화: 070-8657-0905 &nbsp;|&nbsp; 이메일: admin@centroak.com</p>
     </div>
     <div class="ca-footer-bottom">
       <div class="ca-footer-legal">
@@ -643,7 +643,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
 
 <!-- 모바일 하단 고정 CTA -->
 <div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
-  <a href="tel:1588-0000" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="tel:070-8657-0905" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
   <a href="/#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
   <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
 </div>
