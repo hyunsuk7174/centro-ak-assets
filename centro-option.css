@@ -1,0 +1,452 @@
+/* =========================================================================
+   CENTRO AK — 옵션 카드/상세 팝업 컴포넌트 (신규, 전면 재구축)
+   Prefix: centro-option-  (기존 ca- 네임스페이스와 완전히 분리, Imweb 충돌 방지)
+   적용 범위: 옵션 카드 그리드 섹션에만 국한(전역 태그 셀렉터 사용 금지)
+   ========================================================================= */
+
+.centro-option-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.centro-option-card{
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  font-family: inherit;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  height: 100%;
+}
+.centro-option-card:hover,
+.centro-option-card:focus-visible{
+  transform: translateY(-4px);
+  border-color: #cbd0d6;
+  box-shadow: 0 8px 20px rgba(11,13,15,.08);
+  outline: none;
+}
+.centro-option-card:focus-visible{
+  outline: 2px solid #0057ff;
+  outline-offset: 2px;
+}
+
+.centro-option-card-media{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #f0f1f3;
+  overflow: hidden;
+}
+.centro-option-card-media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.centro-option-card-media .centro-option-applic-badge{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background: rgba(11,13,15,.72);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 999px;
+  letter-spacing: .01em;
+}
+.centro-option-card-media .centro-option-applic-badge.is-accent{
+  background: #d92b2b;
+}
+
+.centro-option-placeholder{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #9aa1a9;
+  background: repeating-linear-gradient(135deg, #f4f5f6, #f4f5f6 10px, #eceeef 10px, #eceeef 20px);
+}
+.centro-option-placeholder i{ font-size: 22px; }
+.centro-option-placeholder span{ font-size: 12.5px; font-weight: 600; }
+
+.centro-option-card-body{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 18px 20px;
+  flex: 1;
+}
+.centro-option-card-cat{
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #0057ff;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.centro-option-card-title-row{
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.centro-option-card-title{
+  font-size: 15px;
+  font-weight: 700;
+  color: #0b0d0f;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+  min-height: calc(15px * 1.4 * 2);
+}
+.centro-option-new-tag{
+  flex-shrink: 0;
+  font-size: 9.5px;
+  font-weight: 800;
+  color: #fff;
+  background: #d92b2b;
+  border-radius: 4px;
+  padding: 2px 5px;
+  line-height: 1.4;
+  margin-top: 1px;
+}
+.centro-option-card-desc{
+  font-size: 12.5px;
+  color: #6b7280;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.centro-option-card-more{
+  margin-top: auto;
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #0057ff;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.centro-option-card-more i{ font-size: 10px; transition: transform .2s ease; }
+.centro-option-card:hover .centro-option-card-more i{ transform: translateX(3px); }
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px){
+  .centro-option-grid{ grid-template-columns: repeat(2, 1fr); gap: 20px; }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 640px){
+  .centro-option-grid{ grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .centro-option-card-body{ padding: 12px 13px 14px; }
+  .centro-option-card-title{ font-size: 13px; min-height: calc(13px * 1.4 * 2); }
+  .centro-option-card-desc{ display: none; }
+}
+@media (max-width: 380px){
+  .centro-option-grid{ grid-template-columns: 1fr; }
+}
+
+/* =========================================================================
+   상세 모달 (Detail Modal)
+   ========================================================================= */
+.centro-option-modal{
+  position: fixed;
+  inset: 0;
+  z-index: 9990;
+  display: none;
+}
+.centro-option-modal.is-open{ display: block; }
+
+.centro-option-modal-backdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(11,13,15,.6);
+}
+
+.centro-option-modal-panel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(1180px, calc(100vw - 32px));
+  max-height: min(88vh, 820px);
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 48%) minmax(0, 52%);
+  box-shadow: 0 24px 64px rgba(0,0,0,.28);
+}
+
+.centro-option-modal-close{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,.92);
+  color: #0b0d0f;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,.18);
+}
+.centro-option-modal-close:hover{ background: #fff; }
+
+.centro-option-modal-media{
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  min-height: 420px;
+  max-height: min(82vh, 620px);
+  position: relative;
+  overflow: hidden;
+}
+.centro-option-modal-media img{
+  width: 100%;
+  height: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  cursor: zoom-in;
+}
+.centro-option-modal-media .centro-option-placeholder{ cursor: default; }
+
+.centro-option-modal-thumbs{
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  z-index: 3;
+}
+.centro-option-modal-thumb{
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid rgba(255,255,255,.7);
+  padding: 0;
+  cursor: pointer;
+  background: #fff;
+  flex-shrink: 0;
+}
+.centro-option-modal-thumb img{ width: 100%; height: 100%; object-fit: cover; }
+.centro-option-modal-thumb.is-active{ border-color: #0057ff; }
+
+.centro-option-modal-body{
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+  padding: 42px 72px 42px 42px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: min(88vh, 820px);
+}
+
+.centro-option-modal-badge{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: #0b0d0f;
+  border-radius: 999px;
+  padding: 5px 14px;
+  margin-bottom: 14px;
+}
+.centro-option-modal-badge.is-accent{ background: #d92b2b; }
+
+.centro-option-modal-cat{
+  font-size: 12px;
+  font-weight: 700;
+  color: #0057ff;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.centro-option-modal-title{
+  font-size: clamp(20px, 2.1vw, 34px);
+  font-weight: 800;
+  color: #0b0d0f;
+  line-height: 1.3;
+  margin: 0 0 12px;
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.centro-option-modal-title .centro-option-new-tag{ margin-left: 6px; vertical-align: middle; }
+
+.centro-option-modal-summary{
+  font-size: 15px;
+  font-weight: 600;
+  color: #16191d;
+  line-height: 1.6;
+  margin: 0 0 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eef0f2;
+}
+
+.centro-option-modal-desc{
+  font-size: 14.5px;
+  color: #4b525a;
+  line-height: 1.75;
+  margin: 0 0 20px;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+
+.centro-option-modal-features{
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.centro-option-modal-features li{
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13.5px;
+  color: #16191d;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+  min-width: 0;
+}
+.centro-option-modal-features i{
+  color: #0057ff;
+  font-size: 13px;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.centro-option-modal-applic{
+  font-size: 12.5px;
+  color: #8b939c;
+  padding-top: 14px;
+  border-top: 1px solid #eef0f2;
+}
+.centro-option-modal-applic strong{ color: #4b525a; }
+
+body.centro-option-noscroll{ overflow: hidden; }
+
+/* ---------- Tablet modal: 1024px 전후, 제목/닫기버튼 겹침 방지 ---------- */
+@media (max-width: 1024px){
+  .centro-option-modal-panel{ width: calc(100vw - 24px); }
+  .centro-option-modal-body{ padding: 32px 56px 28px 28px; }
+}
+
+/* ---------- Mobile modal: 768px 이하 세로 스택(기존 860px 유지, 768px 포함) ---------- */
+@media (max-width: 860px){
+  .centro-option-modal-panel{
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 24px);
+    max-height: 90vh;
+    top: 50%;
+  }
+  .centro-option-modal-media{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 32vh;
+    min-height: 220px;
+    max-height: 34vh;
+    padding: 14px;
+  }
+  .centro-option-modal-media img{ max-height: 100%; }
+  .centro-option-modal-body{
+    flex: 1 1 auto;
+    width: 100%;
+    max-height: none;
+    padding: 24px 44px 28px 20px;
+  }
+  .centro-option-modal-title{ font-size: clamp(18px, 5vw, 22px); padding-right: 0; }
+  .centro-option-modal-close{
+    top: 10px;
+    right: 10px;
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* ---------- 초소형 모바일(390px 등): 가로 스크롤 방지 ---------- */
+@media (max-width: 420px){
+  .centro-option-modal-panel{ width: calc(100vw - 16px); }
+  .centro-option-modal-body{ padding: 20px 32px 24px 16px; }
+}
+
+/* =========================================================================
+   확대(Lightbox)
+   ========================================================================= */
+.centro-option-lightbox{
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.centro-option-lightbox.is-open{ display: flex; }
+.centro-option-lightbox-backdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.86);
+}
+.centro-option-lightbox img{
+  position: relative;
+  z-index: 2;
+  max-width: 92vw;
+  max-height: 88vh;
+  object-fit: contain;
+  display: block;
+}
+.centro-option-lightbox-close{
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,.15);
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.centro-option-lightbox-close:hover{ background: rgba(255,255,255,.28); }
