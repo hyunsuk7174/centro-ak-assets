@@ -1,0 +1,174 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<style>
+/* 아임웹 기본 헤더/푸터 숨김 + 여백 제거 (코드위젯 전용) */
+#header, #footer, .site_header, .site_footer, #hd, #ft { display:none !important; }
+.inline_page .container, #content, .site_content, .page_content { padding:0 !important; margin:0 !important; max-width:none !important; width:100% !important; }
+body.ca-has-stickybar { padding-bottom:64px; }
+</style>
+
+<a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
+<div class="ca-root">
+
+<header class="ca-header is-scrolled" id="ca-header">
+  <div class="ca-container">
+    <a href="/" class="ca-logo" aria-label="센트로에이케이 홈으로 이동">
+      <img class="centro-header-logo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고">
+    </a>
+    <nav class="ca-nav" aria-label="주 메뉴">
+      <div class="ca-nav-item">
+        <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+        <div class="ca-dropdown"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+      </div>
+      <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
+      <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
+      <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
+      <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
+      <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+    </nav>
+    <div class="ca-header-actions">
+      <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
+      <button class="ca-menu-toggle" aria-label="메뉴 열기" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="ca-mobile-nav" aria-label="모바일 메뉴">
+  <div class="ca-mobile-group">
+    <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
+    <div class="ca-mobile-sub"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+  </div>
+  <a href="/technology" class="ca-mobile-link">Technology</a>
+  <a href="/business" class="ca-mobile-link">Business Solutions</a>
+  <a href="/purchase" class="ca-mobile-link">Purchase</a>
+  <a href="/service" class="ca-mobile-link">Service</a>
+  <a href="/brand" class="ca-mobile-link">Brand</a>
+  <div class="ca-mobile-cta">
+    <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
+    <a href="/purchase#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
+    <a href="/service" class="ca-btn ca-btn--ghost ca-btn--block">서비스센터 찾기</a>
+  </div>
+</nav>
+
+<main id="ca-main">
+
+  <section class="ca-page-hero">
+    <div class="ca-container">
+      <nav class="ca-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>/</span><span>Business Solutions</span></nav>
+      <span class="ca-eyebrow">Business Solutions</span>
+      <h1 class="ca-h1">업종에 맞는<br>전기 상용차 활용법</h1>
+      <p class="ca-lead ca-mt-md" style="max-width:620px;">소상공인부터 법인·관공서까지, E-CV1이 실제 현장에서 어떻게 비즈니스 효율을 높이는지 소개합니다.</p>
+    </div>
+  </section>
+
+  <section class="ca-section" id="delivery" aria-labelledby="delivery-heading">
+    <div class="ca-container">
+      <div class="ca-tech-row">
+        <div class="ca-tech-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cargo-rear-open-full.jpg" alt="택배 기사가 E-CV1 2VAN 스노우 화이트에 화물을 상차하는 모습"></div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Delivery &amp; Logistics</span>
+          <h2 class="ca-h2 ca-mt-md" id="delivery-heading">배송·물류 사업자</h2>
+          <p class="ca-lead">반복되는 도심 배송 구간에서 유류비를 줄이고, 넉넉한 적재공간으로 하루 배송량을 늘릴 수 있습니다.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>최대 700kg 적재(2VAN 기준)로 배송 효율 향상</li>
+            <li><i class="fa-solid fa-check"></i>전기 동력으로 운행 비용 절감</li>
+            <li><i class="fa-solid fa-check"></i>컴팩트한 차체로 도심 골목 배송에 유리</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ca-tech-row is-reverse" id="sme">
+        <div class="ca-tech-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg" alt="도심 상업지역을 주행하는 E-CV1 베이직 실버 전기 상용밴"></div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Small Business</span>
+          <h2 class="ca-h2 ca-mt-md">소상공인·자영업</h2>
+          <p class="ca-lead">매장과 거래처를 오가는 이동, 재료·상품 운반까지. 낮은 유지비로 사업 초기 부담을 줄여드립니다.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>1인 사업자도 간편하게 운용 가능한 2인승 구성</li>
+            <li><i class="fa-solid fa-check"></i>전국 A/S로 사업 중단 리스크 최소화</li>
+            <li><i class="fa-solid fa-check"></i>주요 부품 5년/20만km 보증으로 장기 비용 절감</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ca-tech-row" id="field-service">
+        <div class="ca-tech-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-liftgate-open-mountain.jpg" alt="출장 및 시설 관리 기사가 E-CV1 2VAN 다크 그레이 펄 리어 리프트게이트를 열어 장비를 점검하는 모습"></div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Field Service</span>
+          <h2 class="ca-h2 ca-mt-md">출장·시설 관리 사업자</h2>
+          <p class="ca-lead">장비와 부품을 넉넉히 싣고 여러 현장을 이동해야 하는 서비스 업종에 적합한 5VAN 구성을 제안합니다.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>5인승으로 팀 단위 현장 이동 지원</li>
+            <li><i class="fa-solid fa-check"></i>500kg 적재로 장비·부품 동시 운반</li>
+            <li><i class="fa-solid fa-check"></i>V2L로 현장에서 전동 공구 전원 활용</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ca-tech-row is-reverse" id="fleet">
+        <div class="ca-tech-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/5van_02_side_door_bench.jpg" alt="법인·관공서 플릿용 E-CV1 5VAN 슬라이딩 도어 오픈 모습"></div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Fleet &amp; Public</span>
+          <h2 class="ca-h2 ca-mt-md">법인·플릿·관공서, 자동차 딜러</h2>
+          <p class="ca-lead">대량 도입과 표준화된 관리가 필요한 조직을 위해 전담 상담과 유지관리 체계를 제공합니다.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>법인·관공서 대량 구매 전담 상담</li>
+            <li><i class="fa-solid fa-check"></i>딜러 파트너십 및 유통 협력 프로그램</li>
+            <li><i class="fa-solid fa-check"></i>전국 서비스 네트워크로 플릿 유지관리 지원</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-section--dark ca-text-center" aria-labelledby="cta-heading">
+    <div class="ca-container">
+      <h2 class="ca-h2" id="cta-heading">우리 사업에 맞는 모델을 상담받아 보세요</h2>
+      <p class="ca-lead ca-mt-md">업종과 사용 목적을 알려주시면 가장 적합한 모델과 구성을 안내드립니다.</p>
+      <div class="ca-hero-cta ca-mt-lg" style="justify-content:center;">
+        <a href="/purchase#consult" class="ca-btn ca-btn--accent">견적 상담 신청</a>
+        <a href="/purchase#dealer" class="ca-btn ca-btn--outline-white">딜러 상담 신청</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ca-footer">
+  <div class="ca-container">
+    <div class="ca-footer-top">
+      <div>
+        <div class="ca-footer-brand"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고"></div>
+        <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
+        <div class="ca-footer-social"><a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a></div>
+      </div>
+      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/purchase">가격 확인</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Company</h4><ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:1588-0000">1588-0000</a></li></ul></div>
+    </div>
+    <div class="ca-footer-corp">
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 김은옥 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
+      대표전화: 1588-0000 &nbsp;|&nbsp; 이메일: contact@centro-ak.com</p>
+    </div>
+    <div class="ca-footer-bottom">
+      <div class="ca-footer-legal"><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">영상정보처리기기 운영방침</a></div>
+      <span>&copy; <span id="ca-year"></span> CENTRO AK Co., Ltd. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
+  <a href="tel:1588-0000" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="/purchase#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
+  <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
+<script>
+document.body.classList.add('ca-has-stickybar');
+</script>

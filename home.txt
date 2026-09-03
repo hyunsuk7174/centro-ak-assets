@@ -1,0 +1,656 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<style>
+/* 아임웹 기본 헤더/푸터 숨김 + 여백 제거 (코드위젯 전용) */
+#header, #footer, .site_header, .site_footer, #hd, #ft { display:none !important; }
+.inline_page .container, #content, .site_content, .page_content { padding:0 !important; margin:0 !important; max-width:none !important; width:100% !important; }
+body.ca-has-stickybar { padding-bottom:64px; }
+</style>
+
+<a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
+<div class="ca-root">
+
+<!-- ============ HEADER ============ -->
+<header class="ca-header" id="ca-header">
+  <div class="ca-container">
+    <a href="/" class="ca-logo" aria-label="센트로에이케이 홈으로 이동">
+      <img class="centro-header-logo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고">
+    </a>
+
+    <nav class="ca-nav" aria-label="주 메뉴">
+      <div class="ca-nav-item">
+        <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+        <div class="ca-dropdown">
+          <a href="/ecv1-2van">E-CV1 2VAN</a>
+          <a href="/ecv1-5van">E-CV1 5VAN</a>
+        </div>
+      </div>
+      <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
+      <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
+      <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
+      <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
+      <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+    </nav>
+
+    <div class="ca-header-actions">
+      <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
+      <button class="ca-menu-toggle" aria-label="메뉴 열기" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- 모바일 메뉴 패널 -->
+<nav class="ca-mobile-nav" aria-label="모바일 메뉴">
+  <div class="ca-mobile-group">
+    <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
+    <div class="ca-mobile-sub">
+      <a href="/ecv1-2van">E-CV1 2VAN</a>
+      <a href="/ecv1-5van">E-CV1 5VAN</a>
+    </div>
+  </div>
+  <a href="/technology" class="ca-mobile-link">Technology</a>
+  <a href="/business" class="ca-mobile-link">Business Solutions</a>
+  <a href="/purchase" class="ca-mobile-link">Purchase</a>
+  <a href="/service" class="ca-mobile-link">Service</a>
+  <a href="/brand" class="ca-mobile-link">Brand</a>
+  <div class="ca-mobile-cta">
+    <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
+    <a href="/purchase#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
+    <a href="/service" class="ca-btn ca-btn--ghost ca-btn--block">서비스센터 찾기</a>
+  </div>
+</nav>
+
+<main id="ca-main">
+
+  <!-- ============ 1. HERO ============ -->
+  <section class="ca-hero" aria-label="센트로에이케이 소개">
+    <div class="ca-hero-media">
+      <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg" alt="센트로에이케이 E-CV1 Black Edition 실제 주행 이미지, 도심 강변도로 정면 3/4 각도">
+    </div>
+    <div class="ca-hero-body">
+      <div class="ca-container">
+        <span class="ca-eyebrow">Electric Mobility for Business</span>
+        <h1 class="ca-hero-title">도시의 일을<br>전기로 바꾸다</h1>
+        <p class="ca-hero-sub">비즈니스에 필요한 공간과 효율을 갖춘 전기 상용 모빌리티.<br>
+        E-CV1과 함께 더 경제적이고 지속 가능한 이동을 시작하세요.</p>
+        <div class="ca-hero-cta">
+          <a href="/ecv1-2van" class="ca-btn ca-btn--white">E-CV1 살펴보기</a>
+          <a href="/purchase" class="ca-btn ca-btn--outline-white">가격 확인</a>
+        </div>
+      </div>
+    </div>
+    <div class="ca-hero-scroll" aria-hidden="true">SCROLL<span class="ca-scroll-line"></span></div>
+  </section>
+
+  <!-- ============ 2. MODEL SELECTOR ============ -->
+  <section class="ca-section" id="models" aria-labelledby="models-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Models</span>
+        <h2 class="ca-h2" id="models-heading">사업의 크기에 맞는 전기밴을 선택하세요</h2>
+        <p class="ca-lead ca-mt-md">2인승 화물 특화 모델과 5인승 다목적 모델, 두 가지 라인업으로 소상공인부터 법인·플릿까지 대응합니다.</p>
+      </div>
+
+      <div class="ca-model-tabs" role="tablist" aria-label="E-CV1 모델 선택">
+        <button class="ca-model-tab is-active" data-target="2van" role="tab" aria-selected="true">E-CV1 2VAN</button>
+        <button class="ca-model-tab" data-target="5van" role="tab" aria-selected="false">E-CV1 5VAN</button>
+      </div>
+
+      <div class="ca-model-panels">
+        <!-- 2VAN -->
+        <article class="ca-model-panel is-active" data-panel="2van">
+          <div class="ca-model-card">
+            <div class="ca-model-media">
+              <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full.jpg" alt="센트로에이케이 E-CV1 2VAN 다크 그레이 펄, 정면 45도 실제 차량 이미지">
+            </div>
+            <div class="ca-model-info">
+              <div class="ca-model-info-top">
+                <span class="ca-badge">2인승 · 화물 특화</span>
+              </div>
+              <h3 class="ca-model-name">E-CV1 2VAN</h3>
+              <p class="ca-model-tagline">도심 배송과 사업용 운행에 최적화된 소형 전기 화물밴</p>
+              <div class="ca-model-specs">
+                <div>
+                  <div class="ca-model-spec-num">700<span>kg</span></div>
+                  <div class="ca-model-spec-label">최대 적재량</div>
+                </div>
+                <div>
+                  <div class="ca-model-spec-num">41.9<span>kWh</span></div>
+                  <div class="ca-model-spec-label">CATL LFP 배터리</div>
+                </div>
+                <div>
+                  <div class="ca-model-spec-num">60<span>kW</span></div>
+                  <div class="ca-model-spec-label">최대 출력</div>
+                </div>
+              </div>
+              <div class="ca-color-list" aria-label="E-CV1 2VAN 선택 가능 색상">
+                <div class="ca-color-item"><span class="ca-color-swatch is-black" aria-hidden="true"></span>Black<br>Edition</div>
+                <div class="ca-color-item"><span class="ca-color-swatch is-white" aria-hidden="true"></span>스노우<br>화이트</div>
+                <div class="ca-color-item"><span class="ca-color-swatch is-darkgray" aria-hidden="true"></span>다크 그레이<br>펄</div>
+                <div class="ca-color-item"><span class="ca-color-swatch is-silver" aria-hidden="true"></span>베이직<br>실버</div>
+              </div>
+              <div class="ca-model-actions ca-mt-lg">
+                <a href="/ecv1-2van" class="ca-btn ca-btn--primary">2VAN 자세히 보기</a>
+                <a href="/purchase" class="ca-btn ca-btn--ghost">가격 확인</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5VAN -->
+        <article class="ca-model-panel" data-panel="5van">
+          <div class="ca-model-card">
+            <div class="ca-model-media">
+              <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/5van_02_side_door_bench.jpg" alt="센트로에이케이 E-CV1 5VAN 실제 차량 이미지, 슬라이딩 도어 오픈 뒷좌석 벤치시트">
+            </div>
+            <div class="ca-model-info">
+              <div class="ca-model-info-top">
+                <span class="ca-badge">5인승 · 다목적</span>
+              </div>
+              <h3 class="ca-model-name">E-CV1 5VAN</h3>
+              <p class="ca-model-tagline">승객과 화물을 함께 운송할 수 있는 다목적 전기밴</p>
+              <div class="ca-model-specs">
+                <div>
+                  <div class="ca-model-spec-num">500<span>kg</span></div>
+                  <div class="ca-model-spec-label">최대 적재량</div>
+                </div>
+                <div>
+                  <div class="ca-model-spec-num">41.9<span>kWh</span></div>
+                  <div class="ca-model-spec-label">CATL LFP 배터리</div>
+                </div>
+                <div>
+                  <div class="ca-model-spec-num">5<span>인승</span></div>
+                  <div class="ca-model-spec-label">승객 탑승 인원</div>
+                </div>
+              </div>
+              <div class="ca-color-list" aria-label="E-CV1 5VAN 선택 가능 색상">
+                <div class="ca-color-item"><span class="ca-color-swatch is-black" aria-hidden="true"></span>Black<br>Edition</div>
+                <div class="ca-color-item"><span class="ca-color-swatch is-white" aria-hidden="true"></span>스노우<br>화이트</div>
+                <div class="ca-color-item"><span class="ca-color-swatch is-darkgray" aria-hidden="true"></span>다크 그레이<br>펄</div>
+                <div class="ca-color-item"><span class="ca-color-swatch is-silver" aria-hidden="true"></span>베이직<br>실버</div>
+              </div>
+              <div class="ca-model-actions ca-mt-lg">
+                <a href="/ecv1-5van" class="ca-btn ca-btn--primary">5VAN 자세히 보기</a>
+                <a href="/purchase" class="ca-btn ca-btn--ghost">가격 확인</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. PERFORMANCE STATS (dark) ============ -->
+  <section class="ca-section ca-section--dark" aria-labelledby="stats-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Performance</span>
+        <h2 class="ca-h2" id="stats-heading">숫자로 보는 E-CV1</h2>
+        <p class="ca-lead ca-mt-md">전기 상용차 선택에서 가장 중요한 것은 성능과 신뢰성입니다.</p>
+      </div>
+      <div class="ca-stats-grid">
+        <div class="ca-stat">
+          <div class="ca-stat-num"><span data-count-to="41.9">0</span><span class="ca-stat-unit">kWh</span></div>
+          <div class="ca-stat-label">CATL LFP 배터리 용량</div>
+        </div>
+        <div class="ca-stat">
+          <div class="ca-stat-num"><span data-count-to="60">0</span><span class="ca-stat-unit">kW</span></div>
+          <div class="ca-stat-label">최대 출력</div>
+        </div>
+        <div class="ca-stat">
+          <div class="ca-stat-num"><span data-count-to="200">0</span><span class="ca-stat-unit">Nm</span></div>
+          <div class="ca-stat-label">최대 토크</div>
+        </div>
+        <div class="ca-stat">
+          <div class="ca-stat-num"><span data-count-to="700">0</span><span class="ca-stat-unit">kg</span></div>
+          <div class="ca-stat-label">최대 적재량 (2VAN)</div>
+        </div>
+      </div>
+      <p class="ca-form-note ca-mt-md" style="color:rgba(255,255,255,.45);">※ 위 수치는 제원 기준이며 트림/옵션에 따라 달라질 수 있습니다. 정확한 사양은 공식 카탈로그를 확인해 주세요.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3-1. PROMOTIONAL VIDEOS ============ -->
+  <section class="ca-section" id="promo-videos" aria-labelledby="promo-videos-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow"><i class="fa-brands fa-youtube"></i> &nbsp;Promotional Videos</span>
+        <h2 class="ca-h2" id="promo-videos-heading">영상으로 만나는 E-CV1</h2>
+        <p class="ca-lead ca-mt-md">유튜브에 공개된 E-CV1 소개·리뷰 영상을 통해 외관·실내·주행 성능과 실제 활용 모습을 확인해 보세요.</p>
+      </div>
+
+      <div class="ca-video-grid">
+        <button type="button" class="ca-video-card" data-video-id="VV3JYi0s1m4" data-video-title="E-CV1 상세 기능 리뷰">
+          <span class="ca-video-thumb">
+            <img src="https://img.youtube.com/vi/VV3JYi0s1m4/hqdefault.jpg" alt="E-CV1 상세 기능 리뷰 영상 썸네일" loading="lazy">
+            <span class="ca-video-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+            <span class="ca-video-duration">6:40</span>
+          </span>
+          <span class="ca-video-body">
+            <span class="ca-video-title">E-CV1 상세 기능 리뷰</span>
+            <span class="ca-video-desc">내·외관 디자인부터 안드로이드 오토, 4K 룸미러, V2L 기능까지 한 번에 확인하는 종합 리뷰</span>
+          </span>
+        </button>
+
+        <button type="button" class="ca-video-card" data-video-id="kppvDl59SpU" data-video-title="블랙 에디션 인터뷰 – 캠핑헌터">
+          <span class="ca-video-thumb">
+            <img src="https://img.youtube.com/vi/kppvDl59SpU/hqdefault.jpg" alt="블랙 에디션 인터뷰 영상 썸네일" loading="lazy">
+            <span class="ca-video-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+            <span class="ca-video-duration">6:33</span>
+          </span>
+          <span class="ca-video-body">
+            <span class="ca-video-title">블랙 에디션 인터뷰 – 캠핑헌터</span>
+            <span class="ca-video-desc">캠핑 전문 채널이 소개하는 E-CV1 블랙 에디션의 공간 활용성, 인산철 배터리와 AS 시스템</span>
+          </span>
+        </button>
+
+        <button type="button" class="ca-video-card" data-video-id="Dcr4Gi72poc" data-video-title="2VAN vs 5VAN 완전 비교">
+          <span class="ca-video-thumb">
+            <img src="https://img.youtube.com/vi/Dcr4Gi72poc/hqdefault.jpg" alt="2VAN과 5VAN 비교 영상 썸네일" loading="lazy">
+            <span class="ca-video-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+            <span class="ca-video-duration">9:40</span>
+          </span>
+          <span class="ca-video-body">
+            <span class="ca-video-title">2VAN vs 5VAN 완전 비교</span>
+            <span class="ca-video-desc">2인승·5인승 두 모델의 공간 활용도와 V2L, 스마트키 등 편의 사양을 나란히 비교</span>
+          </span>
+        </button>
+
+        <button type="button" class="ca-video-card" data-video-id="Ja90o1J2QIc" data-video-title="대표가 직접 소개하는 신규 라인업">
+          <span class="ca-video-thumb">
+            <img src="https://img.youtube.com/vi/Ja90o1J2QIc/hqdefault.jpg" alt="대표 인터뷰 영상 썸네일" loading="lazy">
+            <span class="ca-video-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+            <span class="ca-video-duration">8:40</span>
+          </span>
+          <span class="ca-video-body">
+            <span class="ca-video-title">대표가 직접 소개하는 신규 라인업</span>
+            <span class="ca-video-desc">블랙 에디션과 5인승 모델의 차별화 포인트, 전국 AS 네트워크까지 대표가 직접 안내</span>
+          </span>
+        </button>
+
+        <button type="button" class="ca-video-card" data-video-id="cl_DqjiTSaU" data-video-title="가성비 끝판왕, E-CV1 상세 리뷰">
+          <span class="ca-video-thumb">
+            <img src="https://img.youtube.com/vi/cl_DqjiTSaU/hqdefault.jpg" alt="E-CV1 상세 리뷰 영상 썸네일" loading="lazy">
+            <span class="ca-video-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+            <span class="ca-video-duration">10:00</span>
+          </span>
+          <span class="ca-video-body">
+            <span class="ca-video-title">가성비 끝판왕, E-CV1 상세 리뷰</span>
+            <span class="ca-video-desc">외관 디자인부터 실내 인테리어, 경제적인 가격과 보증 혜택까지 짚어보는 상세 리뷰</span>
+          </span>
+        </button>
+
+        <button type="button" class="ca-video-card" data-video-id="-IDjrozErOw" data-video-title="E-CV1 풀 스펙 워크스루">
+          <span class="ca-video-thumb">
+            <img src="https://img.youtube.com/vi/-IDjrozErOw/hqdefault.jpg" alt="E-CV1 풀 스펙 소개 영상 썸네일" loading="lazy">
+            <span class="ca-video-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+            <span class="ca-video-duration">3:01</span>
+          </span>
+          <span class="ca-video-body">
+            <span class="ca-video-title">E-CV1 풀 스펙 워크스루</span>
+            <span class="ca-video-desc">외관·실내·배터리·충전·적재공간·실주행까지, E-CV1의 모든 것을 한 편으로 정리</span>
+          </span>
+        </button>
+
+        <button type="button" class="ca-video-card" data-video-id="ugCLOAdmIkA" data-video-title="E-CV1과 함께하는 차박 라이프">
+          <span class="ca-video-thumb">
+            <img src="https://img.youtube.com/vi/ugCLOAdmIkA/hqdefault.jpg" alt="차박 라이프 영상 썸네일" loading="lazy">
+            <span class="ca-video-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+            <span class="ca-video-duration">1:59</span>
+          </span>
+          <span class="ca-video-body">
+            <span class="ca-video-title">E-CV1과 함께하는 차박 라이프</span>
+            <span class="ca-video-desc">넉넉한 실내 공간을 활용한 차박 체험으로 확인하는 E-CV1의 다양한 활용 가능성</span>
+          </span>
+        </button>
+      </div>
+
+      <div class="ca-text-center ca-mt-lg">
+        <a href="https://www.youtube.com/results?search_query=%EC%84%BC%ED%8A%B8%EB%A1%9C%EC%97%90%EC%9D%B4%EC%BC%80%EC%9D%B4+E-CV1" target="_blank" rel="noopener" class="ca-link-arrow">유튜브에서 더 많은 영상 보기 <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 유튜브 라이트박스 모달 -->
+  <div class="ca-video-modal" id="ca-video-modal" aria-hidden="true">
+    <div class="ca-video-modal-backdrop" data-video-close></div>
+    <div class="ca-video-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="ca-video-modal-title">
+      <button type="button" class="ca-video-modal-close" data-video-close aria-label="영상 닫기"><i class="fa-solid fa-xmark"></i></button>
+      <div class="ca-video-modal-frame-wrap">
+        <iframe id="ca-video-modal-frame" src="" title="E-CV1 홍보 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <p class="ca-video-modal-title" id="ca-video-modal-title"></p>
+    </div>
+  </div>
+
+  <!-- ============ 4. BUSINESS USE CASES ============ -->
+  <section class="ca-section ca-section--gray" id="business" aria-labelledby="usecase-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Business Solutions</span>
+        <h2 class="ca-h2" id="usecase-heading">어떤 사업에 어울릴까요</h2>
+        <p class="ca-lead ca-mt-md">배송·물류부터 출장 서비스, 법인 플릿, 관공서까지. E-CV1은 다양한 사업 현장에서 운영 비용을 낮춥니다.</p>
+      </div>
+      <div class="ca-grid-4">
+        <a class="ca-usecase-card" href="/business#delivery">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cargo-rear-open-full.jpg" alt="센트로에이케이 E-CV1 2VAN 스노우 화이트, 리어 카고도어가 열려 있는 실제 적재공간 모습">
+          <div class="ca-usecase-body">
+            <span class="ca-usecase-tag">Delivery &amp; Logistics</span>
+            <h3 class="ca-usecase-title">배송·물류</h3>
+            <p class="ca-usecase-text">도심 라스트마일 배송에 최적화된 적재 공간과 낮은 운영비</p>
+          </div>
+        </a>
+        <a class="ca-usecase-card" href="/business#sme">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg" alt="도심 현장에 주차된 센트로에이케이 E-CV1 베이직 실버 실제 차량">
+          <div class="ca-usecase-body">
+            <span class="ca-usecase-tag">Small Business</span>
+            <h3 class="ca-usecase-title">소상공인·자영업</h3>
+            <p class="ca-usecase-text">유류비 부담을 줄이고 매장·현장을 오가는 이동 효율을 높입니다</p>
+          </div>
+        </a>
+        <a class="ca-usecase-card" href="/business#field-service">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/interior-cabin-full-view-seats.jpg" alt="센트로에이케이 E-CV1 2VAN 실제 화물 적재공간, 장비 운반용 공간">
+          <div class="ca-usecase-body">
+            <span class="ca-usecase-tag">Field Service</span>
+            <h3 class="ca-usecase-title">출장·시설 관리</h3>
+            <p class="ca-usecase-text">장비와 부품을 넉넉히 싣고 현장을 오가는 서비스 차량</p>
+          </div>
+        </a>
+        <a class="ca-usecase-card" href="/business#fleet">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/5van_04_interior_dash.jpg" alt="법인·관공서 플릿용 센트로에이케이 E-CV1 5VAN 실제 차량 실내">
+          <div class="ca-usecase-body">
+            <span class="ca-usecase-tag">Fleet &amp; Public</span>
+            <h3 class="ca-usecase-title">법인·플릿·관공서</h3>
+            <p class="ca-usecase-text">대량 도입과 통합 관리가 필요한 조직을 위한 플릿 솔루션</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. TECHNOLOGY ============ -->
+  <section class="ca-section" id="technology" aria-labelledby="tech-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Technology</span>
+        <h2 class="ca-h2" id="tech-heading">배터리, 안전, 커넥티드를 하나로</h2>
+        <p class="ca-lead ca-mt-md">매일 도로 위에서 일하는 상용차이기에, 검증된 배터리와 다중 안전장치를 기본으로 갖췄습니다.</p>
+      </div>
+
+      <div class="ca-tech-row">
+        <div class="ca-tech-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-underbridge-runners.jpg" alt="센트로에이케이 E-CV1 Black Edition 실제 주행 이미지, 고가도로 하부를 달리는 모습">
+        </div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Battery</span>
+          <h3 class="ca-h3 ca-mt-md">CATL LFP 배터리, 오래 쓰는 힘</h3>
+          <p class="ca-lead">41.9kWh 용량의 CATL LFP 배터리를 탑재해 안정성과 내구성을 확보했습니다. 주요 전동 부품은 5년 또는 20만km 보증으로 뒷받침합니다.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>CATL LFP 41.9kWh 배터리</li>
+            <li><i class="fa-solid fa-check"></i>최대 출력 60kW · 최대 토크 200Nm</li>
+            <li><i class="fa-solid fa-check"></i>주요 전동 부품 5년 / 20만km 보증</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ca-tech-row is-reverse">
+        <div class="ca-tech-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/interior-dashboard-tablet-androidauto.jpg" alt="E-CV1 실제 실내 대시보드, 10.1인치 디스플레이가 탑재된 모습">
+        </div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Safety &amp; Connected</span>
+          <h3 class="ca-h3 ca-mt-md">일하는 사람을 지키는 안전 시스템</h3>
+          <p class="ca-lead">AEB, ESC, ABS, EBD와 듀얼 에어백을 기본 탑재하고, V2L·V2V 기능과 10.1인치 디스플레이로 스마트한 운행 환경을 제공합니다.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>AEB(전방충돌방지보조), ESC, ABS, EBD</li>
+            <li><i class="fa-solid fa-check"></i>듀얼 에어백 기본 탑재</li>
+            <li><i class="fa-solid fa-check"></i>V2L·V2V 지원, 10.1인치 디스플레이</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ca-text-center ca-mt-lg">
+        <a href="/technology" class="ca-link-arrow">기술 상세 살펴보기 <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. SERVICE NETWORK ============ -->
+  <section class="ca-section ca-section--gray" id="service" aria-labelledby="network-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Service &amp; Parts Network</span>
+        <h2 class="ca-h2" id="network-heading">전국 A/S와 부품 공급까지 책임집니다</h2>
+        <p class="ca-lead ca-mt-md">센트로에이케이는 차량 판매 이후에도 전국 서비스 네트워크와 국내 부품 공급 체계로 다운타임을 최소화합니다.</p>
+      </div>
+      <div class="ca-network-stats">
+        <div class="ca-network-stat">
+          <div class="ca-stat-num"><span data-count-to="5">0</span><span class="ca-stat-unit">년/20만km</span></div>
+          <div class="ca-stat-label ca-mt-md">주요 전동 부품 보증</div>
+        </div>
+        <div class="ca-network-stat">
+          <div class="ca-stat-num"><i class="fa-solid fa-map-location-dot" style="color:var(--ca-blue);"></i></div>
+          <div class="ca-stat-label ca-mt-md">전국 A/S 네트워크 운영</div>
+        </div>
+        <div class="ca-network-stat">
+          <div class="ca-stat-num"><i class="fa-solid fa-warehouse" style="color:var(--ca-blue);"></i></div>
+          <div class="ca-stat-label ca-mt-md">국내 부품 공급 체계 구축</div>
+        </div>
+      </div>
+      <div class="ca-text-center ca-mt-lg">
+        <a href="/service" class="ca-btn ca-btn--primary">서비스센터 찾기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. TRUST / KOREAN MARKET ============ -->
+  <section class="ca-section" id="brand-trust" aria-labelledby="trust-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Brand</span>
+        <h2 class="ca-h2" id="trust-heading">한국 도심에 맞게 개발된 전기 상용차</h2>
+        <p class="ca-lead ca-mt-md">센트로에이케이는 한국의 도심 비즈니스 환경과 도로 여건에 맞춰 E-CV1을 개발·인증하고, 국내 유통·서비스 체계를 직접 운영합니다.</p>
+      </div>
+      <div class="ca-trust-strip">
+        <span class="ca-trust-item"><i class="fa-solid fa-circle-check"></i>국내 안전·환경 기준 인증 절차 준수</span>
+        <span class="ca-trust-item"><i class="fa-solid fa-circle-check"></i>한국 도심 도로 환경 기반 개발</span>
+        <span class="ca-trust-item"><i class="fa-solid fa-circle-check"></i>전국 A/S·부품 공급 자체 운영</span>
+        <span class="ca-trust-item"><i class="fa-solid fa-circle-check"></i>법인·관공서 납품 대응 체계</span>
+      </div>
+      <div class="ca-text-center ca-mt-lg">
+        <a href="/brand" class="ca-link-arrow">브랜드 스토리 보기 <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. CUSTOMER CASES ============ -->
+  <section class="ca-section ca-section--gray" id="cases" aria-labelledby="cases-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Customer Stories</span>
+        <h2 class="ca-h2" id="cases-heading">고객의 하루가 어떻게 바뀌었을까요</h2>
+        <p class="ca-lead ca-mt-md">※ 아래 사례는 실제 고객 인터뷰 진행 전까지 노출되는 콘텐츠 자리입니다. 출고 고객 인터뷰 확보 후 실제 사례로 교체해 주세요.</p>
+      </div>
+      <div class="ca-grid-3">
+        <article class="ca-case-card">
+          <div class="ca-case-media">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-side-boxes.jpg" alt="도심 배송 사업자가 활용하는 센트로에이케이 E-CV1 2VAN 스노우 화이트 실제 차량">
+          </div>
+          <div class="ca-case-body">
+            <p class="ca-case-quote">"유류비가 줄고, 적재 공간은 오히려 넉넉해졌습니다."</p>
+            <div class="ca-case-meta"><strong>배송·물류</strong> · E-CV1 2VAN 이용 고객</div>
+          </div>
+        </article>
+        <article class="ca-case-card">
+          <div class="ca-case-media">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-bridge.jpg" alt="소상공인이 매장 배송에 활용하는 센트로에이케이 E-CV1 베이직 실버 실제 차량">
+          </div>
+          <div class="ca-case-body">
+            <p class="ca-case-quote">"매장과 거래처를 오가는 이동 비용이 눈에 띄게 줄었어요."</p>
+            <div class="ca-case-meta"><strong>소상공인</strong> · E-CV1 2VAN 이용 고객</div>
+          </div>
+        </article>
+        <article class="ca-case-card">
+          <div class="ca-case-media">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/5van_06_driver_seat_view.jpg" alt="시설 관리 기사가 활용하는 센트로에이케이 E-CV1 5VAN 실제 차량">
+          </div>
+          <div class="ca-case-body">
+            <p class="ca-case-quote">"직원과 장비를 함께 옮길 수 있어 현장 대응이 빨라졌습니다."</p>
+            <div class="ca-case-meta"><strong>출장·시설관리</strong> · E-CV1 5VAN 이용 고객</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 9. CATALOG DOWNLOAD ============ -->
+  <section class="ca-section" aria-labelledby="catalog-heading">
+    <div class="ca-container">
+      <div class="ca-model-card" style="grid-template-columns: 1fr; text-align:center; padding: 64px 32px;">
+        <div>
+          <span class="ca-eyebrow ca-flex-center">Catalog</span>
+          <h2 class="ca-h2" id="catalog-heading">E-CV1 전체 제원과 옵션을 확인하세요</h2>
+          <p class="ca-lead ca-mt-md">카탈로그에는 상세 제원, 트림별 구성, 보증 정책이 담겨 있습니다.</p>
+          <div class="ca-mt-lg ca-flex-center" style="gap:14px;">
+            <a href="https://www.genspark.ai/api/files/s/vQwii2TE" target="_blank" rel="noopener" class="ca-btn ca-btn--primary"><i class="fa-solid fa-file-arrow-down"></i>카탈로그 다운로드</a>
+            <a href="/purchase#consult" class="ca-btn ca-btn--ghost">견적 상담 신청</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 10. LEAD / CONSULTATION FORM ============ -->
+  <section class="ca-section ca-section--gray" id="consult" aria-labelledby="consult-heading">
+    <div class="ca-container">
+      <div class="ca-lead-wrap">
+        <div>
+          <span class="ca-eyebrow">Get Started</span>
+          <h2 class="ca-h2" id="consult-heading">지금 바로 상담을 시작하세요</h2>
+          <p class="ca-lead ca-mt-md">견적, 시승, 딜러 상담 중 원하는 항목을 선택해 주세요. 담당 컨설턴트가 빠르게 연락드립니다.</p>
+          <div class="ca-lead-cta-list">
+            <a href="tel:1588-0000"><span><i class="fa-solid fa-phone"></i> &nbsp;전화 상담 1588-0000</span><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#ca-lead-form"><span><i class="fa-solid fa-car-side"></i> &nbsp;시승 신청하기</span><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="/service"><span><i class="fa-solid fa-map-location-dot"></i> &nbsp;가까운 서비스센터 찾기</span><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <form class="ca-form" id="ca-lead-form" novalidate>
+          <div class="ca-form-row">
+            <label for="lead-type">상담 유형 <span class="req">*</span></label>
+            <select id="lead-type" name="type" required>
+              <option value="">선택해 주세요</option>
+              <option value="quote">가격/견적 상담</option>
+              <option value="testdrive">시승 신청</option>
+              <option value="dealer">딜러 상담</option>
+              <option value="fleet">법인·플릿 문의</option>
+              <option value="service">A/S·부품 문의</option>
+            </select>
+          </div>
+          <div class="ca-form-row">
+            <label for="lead-model">관심 모델</label>
+            <select id="lead-model" name="model">
+              <option value="2van">E-CV1 2VAN</option>
+              <option value="5van">E-CV1 5VAN</option>
+              <option value="undecided">아직 결정하지 않음</option>
+            </select>
+          </div>
+          <div class="ca-form-row">
+            <label for="lead-name">이름 <span class="req">*</span></label>
+            <input type="text" id="lead-name" name="name" required autocomplete="name">
+          </div>
+          <div class="ca-form-row">
+            <label for="lead-phone">연락처 <span class="req">*</span></label>
+            <input type="tel" id="lead-phone" name="phone" required autocomplete="tel" placeholder="010-0000-0000">
+          </div>
+          <div class="ca-form-row">
+            <label for="lead-msg">문의 내용</label>
+            <textarea id="lead-msg" name="message" placeholder="문의하실 내용을 자유롭게 남겨 주세요."></textarea>
+          </div>
+          <div class="ca-form-row">
+            <label class="ca-form-check">
+              <input type="checkbox" name="consent" required>
+              개인정보 수집 및 이용에 동의합니다. <span class="req">*</span>
+            </label>
+          </div>
+          <button type="submit" class="ca-btn ca-btn--accent ca-btn--block">상담 신청하기</button>
+          <p class="ca-form-note">신청서는 상담 목적으로만 사용되며, 확정되지 않은 가격 정보는 상담 시 안내드립니다.</p>
+          <div class="ca-form-success" id="ca-form-success" role="status">신청이 접수되었습니다. 담당 컨설턴트가 빠르게 연락드리겠습니다.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ 11. FOOTER ============ -->
+<footer class="ca-footer">
+  <div class="ca-container">
+    <div class="ca-footer-top">
+      <div>
+        <div class="ca-footer-brand"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고"></div>
+        <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
+        <div class="ca-footer-social">
+          <a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a>
+        </div>
+      </div>
+      <div class="ca-footer-col">
+        <h4>Models</h4>
+        <ul>
+          <li><a href="/ecv1-2van">E-CV1 2VAN</a></li>
+          <li><a href="/ecv1-5van">E-CV1 5VAN</a></li>
+          <li><a href="/purchase">가격 확인</a></li>
+        </ul>
+      </div>
+      <div class="ca-footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/brand">브랜드 스토리</a></li>
+          <li><a href="/technology">기술력</a></li>
+          <li><a href="/business">비즈니스 솔루션</a></li>
+        </ul>
+      </div>
+      <div class="ca-footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="/service">서비스센터 찾기</a></li>
+          <li><a href="/purchase#consult">견적·시승 신청</a></li>
+          <li><a href="tel:1588-0000">1588-0000</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ca-footer-corp">
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 김은옥 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
+      대표전화: 1588-0000 &nbsp;|&nbsp; 이메일: contact@centro-ak.com</p>
+    </div>
+    <div class="ca-footer-bottom">
+      <div class="ca-footer-legal">
+        <a href="#">이용약관</a>
+        <a href="#">개인정보처리방침</a>
+        <a href="#">영상정보처리기기 운영방침</a>
+      </div>
+      <span>&copy; <span id="ca-year"></span> CENTRO AK Co., Ltd. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 모바일 하단 고정 CTA -->
+<div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
+  <a href="tel:1588-0000" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="/#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
+  <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
+<script>
+document.body.classList.add('ca-has-stickybar');
+</script>

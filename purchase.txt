@@ -1,0 +1,195 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<style>
+/* 아임웹 기본 헤더/푸터 숨김 + 여백 제거 (코드위젯 전용) */
+#header, #footer, .site_header, .site_footer, #hd, #ft { display:none !important; }
+.inline_page .container, #content, .site_content, .page_content { padding:0 !important; margin:0 !important; max-width:none !important; width:100% !important; }
+body.ca-has-stickybar { padding-bottom:64px; }
+</style>
+
+<a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
+<div class="ca-root">
+
+<header class="ca-header is-scrolled" id="ca-header">
+  <div class="ca-container">
+    <a href="/" class="ca-logo" aria-label="센트로에이케이 홈으로 이동">
+      <img class="centro-header-logo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고">
+    </a>
+    <nav class="ca-nav" aria-label="주 메뉴">
+      <div class="ca-nav-item">
+        <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+        <div class="ca-dropdown"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+      </div>
+      <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
+      <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
+      <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
+      <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
+      <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+    </nav>
+    <div class="ca-header-actions">
+      <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
+      <button class="ca-menu-toggle" aria-label="메뉴 열기" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="ca-mobile-nav" aria-label="모바일 메뉴">
+  <div class="ca-mobile-group">
+    <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
+    <div class="ca-mobile-sub"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+  </div>
+  <a href="/technology" class="ca-mobile-link">Technology</a>
+  <a href="/business" class="ca-mobile-link">Business Solutions</a>
+  <a href="/purchase" class="ca-mobile-link">Purchase</a>
+  <a href="/service" class="ca-mobile-link">Service</a>
+  <a href="/brand" class="ca-mobile-link">Brand</a>
+  <div class="ca-mobile-cta">
+    <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
+    <a href="/purchase#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
+    <a href="/service" class="ca-btn ca-btn--ghost ca-btn--block">서비스센터 찾기</a>
+  </div>
+</nav>
+
+<main id="ca-main">
+
+  <section class="ca-page-hero">
+    <div class="ca-container">
+      <nav class="ca-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>/</span><span>Purchase</span></nav>
+      <span class="ca-eyebrow">Purchase</span>
+      <h1 class="ca-h1">구매 절차와 견적,<br>한 번에 확인하세요</h1>
+      <p class="ca-lead ca-mt-md" style="max-width:620px;">가격 확인부터 시승, 딜러 상담까지. 사업 목적에 맞는 구매 방법을 안내드립니다.</p>
+    </div>
+  </section>
+
+  <!-- 구매 절차 -->
+  <section class="ca-section" aria-labelledby="process-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Process</span>
+        <h2 class="ca-h2" id="process-heading">구매 진행 절차</h2>
+      </div>
+      <div class="ca-grid-4">
+        <div class="ca-card">
+          <div class="ca-card-icon">1</div>
+          <h3 class="ca-card-title">상담 신청</h3>
+          <p class="ca-card-text">모델과 사용 목적을 알려주시면 담당 컨설턴트가 연락드립니다.</p>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon">2</div>
+          <h3 class="ca-card-title">견적 안내</h3>
+          <p class="ca-card-text">트림, 옵션, 보조금 여부에 따른 맞춤 견적을 안내드립니다.</p>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon">3</div>
+          <h3 class="ca-card-title">시승 및 계약</h3>
+          <p class="ca-card-text">원하실 경우 시승을 진행한 뒤 계약을 도와드립니다.</p>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon">4</div>
+          <h3 class="ca-card-title">출고 및 A/S 등록</h3>
+          <p class="ca-card-text">출고 후 가까운 서비스센터를 등록해 A/S를 준비합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 가격 안내 -->
+  <section class="ca-section ca-section--gray ca-text-center" aria-labelledby="price-heading">
+    <div class="ca-container">
+      <span class="ca-eyebrow">Price</span>
+      <h2 class="ca-h2" id="price-heading">가격 및 보조금 안내</h2>
+      <p class="ca-lead ca-mt-md" style="max-width:640px; margin:16px auto 0;">전기 상용차 가격과 지자체 보조금은 지역·시기별로 달라질 수 있어 확정되지 않은 금액은 사이트에 게시하지 않습니다.<br>정확한 견적은 아래 상담 신청을 통해 1:1로 안내드립니다.</p>
+      <div class="ca-mt-lg">
+        <a href="#consult" class="ca-btn ca-btn--primary">정확한 견적 상담받기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 견적/시승/딜러 상담 폼 -->
+  <section class="ca-section" id="consult" aria-labelledby="consult-heading">
+    <div class="ca-container">
+      <div class="ca-lead-wrap">
+        <div>
+          <span class="ca-eyebrow">Consultation</span>
+          <h2 class="ca-h2" id="consult-heading">상담 신청</h2>
+          <p class="ca-lead ca-mt-md">견적, 시승, 딜러 상담 중 원하는 항목을 선택해 주세요.</p>
+          <div class="ca-lead-cta-list" id="testdrive">
+            <a href="tel:1588-0000"><span><i class="fa-solid fa-phone"></i> &nbsp;전화 상담 1588-0000</span><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="/service"><span><i class="fa-solid fa-map-location-dot"></i> &nbsp;가까운 서비스센터 찾기</span><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" id="dealer"><span><i class="fa-solid fa-handshake"></i> &nbsp;딜러 파트너십 문의</span><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <form class="ca-form" id="ca-lead-form" novalidate>
+          <div class="ca-form-row">
+            <label for="p-type">상담 유형 <span class="req">*</span></label>
+            <select id="p-type" name="type" required>
+              <option value="">선택해 주세요</option>
+              <option value="quote">가격/견적 상담</option>
+              <option value="testdrive">시승 신청</option>
+              <option value="dealer">딜러 상담</option>
+              <option value="fleet">법인·플릿 문의</option>
+              <option value="service">A/S·부품 문의</option>
+            </select>
+          </div>
+          <div class="ca-form-row">
+            <label for="p-model">관심 모델</label>
+            <select id="p-model" name="model">
+              <option value="2van">E-CV1 2VAN</option>
+              <option value="5van">E-CV1 5VAN</option>
+              <option value="undecided">아직 결정하지 않음</option>
+            </select>
+          </div>
+          <div class="ca-form-row"><label for="p-name">이름 <span class="req">*</span></label><input type="text" id="p-name" name="name" required autocomplete="name"></div>
+          <div class="ca-form-row"><label for="p-phone">연락처 <span class="req">*</span></label><input type="tel" id="p-phone" name="phone" required autocomplete="tel" placeholder="010-0000-0000"></div>
+          <div class="ca-form-row"><label for="p-region">지역(보조금 확인용)</label><input type="text" id="p-region" name="region" placeholder="예: 서울특별시 강남구"></div>
+          <div class="ca-form-row"><label for="p-msg">문의 내용</label><textarea id="p-msg" name="message" placeholder="문의하실 내용을 자유롭게 남겨 주세요."></textarea></div>
+          <div class="ca-form-row"><label class="ca-form-check"><input type="checkbox" name="consent" required>개인정보 수집 및 이용에 동의합니다. <span class="req">*</span></label></div>
+          <button type="submit" class="ca-btn ca-btn--accent ca-btn--block">상담 신청하기</button>
+          <p class="ca-form-note">신청서는 상담 목적으로만 사용되며, 확정되지 않은 가격·보조금 정보는 상담 시 안내드립니다.</p>
+          <div class="ca-form-success" id="ca-form-success" role="status">신청이 접수되었습니다. 담당 컨설턴트가 빠르게 연락드리겠습니다.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ca-footer">
+  <div class="ca-container">
+    <div class="ca-footer-top">
+      <div>
+        <div class="ca-footer-brand"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고"></div>
+        <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
+        <div class="ca-footer-social"><a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a></div>
+      </div>
+      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/purchase">가격 확인</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Company</h4><ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:1588-0000">1588-0000</a></li></ul></div>
+    </div>
+    <div class="ca-footer-corp">
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 김은옥 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
+      대표전화: 1588-0000 &nbsp;|&nbsp; 이메일: contact@centro-ak.com</p>
+    </div>
+    <div class="ca-footer-bottom">
+      <div class="ca-footer-legal"><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">영상정보처리기기 운영방침</a></div>
+      <span>&copy; <span id="ca-year"></span> CENTRO AK Co., Ltd. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
+  <a href="tel:1588-0000" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="/purchase#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
+  <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
+<script>
+document.body.classList.add('ca-has-stickybar');
+</script>

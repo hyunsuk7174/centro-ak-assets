@@ -1,0 +1,307 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option.css">
+<style>
+/* 아임웹 기본 헤더/푸터 숨김 + 여백 제거 (코드위젯 전용) */
+#header, #footer, .site_header, .site_footer, #hd, #ft { display:none !important; }
+.inline_page .container, #content, .site_content, .page_content { padding:0 !important; margin:0 !important; max-width:none !important; width:100% !important; }
+body.ca-has-stickybar { padding-bottom:64px; }
+</style>
+
+<a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
+<div class="ca-root">
+
+<header class="ca-header is-scrolled" id="ca-header">
+  <div class="ca-container">
+    <a href="/" class="ca-logo" aria-label="센트로에이케이 홈으로 이동">
+      <img class="centro-header-logo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고">
+    </a>
+    <nav class="ca-nav" aria-label="주 메뉴">
+      <div class="ca-nav-item">
+        <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+        <div class="ca-dropdown">
+          <a href="/ecv1-2van">E-CV1 2VAN</a>
+          <a href="/ecv1-5van">E-CV1 5VAN</a>
+        </div>
+      </div>
+      <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
+      <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
+      <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
+      <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
+      <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+    </nav>
+    <div class="ca-header-actions">
+      <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
+      <button class="ca-menu-toggle" aria-label="메뉴 열기" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="ca-mobile-nav" aria-label="모바일 메뉴">
+  <div class="ca-mobile-group">
+    <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
+    <div class="ca-mobile-sub">
+      <a href="/ecv1-2van">E-CV1 2VAN</a>
+      <a href="/ecv1-5van">E-CV1 5VAN</a>
+    </div>
+  </div>
+  <a href="/technology" class="ca-mobile-link">Technology</a>
+  <a href="/business" class="ca-mobile-link">Business Solutions</a>
+  <a href="/purchase" class="ca-mobile-link">Purchase</a>
+  <a href="/service" class="ca-mobile-link">Service</a>
+  <a href="/brand" class="ca-mobile-link">Brand</a>
+  <div class="ca-mobile-cta">
+    <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
+    <a href="/purchase#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
+    <a href="/service" class="ca-btn ca-btn--ghost ca-btn--block">서비스센터 찾기</a>
+  </div>
+</nav>
+
+<main id="ca-main">
+
+  <section class="ca-page-hero">
+    <div class="ca-container">
+      <nav class="ca-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>/</span><span>Technology</span></nav>
+      <span class="ca-eyebrow">Technology</span>
+      <h1 class="ca-h1">매일 일하는 차,<br>기본이 다릅니다</h1>
+      <p class="ca-lead ca-mt-md" style="max-width:620px;">검증된 배터리, 다중 안전장치, 커넥티드 기능까지. 사업용 차량에 필요한 신뢰를 기술로 증명합니다.</p>
+      <div class="ca-hero-cta ca-mt-lg">
+        <a href="#option-details" class="ca-btn ca-btn--primary">옵션 세부사항 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section" aria-labelledby="battery-heading">
+    <div class="ca-container">
+      <div class="ca-tech-row">
+        <div class="ca-tech-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/battery-pack-catl.png" alt="CATL LFP 41.9kWh 배터리 팩 실물 렌더링, 차량 하부 장착 모습">
+        </div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Battery</span>
+          <h2 class="ca-h2 ca-mt-md" id="battery-heading">CATL LFP 배터리, 검증된 안정성</h2>
+          <p class="ca-lead">41.9kWh 용량의 CATL LFP 배터리를 탑재해 화재 안전성과 내구성을 확보했습니다. 상용차에 필요한 반복 충·방전 환경에서도 안정적인 성능을 유지합니다.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>CATL LFP 41.9kWh 배터리</li>
+            <li><i class="fa-solid fa-check"></i>최대 출력 60kW · 최대 토크 200Nm</li>
+            <li><i class="fa-solid fa-check"></i>주요 전동 부품 5년 / 20만km 보증</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ca-tech-row is-reverse">
+        <div class="ca-tech-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/airbags-dual-front.png" alt="E-CV1 운전석·조수석 듀얼 에어백 전개 모습">
+        </div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Safety</span>
+          <h2 class="ca-h2 ca-mt-md">다중 안전장치, 운전자를 지키는 기본값</h2>
+          <p class="ca-lead">AEB(전방충돌방지보조), ESC, ABS, EBD와 듀얼 에어백을 기본 탑재해 주행 중 발생할 수 있는 위험을 줄입니다.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>AEB 전방충돌방지보조</li>
+            <li><i class="fa-solid fa-check"></i>ESC 차체자세제어, ABS, EBD</li>
+            <li><i class="fa-solid fa-check"></i>듀얼 에어백 기본 탑재</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ca-tech-row">
+        <div class="ca-tech-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-charging-port-closeup.jpg" alt="E-CV1 충전포트 클로즈업, V2L·V2V 외부 전원 공급 지점">
+        </div>
+        <div class="ca-tech-content">
+          <span class="ca-badge">Connected</span>
+          <h2 class="ca-h2 ca-mt-md">V2L·V2V, 전기차의 활용 폭을 넓히다</h2>
+          <p class="ca-lead">V2L(Vehicle to Load)로 차량 배터리를 외부 전원으로 활용하고, V2V(Vehicle to Vehicle) 기능으로 다른 전기차에 전력을 공급할 수 있습니다. 10.1인치 디스플레이로 운행 정보를 한눈에 확인하세요.</p>
+          <ul class="ca-tech-list">
+            <li><i class="fa-solid fa-check"></i>V2L 외부 전원 공급 기능</li>
+            <li><i class="fa-solid fa-check"></i>V2V 차량 간 전력 공유</li>
+            <li><i class="fa-solid fa-check"></i>10.1인치 대형 디스플레이</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 옵션 세부사항 (Option Details, 현대·기아 스타일 피처 쇼케이스) ============ -->
+  <section class="ca-section ca-section--gray" id="option-details" aria-labelledby="option-details-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-section-head--center">
+        <span class="ca-eyebrow">Option Details</span>
+        <h2 class="ca-h2" id="option-details-heading">옵션 세부사항, 하나하나 뜯어봤습니다</h2>
+        <p class="ca-lead ca-mt-md">안전사양부터 배터리, 편의 기능까지 — E-CV1이 기본으로 갖춘 디테일을 사진으로 확인하세요.</p>
+      </div>
+      <nav class="ca-opt-catnav" aria-label="옵션 세부사항 카테고리 바로가기">
+        <a href="#opt-safety"><i class="fa-solid fa-shield-halved"></i>안전 사양</a>
+        <a href="#opt-battery"><i class="fa-solid fa-car-battery"></i>배터리 &amp; 성능</a>
+        <a href="#opt-exterior"><i class="fa-solid fa-car-side"></i>외장 디자인</a>
+        <a href="#opt-convenience"><i class="fa-solid fa-star"></i>편의 사양</a>
+        <a href="#opt-black-edition"><i class="fa-solid fa-car"></i>Black Edition</a>
+      </nav>
+
+      <!-- ===== 카테고리 1: 안전 사양 ===== -->
+      <div class="ca-opt-category is-safety" id="opt-safety">
+        <div class="ca-opt-category-head">
+          <div>
+            <div class="ca-opt-cat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <span class="ca-eyebrow">Safety</span>
+            <h3 class="ca-h2">타협 없는 안전, 기본 사양입니다</h3>
+          </div>
+          <p class="ca-lead" style="max-width:420px;">차체 구조부터 제동, 충돌 방지까지 다중 안전장치를 기본 탑재해 매일의 주행을 지킵니다. 카드를 클릭하면 상세 설명을 볼 수 있습니다.</p>
+        </div>
+        <div class="centro-option-grid" id="centro-option-grid-safety"></div>
+      </div>
+
+      <!-- ===== 카테고리 2: 배터리 & 성능 ===== -->
+      <div class="ca-opt-category is-battery" id="opt-battery">
+        <div class="ca-opt-category-head">
+          <div>
+            <div class="ca-opt-cat-icon"><i class="fa-solid fa-car-battery"></i></div>
+            <span class="ca-eyebrow">Battery &amp; Performance</span>
+            <h3 class="ca-h2">세계 1위 CATL 배터리, 눈으로 확인하세요</h3>
+          </div>
+          <p class="ca-lead" style="max-width:420px;">배터리 팩 실물부터 하부 보호 구조, 실시간 주행 정보를 보여주는 클러스터까지 — 성능을 뒷받침하는 디테일입니다.</p>
+        </div>
+        <div class="centro-option-grid" id="centro-option-grid-battery"></div>
+      </div>
+
+      <!-- ===== 카테고리 3: 외장 디자인 ===== -->
+      <div class="ca-opt-category is-exterior" id="opt-exterior">
+        <div class="ca-opt-category-head">
+          <div>
+            <div class="ca-opt-cat-icon"><i class="fa-solid fa-car-side"></i></div>
+            <span class="ca-eyebrow">Exterior Design</span>
+            <h3 class="ca-h2">첫인상부터 완성도를 더하는 외장 디테일</h3>
+          </div>
+          <p class="ca-lead" style="max-width:420px;">동급 유일·동급 최초 사양을 다수 기본 적용해 상용차라는 인식을 넘어선 하이테크한 외관을 완성했습니다.</p>
+        </div>
+        <div class="centro-option-grid" id="centro-option-grid-exterior"></div>
+      </div>
+
+      <!-- ===== 카테고리 4: 편의 사양 ===== -->
+      <div class="ca-opt-category is-convenience" id="opt-convenience">
+        <div class="ca-opt-category-head">
+          <div>
+            <div class="ca-opt-cat-icon"><i class="fa-solid fa-star"></i></div>
+            <span class="ca-eyebrow">Convenience</span>
+            <h3 class="ca-h2">타는 순간부터 다른, 실용적인 편의 사양</h3>
+          </div>
+          <p class="ca-lead" style="max-width:420px;">연결성과 사용성을 높이는 편의 기능부터 시트·수납·전력 공급 사양까지, 매일의 운행을 더 편하게 만듭니다.</p>
+        </div>
+        <div class="centro-option-grid" id="centro-option-grid-convenience"></div>
+      </div>
+
+      <!-- ===== 카테고리 5: 블랙 에디션 전용 사양 ===== -->
+      <div class="ca-opt-category is-black-edition" id="opt-black-edition">
+        <div class="ca-opt-category-head">
+          <div>
+            <div class="ca-opt-cat-icon"><i class="fa-solid fa-car"></i></div>
+            <span class="ca-eyebrow">Black Edition</span>
+            <h3 class="ca-h2">블랙 에디션 전용 사양</h3>
+          </div>
+          <p class="ca-lead" style="max-width:420px;">블랙 에디션 모델에서만 만나볼 수 있는 전용 디자인 사양입니다.</p>
+        </div>
+        <div class="centro-option-grid" id="centro-option-grid-black-edition"></div>
+      </div>
+
+      <div class="ca-mt-lg ca-text-center">
+        <a href="/purchase#consult" class="ca-btn ca-btn--primary">전체 옵션 상담 신청</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-section--gray ca-text-center" aria-labelledby="warranty-heading">
+    <div class="ca-container">
+      <span class="ca-eyebrow">Warranty</span>
+      <h2 class="ca-h2" id="warranty-heading">주요 전동 부품, 5년 또는 20만km 보증</h2>
+      <p class="ca-lead ca-mt-md">배터리, 모터 등 주요 전동 부품에 대한 보증으로 장기 운행에 대한 부담을 줄여드립니다.</p>
+      <div class="ca-hero-cta ca-mt-lg" style="justify-content:center;">
+        <a href="/service" class="ca-btn ca-btn--primary">서비스센터 찾기</a>
+        <a href="/purchase#consult" class="ca-btn ca-btn--ghost">견적 상담 신청</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-section--dark" aria-labelledby="faq-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-section-head--center">
+        <span class="ca-eyebrow">FAQ</span>
+        <h2 class="ca-h2" id="faq-heading">기술 관련 자주 묻는 질문</h2>
+      </div>
+      <div class="ca-faq">
+        <div class="ca-faq-item is-open">
+          <button class="ca-faq-q" aria-expanded="true" style="color:#fff;">LFP 배터리는 어떤 장점이 있나요? <i class="fa-solid fa-plus"></i></button>
+          <div class="ca-faq-a"><div class="ca-faq-a-inner" style="color:rgba(255,255,255,.72);">LFP(리튬인산철) 배터리는 열 안정성이 높고 수명이 길어 상용차처럼 매일 충·방전이 반복되는 환경에 적합합니다.</div></div>
+        </div>
+        <div class="ca-faq-item">
+          <button class="ca-faq-q" aria-expanded="false" style="color:#fff;">V2L, V2V는 실제로 어떻게 활용하나요? <i class="fa-solid fa-plus"></i></button>
+          <div class="ca-faq-a"><div class="ca-faq-a-inner" style="color:rgba(255,255,255,.72);">현장에서 전동 공구를 사용하거나 캠핑·레저 시 외부 전원이 필요할 때 V2L을 활용할 수 있으며, V2V는 다른 전기차 충전 지원에 활용할 수 있습니다.</div></div>
+        </div>
+        <div class="ca-faq-item">
+          <button class="ca-faq-q" aria-expanded="false" style="color:#fff;">완충 후 주행거리는 얼마나 되나요? <i class="fa-solid fa-plus"></i></button>
+          <div class="ca-faq-a"><div class="ca-faq-a-inner" style="color:rgba(255,255,255,.72);">주행거리는 인증 기관의 공식 발표 자료를 기준으로 안내드리며, 확정 전 수치는 임의로 게시하지 않습니다. 최신 인증 정보는 카탈로그 또는 상담을 통해 확인해 주세요.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ca-footer">
+  <div class="ca-container">
+    <div class="ca-footer-top">
+      <div>
+        <div class="ca-footer-brand"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고"></div>
+        <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
+        <div class="ca-footer-social">
+          <a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a>
+        </div>
+      </div>
+      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/purchase">가격 확인</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Company</h4><ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:1588-0000">1588-0000</a></li></ul></div>
+    </div>
+    <div class="ca-footer-corp">
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 김은옥 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
+      대표전화: 1588-0000 &nbsp;|&nbsp; 이메일: contact@centro-ak.com</p>
+    </div>
+    <div class="ca-footer-bottom">
+      <div class="ca-footer-legal"><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">영상정보처리기기 운영방침</a></div>
+      <span>&copy; <span id="ca-year"></span> CENTRO AK Co., Ltd. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
+  <a href="tel:1588-0000" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="/purchase#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
+  <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
+</div>
+
+</div>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    if(window.CentroOption){
+      CentroOption.renderOptionGrid("#centro-option-grid-safety", "safety");
+      CentroOption.renderOptionGrid("#centro-option-grid-battery", "battery");
+      CentroOption.renderOptionGrid("#centro-option-grid-exterior", "exterior");
+      CentroOption.renderOptionGrid("#centro-option-grid-convenience", "convenience");
+      CentroOption.renderOptionGrid("#centro-option-grid-black-edition", "black-edition");
+    }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option-data.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option.js"></script>
+<script>
+document.body.classList.add('ca-has-stickybar');
+</script>

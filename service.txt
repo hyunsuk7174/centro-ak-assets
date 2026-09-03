@@ -1,0 +1,291 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<style>
+/* 아임웹 기본 헤더/푸터 숨김 + 여백 제거 (코드위젯 전용) */
+#header, #footer, .site_header, .site_footer, #hd, #ft { display:none !important; }
+.inline_page .container, #content, .site_content, .page_content { padding:0 !important; margin:0 !important; max-width:none !important; width:100% !important; }
+body.ca-has-stickybar { padding-bottom:64px; }
+</style>
+
+<a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
+<div class="ca-root">
+
+<header class="ca-header is-scrolled" id="ca-header">
+  <div class="ca-container">
+    <a href="/" class="ca-logo" aria-label="센트로에이케이 홈으로 이동">
+      <img class="centro-header-logo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고">
+    </a>
+    <nav class="ca-nav" aria-label="주 메뉴">
+      <div class="ca-nav-item">
+        <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+        <div class="ca-dropdown"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+      </div>
+      <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
+      <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
+      <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
+      <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
+      <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+    </nav>
+    <div class="ca-header-actions">
+      <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
+      <button class="ca-menu-toggle" aria-label="메뉴 열기" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="ca-mobile-nav" aria-label="모바일 메뉴">
+  <div class="ca-mobile-group">
+    <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
+    <div class="ca-mobile-sub"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+  </div>
+  <a href="/technology" class="ca-mobile-link">Technology</a>
+  <a href="/business" class="ca-mobile-link">Business Solutions</a>
+  <a href="/purchase" class="ca-mobile-link">Purchase</a>
+  <a href="/service" class="ca-mobile-link">Service</a>
+  <a href="/brand" class="ca-mobile-link">Brand</a>
+  <div class="ca-mobile-cta">
+    <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
+    <a href="/purchase#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
+    <a href="/service" class="ca-btn ca-btn--ghost ca-btn--block">서비스센터 찾기</a>
+  </div>
+</nav>
+
+<main id="ca-main">
+
+  <section class="ca-page-hero">
+    <div class="ca-container">
+      <nav class="ca-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>/</span><span>Service</span></nav>
+      <span class="ca-eyebrow">Service &amp; Parts Network</span>
+      <h1 class="ca-h1">차를 팔고 나서도<br>끝까지 책임집니다</h1>
+      <p class="ca-lead ca-mt-md" style="max-width:620px;">전국 A/S 네트워크와 국내 부품 공급 체계로 사업용 차량의 다운타임을 최소화합니다.</p>
+    </div>
+  </section>
+
+  <section class="ca-section" aria-labelledby="network-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Network</span>
+        <h2 class="ca-h2" id="network-heading">전국 서비스 네트워크</h2>
+        <p class="ca-lead ca-mt-md">※ 아래 숫자와 지역 목록은 관리자가 최신 운영 현황으로 업데이트하는 영역입니다.</p>
+      </div>
+      <div class="ca-network-stats">
+        <div class="ca-network-stat">
+          <div class="ca-stat-num"><span data-count-to="54">0</span><span class="ca-stat-unit">개 거점</span></div>
+          <div class="ca-stat-label ca-mt-md">전국 지정정비 네트워크 (직영 부품센터 2 + 지정정비업체 52)</div>
+        </div>
+        <div class="ca-network-stat">
+          <div class="ca-stat-num"><span data-count-to="5">0</span><span class="ca-stat-unit">년/20만km</span></div>
+          <div class="ca-stat-label ca-mt-md">주요 전동 부품(배터리·모터·BMS) 보증</div>
+        </div>
+        <div class="ca-network-stat">
+          <div class="ca-stat-num"><i class="fa-solid fa-warehouse" style="color:var(--ca-blue);"></i></div>
+          <div class="ca-stat-label ca-mt-md">평택·부산 직영 부품센터 운영</div>
+        </div>
+      </div>
+      <p class="ca-form-note ca-mt-md">(주)센트로에이케이는 직영 부품센터 2개 거점 및 지정정비 업체 52개 거점, 총 54개 거점으로 전국 A/S 네트워크를 운영하고 있습니다.</p>
+    </div>
+  </section>
+
+  <!-- 서비스센터 찾기(실제 54개 지정정비센터 목록) -->
+  <section class="ca-section ca-section--gray" aria-labelledby="finder-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">A/S 지정정비 센터</span>
+        <h2 class="ca-h2" id="finder-heading">전국 지정정비 센터 52개 거점</h2>
+        <p class="ca-lead ca-mt-md">지역명 또는 업체명을 입력해 검색해 보세요. ※ 표기된 지정정비 센터는 운영 상황에 따라 변동될 수 있습니다.</p>
+      </div>
+      <div class="ca-form" style="max-width:480px; margin-bottom:24px;">
+        <div class="ca-form-row">
+          <label for="sc-region">지역 / 업체명 검색</label>
+          <input type="text" id="sc-region" placeholder="예: 서울, 경기, 에이원모터스 등" oninput="caFilterServiceCenters(this.value)">
+        </div>
+      </div>
+      <div style="overflow-x:auto;">
+      <table id="ca-sc-table" style="width:100%; border-collapse:collapse; min-width:760px; background:#fff; border-radius:12px; overflow:hidden;">
+        <thead>
+          <tr style="background:var(--ca-blue); color:#fff;">
+            <th style="padding:12px 10px; text-align:center; white-space:nowrap;">지역</th>
+            <th style="padding:12px 10px; text-align:left;">거래처명</th>
+            <th style="padding:12px 10px; text-align:left;">주소</th>
+            <th style="padding:12px 10px; text-align:center;">정비</th>
+            <th style="padding:12px 10px; text-align:center; white-space:nowrap;">전화번호</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:10px; text-align:center;">서울 서대문구</td><td style="padding:10px;">아트카 라운지</td><td style="padding:10px;">서울특별시 서대문구 거북골로 214</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">02-373-5544</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">서울 성동구</td><td style="padding:10px;">에이원 모터스</td><td style="padding:10px;">서울특별시 성동구 광나루로 192</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">0507-1406-0027</td></tr>
+          <tr><td style="padding:10px; text-align:center;">서울 노원구</td><td style="padding:10px;">서진자동차공업사</td><td style="padding:10px;">서울특별시 노원구 공릉로 34길 15</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">02-971-7392</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경기 양주시</td><td style="padding:10px;">자이자동차세상</td><td style="padding:10px;">경기도 양주시 삼숭로 14-35</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-859-9244</td></tr>
+          <tr><td style="padding:10px; text-align:center;">경기 부천시</td><td style="padding:10px;">하이퍼 모터스</td><td style="padding:10px;">경기도 부천시 원미구 조마루로 105번길 12</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">032-322-8733</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경기 광주시</td><td style="padding:10px;">현대카독크</td><td style="padding:10px;">경기도 광주시 오포읍 오포안로 118 (문형동)</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-758-8600</td></tr>
+          <tr><td style="padding:10px; text-align:center;">경기 의왕시</td><td style="padding:10px;">한국지엠 의왕 서비스센터</td><td style="padding:10px;">경기도 의왕시 청백리로 38</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-429-9333</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경기 화성시</td><td style="padding:10px;">카니어스</td><td style="padding:10px;">경기도 화성시 팔탄면 무하로 149-8</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">1600-9772</td></tr>
+          <tr><td style="padding:10px; text-align:center;">경기 안산시</td><td style="padding:10px;">보쉬카 서비스(초지점)</td><td style="padding:10px;">경기도 안산시 단원구 원포공원1로 49</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-413-2030</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경기 이천시</td><td style="padding:10px;">창전 모터스</td><td style="padding:10px;">경기도 이천시 향교로 64-1</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-694-2322</td></tr>
+          <tr><td style="padding:10px; text-align:center;">경기 광주시</td><td style="padding:10px;">88조은자동차공업사</td><td style="padding:10px;">경기도 광주시 역동로 71</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-765-3240</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경기 용인시</td><td style="padding:10px;">서울 카클리닉</td><td style="padding:10px;">경기도 용인시 기흥구 진산로 184</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-262-7135</td></tr>
+          <tr><td style="padding:10px; text-align:center;">경기 안성시</td><td style="padding:10px;">위드모터스</td><td style="padding:10px;">경기도 안성시 양성면 서듬물길 35-22 (삼암리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-677-5582</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경기 성남시</td><td style="padding:10px;">은행카공업사</td><td style="padding:10px;">경기도 성남시 수정구 논골로 17-1</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-745-0494</td></tr>
+          <tr><td style="padding:10px; text-align:center;">경기 성남시</td><td style="padding:10px;">피카소(차량정비사업소)</td><td style="padding:10px;">경기도 성남시 수정구 탄천로 597</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-753-1088</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경기 포천시</td><td style="padding:10px;">Y 와이모터스</td><td style="padding:10px;">경기도 포천시 가산면 마정로 329 (정교리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-542-3391</td></tr>
+          <tr><td style="padding:10px; text-align:center;">인천 서구</td><td style="padding:10px;">검단연안 자동차</td><td style="padding:10px;">인천광역시 서구 검단천로 363</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">032-516-2277</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">인천 미추홀구</td><td style="padding:10px;">신동아 자동차공업사</td><td style="padding:10px;">인천광역시 미추홀구 미추홀대로 488</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">032-863-1000</td></tr>
+          <tr><td style="padding:10px; text-align:center;">인천 강화</td><td style="padding:10px;">차병원</td><td style="padding:10px;">인천광역시 강화군 불은면 덕진로 304 (신현리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">031-984-4119</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">대전 대덕구</td><td style="padding:10px;">운성 모터스</td><td style="padding:10px;">대전광역시 대덕구 한밭대로 1088</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">042-624-4443</td></tr>
+          <tr><td style="padding:10px; text-align:center;">충남 천안시</td><td style="padding:10px;">애니카랜드(성정)</td><td style="padding:10px;">충남 천안시 서북구 서부대로 592</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">041-571-7779</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">충남 천안시</td><td style="padding:10px;">애니카랜드(풍세)</td><td style="padding:10px;">충남 천안시 동남구 풍세면 풍세로 448 (남관리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">041-577-7773</td></tr>
+          <tr><td style="padding:10px; text-align:center;">충남 천안시</td><td style="padding:10px;">삼일공업사</td><td style="padding:10px;">충남 천안시 서북구 수레터 1길 23</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">041-621-9448</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">충남 보령시</td><td style="padding:10px;">대천자동차정비공업사</td><td style="padding:10px;">충남 보령시 중앙로 255</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">041-931-2121</td></tr>
+          <tr><td style="padding:10px; text-align:center;">충북 제천시</td><td style="padding:10px;">애니카랜드 청전점</td><td style="padding:10px;">충북 제천시 명륜로 26</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">043-644-3377</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">충북 영동읍</td><td style="padding:10px;">럭키 카센타</td><td style="padding:10px;">충북 영동군 영동읍 학산영동로 1169 (부용리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">043-744-3538</td></tr>
+          <tr><td style="padding:10px; text-align:center;">강원 원주시</td><td style="padding:10px;">유진 모터스</td><td style="padding:10px;">강원도 원주 상지대길 8</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">0507-1311-3966</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">강원 철원(갈말읍)</td><td style="padding:10px;">신나라 모터스</td><td style="padding:10px;">강원도 철원군 갈말읍 두루미로 161 (문혜리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">033-452-8811</td></tr>
+          <tr><td style="padding:10px; text-align:center;">강원 정선(사북읍)</td><td style="padding:10px;">카마트</td><td style="padding:10px;">강원도 정선군 사북읍 소금강로 3574 (사북리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">033-592-3650</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">강원 영월읍</td><td style="padding:10px;">하이카프라자</td><td style="padding:10px;">강원도 영월군 영월읍 영모전길 38 (영흥리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">033-374-6262</td></tr>
+          <tr><td style="padding:10px; text-align:center;">대구 중구</td><td style="padding:10px;">무성 모터스</td><td style="padding:10px;">대구광역시 중구 동덕로 36길 84</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">053-428-1538</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">대구 동구</td><td style="padding:10px;">케이지모빌리티 동대구서비스센터</td><td style="padding:10px;">대구광역시 동구 안심로 55길 43</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">053-961-5582</td></tr>
+          <tr><td style="padding:10px; text-align:center;">울산 북구</td><td style="padding:10px;">대성자동차정비공업사</td><td style="padding:10px;">울산광역시 북구 진장 10길 3</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">052-283-0947</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경남 진주시</td><td style="padding:10px;">에스카 서비스</td><td style="padding:10px;">경남 진주시 말티고개로 77</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">055-763-0235</td></tr>
+          <tr><td style="padding:10px; text-align:center;">경남 창원시</td><td style="padding:10px;">신포자동차정비</td><td style="padding:10px;">경남 창원시 마산합포구 수산1길 12</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">055-248-9799</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">경북 포항시</td><td style="padding:10px;">용흥오토서비스</td><td style="padding:10px;">경북 포항시 북구 대안길 3</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">054-247-0909</td></tr>
+          <tr><td style="padding:10px; text-align:center;">광주 동구</td><td style="padding:10px;">에이스 모터스</td><td style="padding:10px;">광주광역시 동구 무등로 439</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">062-523-8297</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">광주 서구</td><td style="padding:10px;">애니카랜드 상무점</td><td style="padding:10px;">광주광역시 서구 칠성로 51</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">062-381-4123</td></tr>
+          <tr><td style="padding:10px; text-align:center;">부산 북구</td><td style="padding:10px;">금호타이어 동남카 서비스</td><td style="padding:10px;">부산광역시 북구 만덕2로 19</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">051-343-2951</td></tr>
+          <tr style="background:#eef4ff;"><td style="padding:10px; text-align:center; font-weight:700; color:var(--ca-blue);">부산 강서구</td><td style="padding:10px; font-weight:700; color:var(--ca-blue);">XEV AUTO SHOP (직영)</td><td style="padding:10px; font-weight:700; color:var(--ca-blue);">부산광역시 강서구 화전산단 4로 31 거양프라자</td><td style="padding:10px; text-align:center; font-weight:700; color:var(--ca-blue);">부분</td><td style="padding:10px; text-align:center; white-space:nowrap; font-weight:700; color:var(--ca-blue);">1833-4519</td></tr>
+          <tr><td style="padding:10px; text-align:center;">부산 기장읍</td><td style="padding:10px;">지알모터스(GR MOTORS)</td><td style="padding:10px;">부산광역시 기장군 기장읍 대청로 44-1 (대라리)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">0503-7151-1364</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">부산 연제구</td><td style="padding:10px;">유진모터스</td><td style="padding:10px;">부산광역시 연제구 마곡천로 2</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">051-758-8046</td></tr>
+          <tr><td style="padding:10px; text-align:center;">부산 사하구</td><td style="padding:10px;">현승모터스</td><td style="padding:10px;">부산광역시 사하구 하신중앙로 15</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">051-263-7788</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">전북 익산시</td><td style="padding:10px;">피드백 오토샵</td><td style="padding:10px;">전북 익산시 목천로 28</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">063-842-0972</td></tr>
+          <tr><td style="padding:10px; text-align:center;">전북 김제시</td><td style="padding:10px;">새천년 카서비스</td><td style="padding:10px;">전북 김제시 도작로 160</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">063-544-9298</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">전북 전주시</td><td style="padding:10px;">이규문 카클리닉</td><td style="padding:10px;">전북 전주시 완산구 권삼득로 68</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">063-278-2473</td></tr>
+          <tr><td style="padding:10px; text-align:center;">전북 군산시</td><td style="padding:10px;">사람과 자동차</td><td style="padding:10px;">전북 군산시 진포로 116</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">063-451-8383</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">전남 목포시</td><td style="padding:10px;">한국지엠 목포서비스센터</td><td style="padding:10px;">전남 목포시 삼각로 453번길 16</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">061-282-8255</td></tr>
+          <tr><td style="padding:10px; text-align:center;">전남 순천시</td><td style="padding:10px;">박경주 모터스</td><td style="padding:10px;">전남 순천시 풍덕주택2길 13</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">061-741-9227</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">전남 여수시</td><td style="padding:10px;">한국지엠 여수서비스센터</td><td style="padding:10px;">전남 여수시 주삼덕양로 199</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">061-685-8155</td></tr>
+          <tr><td style="padding:10px; text-align:center;">제주 제주시</td><td style="padding:10px;">만성자동차공업사</td><td style="padding:10px;">제주특별자치도 제주시 선반로 27 (화북일동)</td><td style="padding:10px; text-align:center;">종합</td><td style="padding:10px; text-align:center; white-space:nowrap;">064-757-0782</td></tr>
+          <tr style="background:#f7f9fc;"><td style="padding:10px; text-align:center;">제주 제주시</td><td style="padding:10px;">장성카센타</td><td style="padding:10px;">제주특별자치도 제주시 용해로 115 (용담이동)</td><td style="padding:10px; text-align:center;">부분</td><td style="padding:10px; text-align:center; white-space:nowrap;">064-711-2882</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="ca-form-note ca-mt-md" id="ca-sc-empty" style="display:none;">검색 결과가 없습니다. 가까운 지역의 서비스센터가 목록에 없다면 전화 상담(070-8657-0905)으로 문의해 주세요.</p>
+
+      <div class="ca-grid-2 ca-mt-lg" style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-warehouse"></i></div>
+          <h3 class="ca-card-title">평택 파츠 센터 (직영)</h3>
+          <p class="ca-card-text">경기도 평택 소재 직영 부품센터로 관세 자유 구역(Customs Free Site)에서 부품을 신속 공급합니다.</p>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-warehouse"></i></div>
+          <h3 class="ca-card-title">부산 파츠 센터 (직영)</h3>
+          <p class="ca-card-text">부산 소재 직영 부품센터로 남부권 물류 거점 역할을 수행하며 관세 자유 구역에서 운영됩니다.</p>
+        </div>
+      </div>
+
+      <script>
+      function caFilterServiceCenters(q){
+        q = (q||'').trim().toLowerCase();
+        var rows = document.querySelectorAll('#ca-sc-table tbody tr');
+        var visible = 0;
+        rows.forEach(function(tr){
+          var text = tr.textContent.toLowerCase();
+          var show = text.indexOf(q) !== -1;
+          tr.style.display = show ? '' : 'none';
+          if(show) visible++;
+        });
+        document.getElementById('ca-sc-empty').style.display = visible === 0 ? 'block' : 'none';
+      }
+      </script>
+    </div>
+  </section>
+
+  <!-- 보증 정책 -->
+  <section class="ca-section" aria-labelledby="warranty-heading">
+    <div class="ca-container">
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">Warranty</span>
+        <h2 class="ca-h2" id="warranty-heading">보증 정책</h2>
+      </div>
+      <div class="ca-grid-3">
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-battery-full"></i></div>
+          <h3 class="ca-card-title">주요 전동 부품</h3>
+          <p class="ca-card-text">배터리, 구동 모터 등 주요 전동 부품은 5년 또는 20만km까지 보증됩니다.</p>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-gears"></i></div>
+          <h3 class="ca-card-title">일반 부품</h3>
+          <p class="ca-card-text">일반 소모품 및 부품의 보증 기간은 관리자가 별도 안내하는 정책을 따릅니다.</p>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <h3 class="ca-card-title">국내 부품 공급</h3>
+          <p class="ca-card-text">국내 부품 공급 체계를 구축해 정비 대기 시간을 최소화합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-section--dark" aria-labelledby="faq-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-section-head--center">
+        <span class="ca-eyebrow">FAQ</span>
+        <h2 class="ca-h2" id="faq-heading">서비스·A/S 자주 묻는 질문</h2>
+      </div>
+      <div class="ca-faq">
+        <div class="ca-faq-item is-open">
+          <button class="ca-faq-q" aria-expanded="true" style="color:#fff;">전국 어디서나 정비가 가능한가요? <i class="fa-solid fa-plus"></i></button>
+          <div class="ca-faq-a"><div class="ca-faq-a-inner" style="color:rgba(255,255,255,.72);">센트로에이케이는 전국 A/S 네트워크를 운영하고 있습니다. 지역별 서비스센터 현황은 상단 검색 또는 전화 상담을 통해 확인해 주세요.</div></div>
+        </div>
+        <div class="ca-faq-item">
+          <button class="ca-faq-q" aria-expanded="false" style="color:#fff;">부품 수급이 오래 걸리지 않나요? <i class="fa-solid fa-plus"></i></button>
+          <div class="ca-faq-a"><div class="ca-faq-a-inner" style="color:rgba(255,255,255,.72);">국내 부품 공급 체계를 구축해 주요 부품의 수급 기간을 최소화하고 있습니다.</div></div>
+        </div>
+        <div class="ca-faq-item">
+          <button class="ca-faq-q" aria-expanded="false" style="color:#fff;">정기 점검 주기는 어떻게 되나요? <i class="fa-solid fa-plus"></i></button>
+          <div class="ca-faq-a"><div class="ca-faq-a-inner" style="color:rgba(255,255,255,.72);">차량 사용 환경에 따라 권장 점검 주기가 달라질 수 있어, 출고 시 안내되는 정비 매뉴얼을 기준으로 안내드립니다.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ca-footer">
+  <div class="ca-container">
+    <div class="ca-footer-top">
+      <div>
+        <div class="ca-footer-brand"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고"></div>
+        <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
+        <div class="ca-footer-social"><a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a></div>
+      </div>
+      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/purchase">가격 확인</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Company</h4><ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:1588-0000">1588-0000</a></li></ul></div>
+    </div>
+    <div class="ca-footer-corp">
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 김은옥 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
+      대표전화: 1588-0000 &nbsp;|&nbsp; 이메일: contact@centro-ak.com</p>
+    </div>
+    <div class="ca-footer-bottom">
+      <div class="ca-footer-legal"><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">영상정보처리기기 운영방침</a></div>
+      <span>&copy; <span id="ca-year"></span> CENTRO AK Co., Ltd. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
+  <a href="tel:1588-0000" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="/purchase#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
+  <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
+<script>
+document.body.classList.add('ca-has-stickybar');
+</script>
