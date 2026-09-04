@@ -26,12 +26,12 @@
         "전좌석 시트벨트 착용 여부 실시간 표시"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/airbags-dual-front.png",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/airbags-dual-front.png",
       imageAlt: "E-CV1 운전석·조수석 듀얼 에어백 전개 모습, 대시보드와 스티어링 컬럼 사이 실내 뷰",
       objectPosition: "center",
       images: [
-        { src: "images/options/airbags-dual-front.png", alt: "듀얼 에어백 전개 클로즈업" },
-        { src: "images/options/user/seatbelt-reminder-cluster-icon.jpg", alt: "전좌석 시트벨트 리마인더, 좌석별 미착용 경고 아이콘 표시" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/airbags-dual-front.png", alt: "듀얼 에어백 전개 클로즈업" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/seatbelt-reminder-cluster-icon.jpg", alt: "전좌석 시트벨트 리마인더, 좌석별 미착용 경고 아이콘 표시" }
       ]
     },
     {
@@ -49,12 +49,12 @@
         "차체 강성 증대"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/body-panel-side-window.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/body-panel-side-window.jpg",
       imageAlt: "E-CV1 측면 외판부 일체형 구조, 도어와 윈도우 라인이 자연스럽게 이어지는 외관",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/body-panel-side-window.jpg", alt: "측면 외판부 일체형 구조 실물 사진" },
-        { src: "images/options/body-side-panel.jpg", alt: "측면 외판 패널 구조 도면, 도어 프레임·필러·이음매 최소화 부위 표기" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/body-panel-side-window.jpg", alt: "측면 외판부 일체형 구조 실물 사진" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/body-side-panel.jpg", alt: "측면 외판 패널 구조 도면, 도어 프레임·필러·이음매 최소화 부위 표기" }
       ]
     },
     {
@@ -72,12 +72,12 @@
         "충돌 위험 시 자동 제동 개입"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/aeb-camera-radar-annotated.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/aeb-camera-radar-annotated.jpg",
       imageAlt: "E-CV1 전방충돌방지보조(AEB) 실차 평가 장면, 전방 모형 차량에 접근하는 모습",
       objectPosition: "center",
       images: [
-        { src: "images/options/aeb-camera-radar-annotated.jpg", alt: "AEB 실차 평가 장면" },
-        { src: "images/options/user/aeb-camera-radar-overlay2.jpg", alt: "카메라(형상 인식)·레이더(반사체 감지) 융합 원리 설명" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/aeb-camera-radar-annotated.jpg", alt: "AEB 실차 평가 장면" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/aeb-camera-radar-overlay2.jpg", alt: "카메라(형상 인식)·레이더(반사체 감지) 융합 원리 설명" }
       ]
     },
     {
@@ -95,7 +95,7 @@
         "후진 주차·좁은 골목 주행 시 편의성 향상"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/pdc-illustration.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/pdc-illustration.jpg",
       imageAlt: "E-CV1 후방 주차 센서(PDC) 작동 원리, 후진 시 장애물과의 거리 감지 illustration",
       objectPosition: "center"
     },
@@ -114,7 +114,7 @@
         "미끄러운 노면에서도 안정적인 궤적 유지"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/esc-cornering-illustration.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/esc-cornering-illustration.jpg",
       imageAlt: "E-CV1 ESC 전자식 주행안정 시스템, 커브 구간 안정적 궤적 유지 illustration",
       objectPosition: "center"
     },
@@ -133,7 +133,7 @@
         "언덕길 주정차가 많은 물류·배송 차량에 특화"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/body-panel-oneside-illustration.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/body-panel-oneside-illustration.jpg",
       imageAlt: "E-CV1 HAC 경사로 언덕 밀림 방지 장치, 오르막 경사로에서 차량이 밀리지 않고 재출발하는 상황 illustration(경사 방향 화살표 표기)",
       objectPosition: "center"
     },
@@ -152,7 +152,7 @@
         "정지거리 단축으로 2차 사고 예방"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/bas-diagram.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/bas-diagram.jpg",
       imageAlt: "E-CV1 긴급제동보조(BAS) 작동 유무 비교 illustration",
       objectPosition: "center"
     },
@@ -171,7 +171,7 @@
         "후방 추돌 사고 예방"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/tail-lamp-turnsignal-arrow.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/tail-lamp-turnsignal-arrow.jpg",
       imageAlt: "E-CV1 ESS 비상제동신호, 급제동 시 브레이크램프 비상 점멸로 후행 차량에 경고",
       objectPosition: "center"
     },
@@ -190,7 +190,7 @@
         "다양한 노면·적재 상태에서 안정적인 제동 성능"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/brake-disc-caliper-product.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/brake-disc-caliper-product.jpg",
       imageAlt: "E-CV1 EBD-ABS 적용 디스크 브레이크 & 캘리퍼 실물",
       objectPosition: "center"
     },
@@ -209,7 +209,7 @@
         "타이어 관리·주행 안전성 향상"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/supervision-cluster-tpms.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/supervision-cluster-tpms.jpg",
       imageAlt: "E-CV1 TPMS 타이어 공기압 실시간 표시 클러스터 화면",
       objectPosition: "center"
     },
@@ -228,12 +228,12 @@
         "세미 본넷 타입, 전방 충격 흡수 공간 확보"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/body-in-white-diagram.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/body-in-white-diagram.jpg",
       imageAlt: "E-CV1 차체 골격(Body-in-White) 다이어그램, A·B·C 필러 및 루프 레일 구조",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/body-in-white-diagram.jpg", alt: "차체 골격 필러 구조 다이어그램" },
-        { src: "images/options/user/safety-cage-3d-cad.jpg", alt: "세이프티 케이지 3D CAD 렌더링" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/body-in-white-diagram.jpg", alt: "차체 골격 필러 구조 다이어그램" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/safety-cage-3d-cad.jpg", alt: "세이프티 케이지 3D CAD 렌더링" }
       ]
     },
     {
@@ -251,12 +251,12 @@
         "4개 고정점(앵커·버클·리트렉터) 설계"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/rear-bench-seatbelt.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/rear-bench-seatbelt.jpg",
       imageAlt: "E-CV1 2열 벤치 시트, 3점식 안전벨트와 헤드레스트 실물 사진",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/rear-bench-seatbelt.jpg", alt: "2열 시트 3점식 안전벨트 실물 사진" },
-        { src: "images/options/user/seatbelt-3point-diagram.jpg", alt: "3점식 안전벨트 고정점(앵커·버클·리트렉터) 구조도" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/rear-bench-seatbelt.jpg", alt: "2열 시트 3점식 안전벨트 실물 사진" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/seatbelt-3point-diagram.jpg", alt: "3점식 안전벨트 고정점(앵커·버클·리트렉터) 구조도" }
       ]
     },
     {
@@ -274,12 +274,12 @@
         "빗길·눈길에서도 확실한 제동성능"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/steering-cmdps-brake-disc.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/steering-cmdps-brake-disc.jpg",
       imageAlt: "E-CV1 C-MDPS 전동식 파워 스티어링과 벤틸레이티드 디스크 브레이크",
       objectPosition: "center",
       images: [
-        { src: "images/options/steering-cmdps-brake-disc.jpg", alt: "C-MDPS 전동식 파워 스티어링 & 디스크 브레이크" },
-        { src: "images/options/user/steering-rack-illustration.jpg", alt: "C-MDPS 스티어링 랙 구조 illustration" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/steering-cmdps-brake-disc.jpg", alt: "C-MDPS 전동식 파워 스티어링 & 디스크 브레이크" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/steering-rack-illustration.jpg", alt: "C-MDPS 스티어링 랙 구조 illustration" }
       ]
     },
     {
@@ -297,12 +297,12 @@
         "물류·배송 적합, 저상화 최적 설계"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/suspension-front.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/suspension-front.jpg",
       imageAlt: "E-CV1 전륜 맥퍼슨 스트럿 서스펜션 실물 사진",
       objectPosition: "center",
       images: [
-        { src: "images/options/suspension-front.jpg", alt: "전륜 맥퍼슨 스트럿 서스펜션" },
-        { src: "images/options/suspension-rear-leaf.jpg", alt: "후륜 리프 스프링 일체 차축 시스템" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/suspension-front.jpg", alt: "전륜 맥퍼슨 스트럿 서스펜션" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/suspension-rear-leaf.jpg", alt: "후륜 리프 스프링 일체 차축 시스템" }
       ]
     },
     {
@@ -320,12 +320,12 @@
         "사이드 스텝(동급 최초 적용), 어린이·노약자 승하차 보조"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/wheel-alloy-tire.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/wheel-alloy-tire.jpg",
       imageAlt: "E-CV1 14인치 알루미늄 휠 실물 클로즈업",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/wheel-alloy-tire.jpg", alt: "14인치 알루미늄 휠 클로즈업" },
-        { src: "images/options/user/side-running-board.jpg", alt: "도어 하단 사이드 스텝 실물 사진" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/wheel-alloy-tire.jpg", alt: "14인치 알루미늄 휠 클로즈업" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/side-running-board.jpg", alt: "도어 하단 사이드 스텝 실물 사진" }
       ]
     },
     {
@@ -343,7 +343,7 @@
         "기본 트림 대비 차별화된 스포티한 이미지"
       ],
       applicModel: "E-CV1 Black Edition 전용",
-      image: "images/options/user/black-van-wheel.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-van-wheel.jpg",
       imageAlt: "E-CV1 Black Edition 전용 블랙 알루미늄 휠 클로즈업",
       objectPosition: "center"
     },
@@ -364,12 +364,12 @@
         "3,000~5,000회 이상 충·방전 수명"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/catl-battery-pack-product.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/catl-battery-pack-product.jpg",
       imageAlt: "E-CV1 CATL LFP 41.9kWh 배터리 팩 외관, 제품 앵글(3D 렌더)",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/catl-battery-pack-product.jpg", alt: "CATL LFP 41.9kWh 배터리 팩 제품 앵글" },
-        { src: "images/options/user/catl-battery-pack-ceiling-view.jpg", alt: "CATL LFP 배터리 팩, 차량 하부 장착 시점 뷰" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/catl-battery-pack-product.jpg", alt: "CATL LFP 41.9kWh 배터리 팩 제품 앵글" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/catl-battery-pack-ceiling-view.jpg", alt: "CATL LFP 배터리 팩, 차량 하부 장착 시점 뷰" }
       ]
     },
     {
@@ -387,7 +387,7 @@
         "하부 소음·이물질 노출 최소화"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/underbody-panel-blue.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/underbody-panel-blue.jpg",
       imageAlt: "E-CV1 언더 바디 평탄화 패널, 리프트 상태에서 바라본 하부 외관",
       objectPosition: "center"
     },
@@ -406,7 +406,7 @@
         "밝기·시간 등 사용자 설정 메뉴 제공"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/supervision-cluster-dashboard.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/supervision-cluster-dashboard.jpg",
       imageAlt: "E-CV1 슈퍼비전 클러스터, 4.2인치 컬러 TFT LCD 계기판 전체 화면(배터리·전력·속도·READY 표시)",
       objectPosition: "center"
     },
@@ -427,12 +427,12 @@
         "가로형 풀 LED 디자인으로 하이테크 이미지 완성"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/led-headlamp-projection-official.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/led-headlamp-projection-official.jpg",
       imageAlt: "E-CV1 프로젝션 LED 헤드램프 클로즈업",
       objectPosition: "center",
       images: [
-        { src: "images/options/led-headlamp-projection-official.jpg", alt: "프로젝션 LED 헤드램프 실물 클로즈업" },
-        { src: "images/options/user/headlamp-labeled-diagram.jpg", alt: "LED 차폭등·상하향등·DRL겸용 턴시그널 구성 설명(한글 라벨)" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/led-headlamp-projection-official.jpg", alt: "프로젝션 LED 헤드램프 실물 클로즈업" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/headlamp-labeled-diagram.jpg", alt: "LED 차폭등·상하향등·DRL겸용 턴시그널 구성 설명(한글 라벨)" }
       ]
     },
     {
@@ -450,7 +450,7 @@
         "흔들림·들뜸 최소화 구조"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/rear-wiper-blade.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/rear-wiper-blade.jpg",
       imageAlt: "E-CV1 리어 에어로 와이퍼 클로즈업, 들뜸·흔들림 최소화 디자인",
       objectPosition: "center"
     },
@@ -469,12 +469,12 @@
         "LED 턴시그널 램프 탑재"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/grille-aeb-radar-closeup.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/grille-aeb-radar-closeup.jpg",
       imageAlt: "E-CV1 블랙&크롬 라디에이터 그릴, AEB 레이더 커버 일체화 클로즈업",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/grille-aeb-radar-closeup.jpg", alt: "블랙&크롬 라디에이터 그릴, AEB 레이더 커버 일체화 클로즈업" },
-        { src: "images/options/user/mirror-turn-signal.jpg", alt: "바디 컬러 사이드미러 LED 턴시그널 클로즈업" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/grille-aeb-radar-closeup.jpg", alt: "블랙&크롬 라디에이터 그릴, AEB 레이더 커버 일체화 클로즈업" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/mirror-turn-signal.jpg", alt: "바디 컬러 사이드미러 LED 턴시그널 클로즈업" }
       ]
     },
     {
@@ -492,7 +492,7 @@
         "동급 최초 적용 사양"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/door-rail-closeup2.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/door-rail-closeup2.jpg",
       imageAlt: "E-CV1 슬라이딩 도어 레일 고무 코팅 부위 클로즈업",
       objectPosition: "center"
     },
@@ -511,7 +511,7 @@
         "조수석 하단 배치로 접근성 향상"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/charging-port-user-photo.png",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/charging-port-user-photo.png",
       imageAlt: "E-CV1 조수석 하단 푸쉬 오픈 타입 충전구, 개방된 모습",
       objectPosition: "center"
     },
@@ -530,7 +530,7 @@
         "야간 시인성 향상"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/tailgate-led-plate-lamp.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/tailgate-led-plate-lamp.jpg",
       imageAlt: "E-CV1 테일게이트 LED 번호판 램프 실차 점등 모습",
       objectPosition: "center"
     },
@@ -549,11 +549,11 @@
         "소형 EV VAN 최초 적용"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/tail-lamp-comparison-labeled.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/tail-lamp-comparison-labeled.jpg",
       imageAlt: "E-CV1 LED 리어 콤비네이션 램프, 기존 램프와의 비교(LED 테일램프&제동등, LED 턴시그널, 후진등, 리플렉터 표기)",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/tail-lamp-comparison-labeled.jpg", alt: "LED 리어 콤비네이션 램프 구성 비교(한글 라벨)" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/tail-lamp-comparison-labeled.jpg", alt: "LED 리어 콤비네이션 램프 구성 비교(한글 라벨)" }
       ]
     },
     {
@@ -571,7 +571,7 @@
         "기본 적용 사양"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/tailgate-garnish-plate.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/tailgate-garnish-plate.jpg",
       imageAlt: "E-CV1 바디 컬러 테일게이트 가니쉬, V 로고 엠블럼 클로즈업",
       objectPosition: "center"
     },
@@ -590,7 +590,7 @@
         "우천·강설 시 안전 주행 보조"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/rear-privacy-glass.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/rear-privacy-glass.jpg",
       imageAlt: "E-CV1 리어 프라이버시 글라스, 짙게 틴팅된 후면 유리",
       objectPosition: "center"
     },
@@ -611,7 +611,7 @@
         "모던·미니멀한 디테일의 인테리어 디자인"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/interior-design-overview.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/interior-design-overview.jpg",
       imageAlt: "E-CV1 실내 디자인 전체 개요, 운전석 대시보드와 슈퍼비전 클러스터",
       objectPosition: "center"
     },
@@ -630,12 +630,12 @@
         "차량 기능 설정(AEB·TPMS·HDC·ESC 등) 통합 제어"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/android-auto-tablet.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/android-auto-tablet.jpg",
       imageAlt: "E-CV1 대시보드에 탑재된 10.1인치 태블릿형 멀티미디어 화면",
       objectPosition: "center",
       images: [
-        { src: "images/options/android-auto-tablet.jpg", alt: "10.1인치 멀티미디어 화면 클로즈업" },
-        { src: "images/options/user/multimedia-tablet-2.jpg", alt: "10.1인치 멀티미디어, 한국어 UI 대시보드 장착 모습" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/android-auto-tablet.jpg", alt: "10.1인치 멀티미디어 화면 클로즈업" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/multimedia-tablet-2.jpg", alt: "10.1인치 멀티미디어, 한국어 UI 대시보드 장착 모습" }
       ]
     },
     {
@@ -653,12 +653,12 @@
         "와이퍼 컴비네이션 스위치 + 후방 안개등 스위치 통합"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/gear-dial-combi-switch.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/gear-dial-combi-switch.jpg",
       imageAlt: "E-CV1 하이그로시 전자식 변속 다이얼과 컴비네이션 스위치 클로즈업",
       objectPosition: "center",
       images: [
-        { src: "images/options/gear-dial-combi-switch.jpg", alt: "하이그로시 전자식 변속 다이얼 실물 클로즈업" },
-        { src: "images/options/user/steering-column-stalks.jpg", alt: "오토라이트·와이퍼 컴비네이션 스위치 스토크 클로즈업" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/gear-dial-combi-switch.jpg", alt: "하이그로시 전자식 변속 다이얼 실물 클로즈업" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/steering-column-stalks.jpg", alt: "오토라이트·와이퍼 컴비네이션 스위치 스토크 클로즈업" }
       ]
     },
     {
@@ -676,12 +676,12 @@
         "3스포크 핸들 + 오디오 리모컨 스위치"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/steering-control-panel-mirror.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/steering-control-panel-mirror.jpg",
       imageAlt: "E-CV1 사이드미러 전동 조절 다이얼과 헤드램프 높낮이 조절 스위치",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/steering-control-panel-mirror.jpg", alt: "사이드미러 전동 조절 다이얼 & 헤드램프 높낮이 조절 스위치" },
-        { src: "images/options/user/steering-wheel-3spoke-user-photo.jpg", alt: "3스포크 스티어링 휠 및 오디오 리모컨 버튼 실차 사진" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/steering-control-panel-mirror.jpg", alt: "사이드미러 전동 조절 다이얼 & 헤드램프 높낮이 조절 스위치" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/steering-wheel-3spoke-user-photo.jpg", alt: "3스포크 스티어링 휠 및 오디오 리모컨 버튼 실차 사진" }
       ]
     },
     {
@@ -699,13 +699,13 @@
         "USB 충전 단자(2A) + 시거라이터"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/virtual-engine-sound.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/virtual-engine-sound.jpg",
       imageAlt: "E-CV1 가상 엔진 사운드 발생 illustration, 저속 주행 시 보행자 알림음",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/virtual-engine-sound.jpg", alt: "가상 엔진 사운드 illustration" },
-        { src: "images/options/user/usb-c-port.jpg", alt: "USB-C 및 USB 고속 충전 단자 클로즈업" },
-        { src: "images/options/user/usb-port-icon-diagram.jpg", alt: "USB 멀티미디어 연결 단자 아이콘" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/virtual-engine-sound.jpg", alt: "가상 엔진 사운드 illustration" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/usb-c-port.jpg", alt: "USB-C 및 USB 고속 충전 단자 클로즈업" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/usb-port-icon-diagram.jpg", alt: "USB 멀티미디어 연결 단자 아이콘" }
       ]
     },
     {
@@ -723,13 +723,13 @@
         "A필러 손잡이(운전석/조수석) 기본 적용"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/blackbox-mirror-display.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/blackbox-mirror-display.jpg",
       imageAlt: "E-CV1 룸미러형 블랙박스, 전방·후방 화면 동시 표시",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/blackbox-mirror-display.jpg", alt: "룸미러형 블랙박스 전방·후방 화면" },
-        { src: "images/options/user/blackbox-mirror-display-2.jpg", alt: "룸미러형 블랙박스 다른 각도" },
-        { src: "images/options/user/apillar-handles-pair.jpg", alt: "운전석·조수석 A필러 손잡이 비교" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/blackbox-mirror-display.jpg", alt: "룸미러형 블랙박스 전방·후방 화면" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/blackbox-mirror-display-2.jpg", alt: "룸미러형 블랙박스 다른 각도" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/apillar-handles-pair.jpg", alt: "운전석·조수석 A필러 손잡이 비교" }
       ]
     },
     {
@@ -747,12 +747,12 @@
         "KEY ON 상태에서도 에어컨·히터 사용 가능(보조 배터리 방전 없음)"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/smart-key-buttons.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/smart-key-buttons.jpg",
       imageAlt: "E-CV1 테슬라 타입 스마트키 실물 사진, 잠금·잠금해제·경적 버튼",
       objectPosition: "center",
       images: [
-        { src: "images/options/smart-key-buttons.jpg", alt: "스마트키 버튼부 클로즈업" },
-        { src: "images/options/smart-key-logo.jpg", alt: "스마트키 브랜드 엠블럼 각인" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/smart-key-buttons.jpg", alt: "스마트키 버튼부 클로즈업" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/smart-key-logo.jpg", alt: "스마트키 브랜드 엠블럼 각인" }
       ]
     },
     {
@@ -770,12 +770,12 @@
         "운전석에서 ON/OFF 가능"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/dome-light-front.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dome-light-front.jpg",
       imageAlt: "E-CV1 1열 오버헤드 콘솔 LED 실내등, 점등 모습",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/dome-light-front.jpg", alt: "1열 LED 실내등 점등 모습" },
-        { src: "images/options/user/cargo-led-light.jpg", alt: "적재함 중앙 집중식 LED 실내등 점등 모습" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dome-light-front.jpg", alt: "1열 LED 실내등 점등 모습" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cargo-led-light.jpg", alt: "적재함 중앙 집중식 LED 실내등 점등 모습" }
       ]
     },
     {
@@ -793,11 +793,11 @@
         "누구나 쉽게 개폐 가능한 설계"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/tailgate-handle-switch.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/tailgate-handle-switch.jpg",
       imageAlt: "E-CV1 테일게이트 실내 개폐 스위치(비상 릴리스 루프)와 손잡이 스트랩 클로즈업",
       objectPosition: "center",
       images: [
-        { src: "images/options/tailgate-handle-switch.jpg", alt: "테일게이트 실내 개폐 스위치 및 그랩 스트랩" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/tailgate-handle-switch.jpg", alt: "테일게이트 실내 개폐 스위치 및 그랩 스트랩" }
       ]
     },
     {
@@ -815,12 +815,12 @@
         "화물 고정 고리 최대 4개(운전석/조수석 × 앞/뒤)"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/cargo-hooks-4grid.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cargo-hooks-4grid.jpg",
       imageAlt: "E-CV1 적재함 화물 고정 고리 4개 위치(운전석/조수석 × 앞/뒤), 한글 라벨 표기",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/cargo-hooks-4grid.jpg", alt: "화물 고정 고리 4개 위치 안내" },
-        { src: "images/options/user/cargo-floor-dimension.jpg", alt: "알루미늄 적재함 바닥재, 적재 공간 치수 표시" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cargo-hooks-4grid.jpg", alt: "화물 고정 고리 4개 위치 안내" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cargo-floor-dimension.jpg", alt: "알루미늄 적재함 바닥재, 적재 공간 치수 표시" }
       ]
     },
     {
@@ -838,13 +838,13 @@
         "흙·먼지·수분 흡수 처리 우수"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/footrest-photo.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/footrest-photo.jpg",
       imageAlt: "E-CV1 승용 타입 풋레스트, 운전석 페달 옆 실물 사진",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/footrest-photo.jpg", alt: "승용 타입 풋레스트 실물 사진" },
-        { src: "images/options/user/coilmat-diagram.jpg", alt: "확장형 코일매트 순정 사이즈 기본형 다이어그램" },
-        { src: "images/options/user/coilmat-photo.jpg", alt: "코일매트 실물 사진" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/footrest-photo.jpg", alt: "승용 타입 풋레스트 실물 사진" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/coilmat-diagram.jpg", alt: "확장형 코일매트 순정 사이즈 기본형 다이어그램" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/coilmat-photo.jpg", alt: "코일매트 실물 사진" }
       ]
     },
     {
@@ -862,12 +862,12 @@
         "수납 편의성 향상"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/cup-holder-bottle.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cup-holder-bottle.jpg",
       imageAlt: "E-CV1 2구 센터 컵홀더, 생수병 거치 모습",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/cup-holder-bottle.jpg", alt: "2구 센터 컵홀더 실물 사진" },
-        { src: "images/options/user/door-pocket-cupholder.jpg", alt: "도어트림 포켓 & 컵홀더 실물 사진" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cup-holder-bottle.jpg", alt: "2구 센터 컵홀더 실물 사진" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/door-pocket-cupholder.jpg", alt: "도어트림 포켓 & 컵홀더 실물 사진" }
       ]
     },
     {
@@ -885,12 +885,12 @@
         "고속 주행·급회전 시에도 안정적인 착좌감"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/user/sunvisor-airbag-mirror.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/sunvisor-airbag-mirror.jpg",
       imageAlt: "E-CV1 동승석 선바이저, 화장거울 내장 모습",
       objectPosition: "center",
       images: [
-        { src: "images/options/user/sunvisor-airbag-mirror.jpg", alt: "동승석 선바이저(화장거울 내장) 실물 사진" },
-        { src: "images/options/user/seat-bolster-highlight.jpg", alt: "버킷 스타일 시트 사이드 볼스터 강조 사진" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/sunvisor-airbag-mirror.jpg", alt: "동승석 선바이저(화장거울 내장) 실물 사진" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/seat-bolster-highlight.jpg", alt: "버킷 스타일 시트 사이드 볼스터 강조 사진" }
       ]
     },
     {
@@ -908,13 +908,13 @@
         "장거리 탑승 편의성 극대화"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/armrest-sliding-reclining-seat.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/armrest-sliding-reclining-seat.jpg",
       imageAlt: "E-CV1 운전석/동승석 암레스트와 슬라이딩·리클라이닝 시트",
       objectPosition: "center",
       images: [
-        { src: "images/options/armrest-sliding-reclining-seat.jpg", alt: "1열 암레스트 & 슬라이딩·리클라이닝 시트" },
-        { src: "images/options/user/armrest-folded-pair.jpg", alt: "1열 접이식 암레스트 실물 사진" },
-        { src: "images/options/user/mirror-armrest-seat-slide.jpg", alt: "암레스트·슬라이딩·리클라이닝 조작 부위 설명" }
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/armrest-sliding-reclining-seat.jpg", alt: "1열 암레스트 & 슬라이딩·리클라이닝 시트" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/armrest-folded-pair.jpg", alt: "1열 접이식 암레스트 실물 사진" },
+        { src: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/mirror-armrest-seat-slide.jpg", alt: "암레스트·슬라이딩·리클라이닝 조작 부위 설명" }
       ]
     },
     {
@@ -932,7 +932,7 @@
         "한국 4인 가구 기준(월평균 350kWh) 5일 이상 사용 가능"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "images/options/v2l-power-supply-demo.jpg",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/v2l-power-supply-demo.jpg",
       imageAlt: "E-CV1 실외 V2L 커넥터로 220V 전원을 공급하는 모습",
       objectPosition: "center"
     }

@@ -96,14 +96,124 @@ body.ca-has-stickybar { padding-bottom:64px; }
   </section>
 
   <!-- 가격 안내 -->
-  <section class="ca-section ca-section--gray ca-text-center" aria-labelledby="price-heading">
+  <!-- ===== 가격표 ===== -->
+  <section class="ca-section ca-section--gray" id="price" aria-labelledby="price-heading">
     <div class="ca-container">
-      <span class="ca-eyebrow">Price</span>
-      <h2 class="ca-h2" id="price-heading">가격 및 보조금 안내</h2>
-      <p class="ca-lead ca-mt-md" style="max-width:640px; margin:16px auto 0;">전기 상용차 가격과 지자체 보조금은 지역·시기별로 달라질 수 있어 확정되지 않은 금액은 사이트에 게시하지 않습니다.<br>정확한 견적은 아래 상담 신청을 통해 1:1로 안내드립니다.</p>
-      <div class="ca-mt-lg">
+      <div class="ca-section-head ca-text-center">
+        <span class="ca-eyebrow">Price</span>
+        <h2 class="ca-h2" id="price-heading">2026 E-CV1 가격표</h2>
+        <p class="ca-lead ca-mt-md" style="max-width:660px; margin:16px auto 0;">2025년도 출시 기념 <strong>제조사 300만원 추가 지원 프로모션</strong> 적용가입니다.<br>표시 금액은 모두 부가세 제외 공급가액 기준입니다.</p>
+      </div>
+
+      <!-- 모델별 가격 카드 -->
+      <div class="ca-grid-2 ca-mt-lg" style="max-width:900px; margin-left:auto; margin-right:auto;">
+        <div class="ca-card" style="padding:32px 28px; text-align:center; border:1px solid rgba(11,18,32,.10); background:#fff;">
+          <span class="ca-eyebrow" style="display:block; margin-bottom:6px;">2026 · 2인승</span>
+          <h3 class="ca-h3" style="margin:0 0 4px;">E-CV1 2 VAN</h3>
+          <p class="ca-card-text" style="margin:0 0 20px;">적재중량 700kg · 화물 특화</p>
+          <div style="display:inline-block; padding:6px 14px; border-radius:999px; background:rgba(37,99,235,.10); color:#2563eb; font-size:13px; font-weight:700; margin-bottom:14px;">제조사 300만원 추가 지원</div>
+          <div style="font-size:16px; color:rgba(11,18,32,.45); text-decoration:line-through; letter-spacing:-.01em;">27,800,000원</div>
+          <div style="font-size:34px; font-weight:800; letter-spacing:-.02em; line-height:1.2; margin-top:2px;">24,800,000<span style="font-size:20px; font-weight:700;">원</span></div>
+          <div style="font-size:13px; color:rgba(11,18,32,.55); margin-top:6px;">부가세 제외 공급가액</div>
+        </div>
+        <div class="ca-card" style="padding:32px 28px; text-align:center; border:1px solid rgba(11,18,32,.10); background:#fff;">
+          <span class="ca-eyebrow" style="display:block; margin-bottom:6px;">2026 · 5인승</span>
+          <h3 class="ca-h3" style="margin:0 0 4px;">E-CV1 5 VAN</h3>
+          <p class="ca-card-text" style="margin:0 0 20px;">2열 시트 · 승객과 화물 동시 운용</p>
+          <div style="display:inline-block; padding:6px 14px; border-radius:999px; background:rgba(37,99,235,.10); color:#2563eb; font-size:13px; font-weight:700; margin-bottom:14px;">제조사 300만원 추가 지원</div>
+          <div style="font-size:16px; color:rgba(11,18,32,.45); text-decoration:line-through; letter-spacing:-.01em;">29,300,000원</div>
+          <div style="font-size:34px; font-weight:800; letter-spacing:-.02em; line-height:1.2; margin-top:2px;">26,300,000<span style="font-size:20px; font-weight:700;">원</span></div>
+          <div style="font-size:13px; color:rgba(11,18,32,.55); margin-top:6px;">부가세 제외 공급가액</div>
+        </div>
+      </div>
+
+      <!-- 제원 비교표 -->
+      <h3 class="ca-h3 ca-mt-lg ca-text-center">모델별 제원 비교</h3>
+      <div class="ca-mt-md" style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
+        <table style="width:100%; min-width:560px; border-collapse:collapse; background:#fff; border-radius:14px; overflow:hidden; font-size:15px; box-shadow:0 1px 2px rgba(11,18,32,.06);">
+          <thead>
+            <tr style="background:#0b1220; color:#fff;">
+              <th scope="col" style="padding:16px 18px; text-align:left; font-weight:700;">모델</th>
+              <th scope="col" style="padding:16px 18px; text-align:center; font-weight:700;">E-CV1 2VAN</th>
+              <th scope="col" style="padding:16px 18px; text-align:center; font-weight:700;">E-CV1 5VAN</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-top:1px solid rgba(11,18,32,.08);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; background:rgba(11,18,32,.03);">전장 X 전폭 X 전고 (mm)</th>
+              <td colspan="2" style="padding:14px 18px; text-align:center;">4,400 X 1,745 X 1,940</td>
+            </tr>
+            <tr style="border-top:1px solid rgba(11,18,32,.08);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; background:rgba(11,18,32,.03);">적재함 전장 X 전폭 X 전고 (mm)</th>
+              <td style="padding:14px 18px; text-align:center;">2,270 X 1,450 X 1,280</td>
+              <td style="padding:14px 18px; text-align:center;">1,375 X 1,450 X 1,280</td>
+            </tr>
+            <tr style="border-top:1px solid rgba(11,18,32,.08);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; background:rgba(11,18,32,.03);">축거 (mm)</th>
+              <td colspan="2" style="padding:14px 18px; text-align:center;">2,850</td>
+            </tr>
+            <tr style="border-top:1px solid rgba(11,18,32,.08);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; background:rgba(11,18,32,.03);">적재 중량 (kg)</th>
+              <td style="padding:14px 18px; text-align:center;">700</td>
+              <td style="padding:14px 18px; text-align:center;">460</td>
+            </tr>
+            <tr style="border-top:1px solid rgba(11,18,32,.08);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; background:rgba(11,18,32,.03);">모터 출력 (kW) / 토크 (N·m)</th>
+              <td colspan="2" style="padding:14px 18px; text-align:center;">60 / 200</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 5VAN 추가 기본 품목 -->
+      <div class="ca-card ca-mt-lg" style="background:#fff; padding:28px; border:1px solid rgba(11,18,32,.10);">
+        <h3 class="ca-h3" style="margin:0 0 6px; font-size:20px;">5 VAN 추가 기본 품목</h3>
+        <p class="ca-card-text" style="margin:0 0 16px;">2VAN 기본 품목이 모두 그대로 적용되며, 아래 항목이 추가됩니다.</p>
+        <div class="ca-grid-2" style="gap:20px;">
+          <div>
+            <div style="font-weight:700; font-size:15px; margin-bottom:8px;"><i class="fa-solid fa-couch" style="color:#2563eb;"></i>&nbsp; 시트</div>
+            <p class="ca-card-text" style="margin:0;">2열 시트(고정식, 90도 폴딩 기능), 2열 3점식 벨트, 2열 시트벨트 리마인더, 유아용 고정시트, 분리형 헤드레스트</p>
+          </div>
+          <div>
+            <div style="font-weight:700; font-size:15px; margin-bottom:8px;"><i class="fa-solid fa-car-side" style="color:#2563eb;"></i>&nbsp; 내장</div>
+            <p class="ca-card-text" style="margin:0;">2열 프라이버시 글라스(매뉴얼 윈도우), 5밴 전용 격벽(글라스 타입·보호봉), 5밴 전용 스테인리스 적재함(고정 고리 4개), 2열 어시스트 그립</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 보증 -->
+      <div class="ca-grid-2 ca-mt-md" style="gap:16px;">
+        <div class="ca-card" style="background:#fff; padding:24px; border:1px solid rgba(11,18,32,.10);">
+          <div style="font-weight:700; font-size:15px; margin-bottom:6px;"><i class="fa-solid fa-shield-halved" style="color:#2563eb;"></i>&nbsp; 일반 / 차체 보증</div>
+          <div style="font-size:22px; font-weight:800; letter-spacing:-.02em;">2년 40,000km</div>
+          <p class="ca-card-text" style="margin:6px 0 0;">소모품 제외 · 출고일 기준</p>
+        </div>
+        <div class="ca-card" style="background:#fff; padding:24px; border:1px solid rgba(11,18,32,.10);">
+          <div style="font-weight:700; font-size:15px; margin-bottom:6px;"><i class="fa-solid fa-battery-full" style="color:#2563eb;"></i>&nbsp; 배터리 &amp; 동력전달장치</div>
+          <div style="font-size:22px; font-weight:800; letter-spacing:-.02em;">5년 200,000km</div>
+          <p class="ca-card-text" style="margin:6px 0 0;">배터리 / 모터 / BMS</p>
+        </div>
+      </div>
+
+      <!-- 유의사항 -->
+      <div class="ca-mt-md" style="background:rgba(11,18,32,.04); border-radius:14px; padding:22px 24px;">
+        <div style="font-weight:700; font-size:14px; margin-bottom:10px;">가격표 유의사항</div>
+        <ul style="margin:0; padding-left:18px; font-size:14px; line-height:1.75; color:rgba(11,18,32,.72);">
+          <li>판매 가격은 판매 조건 및 선택 품목에 따라 달라질 수 있습니다.</li>
+          <li>상기 가격표는 양산 버전에 따라 변경될 수 있습니다.</li>
+          <li>V2L은 최소 전력 30% 남았을 경우에만 사용이 가능합니다.</li>
+          <li>주행 가능 거리는 환경부 인증 수치 기준의 표준모드에 기반한 수치로, 도로 상태·주행 모드·운전 방법·차량 적재·정비 상태 및 외기온도에 따라 실제와 차이가 있습니다.</li>
+          <li>통합 주행 모드 &ndash; 노멀(회생제동 1단계), 에코(회생제동 3단계)</li>
+          <li>혹한기 배터리 잔여량 부족 시 출력 저하 현상이 발생할 수 있으므로 적정 충전량 유지가 필요합니다.</li>
+          <li>동절기 등 외기온도 하락 시 배터리 성능 저하로 실주행거리가 감소할 수 있습니다.</li>
+        </ul>
+      </div>
+
+      <div class="ca-mt-lg ca-text-center">
+        <a href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/2026-ecv1-price-list.pdf" class="ca-btn ca-btn--outline" target="_blank" rel="noopener" download><i class="fa-solid fa-file-pdf"></i>&nbsp; 가격표 PDF 내려받기</a>
         <a href="#consult" class="ca-btn ca-btn--primary">정확한 견적 상담받기</a>
       </div>
+      <p class="ca-card-text ca-text-center ca-mt-md" style="max-width:640px; margin-left:auto; margin-right:auto;">지자체 전기차 보조금은 지역·시기별로 달라져 확정 금액을 게시하지 않습니다. 실구매가는 상담을 통해 1:1로 안내드립니다.</p>
     </div>
   </section>
 
