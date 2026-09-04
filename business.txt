@@ -149,7 +149,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:070-8657-0905">070-8657-0905</a></li></ul></div>
     </div>
     <div class="ca-footer-corp">
-      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 김은옥 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 황현석 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
       사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
       대표전화: 070-8657-0905 &nbsp;|&nbsp; 이메일: admin@centroak.com</p>
     </div>
