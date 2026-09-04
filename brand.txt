@@ -121,21 +121,21 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <div class="ca-card" style="padding:0; overflow:hidden;">
           <img src="https://cdn.imweb.me/thumbnail/20250406/14503545e1cf8.jpg" alt="Victory Group 석탄 광산 및 에너지 사업" loading="lazy" style="width:100%; height:200px; object-fit:cover; display:block;">
           <div style="padding:24px;">
-            <h3 class="ca-card-title" style="text-align:center; word-break:keep-all; line-height:1.35; min-height:2.7em; display:flex; align-items:center; justify-content:center;">석탄 사업<br>(에너지 및 광업)</h3>
+            <h3 class="ca-card-title" style="text-align:center; word-break:keep-all; line-height:1.4; min-height:2.8em; display:block;">석탄 사업<br>(에너지 및 광업)</h3>
             <p class="ca-card-text">연간 생산량 약 810만 톤 규모의 현대적 석탄 광산 7곳을 운영하고 있으며, 연간 운송능력 1,000만 톤 이상의 철도 석탄 운송 허브 3개소를 확보하여 전력·화학·철강 등 다양한 산업에 안정적이고 신속한 에너지 공급망을 제공합니다.</p>
           </div>
         </div>
         <div class="ca-card" style="padding:0; overflow:hidden;">
           <img src="https://cdn.imweb.me/thumbnail/20250406/507a34d1329ae.jpg" alt="Victory Group 항공 서비스 사업" loading="lazy" style="width:100%; height:200px; object-fit:cover; display:block;">
           <div style="padding:24px;">
-            <h3 class="ca-card-title" style="text-align:center; word-break:keep-all; line-height:1.35; min-height:2.7em; display:flex; align-items:center; justify-content:center;">항공 서비스 사업</h3>
+            <h3 class="ca-card-title" style="text-align:center; word-break:keep-all; line-height:1.4; min-height:2.8em; display:block;">항공 서비스 사업</h3>
             <p class="ca-card-text">2002년부터 항공 서비스 분야에 진출하여 자체 항공사인 SHANXI VICTORY SANJIN GENERAL AVIATION CO.를 운영하고 있습니다. CESSNA Citation 560XL, CESSNA Caravan 208B, Hafei Y 12 등 다양한 항공기를 통해 고품질 맞춤형 비즈니스 항공 서비스를 제공합니다.</p>
           </div>
         </div>
         <div class="ca-card" style="padding:0; overflow:hidden;">
           <img src="https://cdn.imweb.me/thumbnail/20250406/ad4dfda650de5.jpg" alt="Victory Group 자동차 및 엔진 제조 공장" loading="lazy" style="width:100%; height:200px; object-fit:cover; display:block;">
           <div style="padding:24px;">
-            <h3 class="ca-card-title" style="text-align:center; word-break:keep-all; line-height:1.35; min-height:2.7em; display:flex; align-items:center; justify-content:center;">자동차 및 엔진<br>제조 사업</h3>
+            <h3 class="ca-card-title" style="text-align:center; word-break:keep-all; line-height:1.4; min-height:2.8em; display:block;">자동차 및 엔진<br>제조 사업</h3>
             <p class="ca-card-text">산시성과 구이저우성에 위치한 2개의 첨단 자동차 생산 공장과 엔진 생산 공장을 통해 연간 자동차 30만 대, 엔진 6만 개 이상 생산이 가능한 대규모 제조시설을 운영합니다. 현재 한국·일본·독일·영국을 포함한 세계 46개국에 자동차를 수출하고 있습니다.</p>
           </div>
         </div>
