@@ -98,31 +98,32 @@ body.ca-has-stickybar { padding-bottom:64px; }
   </section>
 
   <!-- 가격 안내 -->
+
   <!-- ===== 가격 요약 → 가격표 페이지 ===== -->
   <section class="ca-section ca-section--gray" id="price" aria-labelledby="price-heading">
     <div class="ca-container">
       <div class="ca-section-head ca-text-center">
         <span class="ca-eyebrow">Price</span>
         <h2 class="ca-h2" id="price-heading">2026 E-CV1 가격</h2>
-        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">제조사 300만원 지원 프로모션 적용가 · 부가세 제외</p>
+        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">부가세 포함 소비자 판매가 · 등록비 및 취·등록세 별도</p>
       </div>
       <div class="ca-grid-3 ca-mt-lg" style="max-width:1000px; margin-left:auto; margin-right:auto;">
         <div class="ca-card" style="text-align:center; background:#fff; border:1px solid rgba(11,18,32,.10);">
           <span class="ca-eyebrow">2인승</span>
-          <h3 class="ca-card-title" style="margin-top:6px;">E-CV1 2 VAN</h3>
-          <div style="font-size:15px; color:rgba(11,18,32,.45); text-decoration:line-through;">27,800,000원</div>
+          <h3 class="ca-card-title" style="margin-top:6px;">E-CV1 2VAN</h3>
+          <div style="font-size:13px; color:rgba(11,18,32,.5);">화물밴 · CARGO VAN · STANDARD</div>
           <div style="font-size:30px; font-weight:800; letter-spacing:-.02em; line-height:1.2;">24,800,000<span style="font-size:16px;">원</span></div>
         </div>
         <div class="ca-card" style="text-align:center; background:#fff; border:1px solid rgba(11,18,32,.10);">
           <span class="ca-eyebrow">5인승</span>
-          <h3 class="ca-card-title" style="margin-top:6px;">E-CV1 5 VAN</h3>
-          <div style="font-size:15px; color:rgba(11,18,32,.45); text-decoration:line-through;">29,300,000원</div>
-          <div style="font-size:30px; font-weight:800; letter-spacing:-.02em; line-height:1.2;">26,300,000<span style="font-size:16px;">원</span></div>
+          <h3 class="ca-card-title" style="margin-top:6px;">E-CV1 5VAN</h3>
+          <div style="font-size:13px; color:rgba(11,18,32,.5);">멀티밴 · MULTI VAN · STANDARD</div>
+          <div style="font-size:30px; font-weight:800; letter-spacing:-.02em; line-height:1.2;">25,800,000<span style="font-size:16px;">원</span></div>
         </div>
         <div class="ca-card" style="text-align:center; background:#070809; color:#fff; border:1px solid rgba(212,180,106,.35);">
           <span class="ca-eyebrow" style="color:#d4b46a;">Black Edition</span>
-          <h3 class="ca-card-title" style="margin-top:6px; color:#fff;">블랙 펄 전용 사양</h3>
-          <div style="font-size:15px; color:rgba(255,255,255,.5);">2VAN · 5VAN 공통 선택</div>
+          <h3 class="ca-card-title" style="margin-top:6px; color:#fff;">전용 펄 · 도장 휠 · 무광 그릴</h3>
+          <div style="font-size:13px; color:rgba(255,255,255,.5);">2VAN 25,300,000원 · 5VAN 26,300,000원</div>
           <div style="font-size:30px; font-weight:800; letter-spacing:-.02em; line-height:1.2;">+500,000<span style="font-size:16px;">원</span></div>
         </div>
       </div>
