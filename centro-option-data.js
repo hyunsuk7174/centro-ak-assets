@@ -329,22 +329,79 @@
       ]
     },
     {
+      id: "black-edition-body",
+      category: "black-edition",
+      catLabel: "Black Edition",
+      applicability: "블랙 에디션 전용",
+      title: "외장 바디 블랙 도장",
+      isNew: true,
+      summary: "스노우 화이트·다크 그레이 펄 대신 차체 전체를 블랙으로 도장한 전용 외장입니다.",
+      description: "기본 사양의 외장 색상 대신 루프에서 도어, 사이드 스텝까지 차체 전체를 블랙으로 도장합니다. 그릴·휠·미러의 블랙 도장과 함께 한 가지 톤으로 이어지는 블랙 에디션의 바탕이 되는 사양입니다.",
+      features: [
+        "차체 전체 블랙 도장 (루프·도어·사이드 스텝 포함)",
+        "블랙 에디션 4개 도장 사양 중 기본이 되는 항목",
+        "2인승 · 5인승 VAN 공통 적용"
+      ],
+      applicModel: "E-CV1 Black Edition 전용",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-body.jpg",
+      imageAlt: "E-CV1 Black Edition 외장 바디 블랙 도장",
+      objectPosition: "center 55%"
+    },
+    {
+      id: "black-edition-grille",
+      category: "black-edition",
+      catLabel: "Black Edition",
+      applicability: "블랙 에디션 전용",
+      title: "라디에이터 그릴 블랙 도장",
+      isNew: true,
+      summary: "기본 블랙&크롬 그릴에서 크롬을 걷어내고 전면을 블랙으로 도장했습니다.",
+      description: "육각 메시 라디에이터 그릴의 크롬 가니시를 없애고 전면을 블랙으로 도장합니다. 헤드램프와 그릴이 하나의 어두운 면으로 이어져 전면 인상이 한층 낮고 단단해집니다.",
+      features: [
+        "육각 메시 그릴 전면 블랙 도장",
+        "크롬 가니시 제거 → 밝은 포인트 없는 전면",
+        "헤드램프와 그릴이 한 면으로 이어지는 인상"
+      ],
+      applicModel: "E-CV1 Black Edition 전용",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-grille.jpg",
+      imageAlt: "E-CV1 Black Edition 라디에이터 그릴 블랙 도장",
+      objectPosition: "center 45%"
+    },
+    {
       id: "black-edition-wheel",
       category: "black-edition",
       catLabel: "Black Edition",
       applicability: "블랙 에디션 전용",
-      title: "블랙 에디션 전용 알루미늄 휠",
+      title: "14인치 알루미늄 휠 블랙 도장",
       isNew: true,
-      summary: "블랙 에디션 모델에서만 만나볼 수 있는 전용 블랙 알루미늄 휠입니다.",
-      description: "유광 블랙 마감의 멀티 스포크 디자인 알루미늄 휠로, 블랙 에디션 모델에만 적용되는 전용 사양입니다. 기본 트림의 알루미늄 휠과 차별화된 스포티하고 강렬한 이미지를 완성합니다.",
+      summary: "기본 실버 알루미늄 휠을 유광 블랙으로 도장한 전용 휠입니다.",
+      description: "14인치 알루미늄 휠을 유광 블랙으로 도장합니다. 175R14 LT 8PR 타이어와 맞물려 발밑이 가라앉아 보이고, 차체가 더 낮고 안정적으로 읽힙니다.",
       features: [
-        "유광 블랙 마감, 멀티 스포크 디자인",
-        "블랙 에디션 모델 전용 적용",
-        "기본 트림 대비 차별화된 스포티한 이미지"
+        "14인치 알루미늄 휠 유광 블랙 도장",
+        "175R14 LT 8PR 타이어 조합",
+        "기본 실버 휠 대비 낮고 단단한 인상"
       ],
       applicModel: "E-CV1 Black Edition 전용",
-      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-van-wheel.jpg",
-      imageAlt: "E-CV1 Black Edition 전용 블랙 알루미늄 휠 클로즈업",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-wheel.jpg",
+      imageAlt: "E-CV1 Black Edition 14인치 알루미늄 휠 블랙 도장",
+      objectPosition: "center 55%"
+    },
+    {
+      id: "black-edition-mirror",
+      category: "black-edition",
+      catLabel: "Black Edition",
+      applicability: "블랙 에디션 전용",
+      title: "아웃사이드 미러 · 엠블럼 블랙",
+      isNew: true,
+      summary: "바디 컬러 미러와 전면 엠블럼까지 블랙으로 맞춰 마무리했습니다.",
+      description: "아웃사이드 미러 커버와 전면 엠블럼을 블랙으로 통일합니다. 바디·그릴·휠 도장 뒤에 남는 밝은 포인트를 마지막으로 정리해, 차량 전체가 한 가지 검정으로 읽히도록 완성하는 사양입니다.",
+      features: [
+        "아웃사이드 미러 커버 블랙",
+        "전면 엠블럼 블랙",
+        "LED 방향지시등·전동 각도 조절 기능은 기본 사양과 동일"
+      ],
+      applicModel: "E-CV1 Black Edition 전용",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-mirror-emblem.jpg",
+      imageAlt: "E-CV1 Black Edition 아웃사이드 미러와 블랙 엠블럼",
       objectPosition: "center"
     },
 

@@ -138,6 +138,120 @@ body.ca-has-stickybar { padding-bottom:64px; }
   </section>
 
   <!-- 비즈니스 이익 먼저 -->
+  <!-- ===== BLACK EDITION ===== -->
+  <section class="ca-section" id="black-edition" aria-labelledby="be-heading" style="background:#070809; color:#fff;">
+    <div class="ca-container">
+
+      <div class="ca-section-head ca-text-center">
+        <span class="ca-eyebrow" style="color:#d4b46a;">2026 E-CV1</span>
+        <h2 class="ca-h2" id="be-heading" style="color:#fff;">BLACK EDITION</h2>
+        <p class="ca-lead ca-mt-md" style="max-width:640px; margin:16px auto 0; color:rgba(255,255,255,.72);">바디·그릴·휠·미러를 모두 블랙으로 도장한 E-CV1 전용 사양입니다.<br>옵션을 얹은 것이 아니라, 처음부터 검게 완성했습니다.</p>
+      </div>
+
+      <figure style="margin:40px 0 0; border-radius:20px; overflow:hidden; position:relative;">
+        <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-hero.jpg" alt="2026 E-CV1 Black Edition" loading="lazy" style="width:100%; height:auto; display:block;">
+        <figcaption style="position:absolute; left:24px; bottom:20px; font-size:12px; letter-spacing:.14em; font-weight:700; color:rgba(255,255,255,.85); text-shadow:0 1px 8px rgba(0,0,0,.6);">2 / 5인승 VAN 공통 적용</figcaption>
+      </figure>
+
+      <h3 class="ca-h3 ca-mt-lg ca-text-center" style="color:#fff;">BLACK EDITION 전용 사양</h3>
+      <p class="ca-card-text ca-text-center" style="color:rgba(255,255,255,.55); margin:8px auto 0; max-width:560px;">밝게 남는 부품 없이, 바디부터 그릴·휠·미러까지 한 가지 검정으로 맞췄습니다.</p>
+
+      <div class="ca-grid-2 ca-mt-md">
+
+        <div style="border:1px solid rgba(255,255,255,.12); border-radius:16px; overflow:hidden; background:rgba(255,255,255,.035);">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-body.jpg" alt="Black Edition 외장 바디 블랙 도장" loading="lazy" style="width:100%; height:250px; object-fit:cover; object-position:center 55%; display:block;">
+          <div style="padding:26px 24px;">
+            <span style="display:inline-block; font-size:11px; font-weight:800; letter-spacing:.12em; color:#d4b46a; margin-bottom:8px;">01 &nbsp;BODY</span>
+            <h4 style="font-size:19px; font-weight:800; color:#fff; margin:0 0 8px; line-height:1.4;">외장 바디 블랙 도장</h4>
+            <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.64); margin:0;">기본 사양의 스노우 화이트·다크 그레이 펄 대신 차체 전체를 블랙으로 도장합니다. 루프에서 도어, 사이드 스텝까지 끊김 없이 한 톤으로 이어집니다.</p>
+          </div>
+        </div>
+
+        <div style="border:1px solid rgba(255,255,255,.12); border-radius:16px; overflow:hidden; background:rgba(255,255,255,.035);">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-grille.jpg" alt="Black Edition 라디에이터 그릴 블랙 도장" loading="lazy" style="width:100%; height:250px; object-fit:cover; object-position:center 45%; display:block;">
+          <div style="padding:26px 24px;">
+            <span style="display:inline-block; font-size:11px; font-weight:800; letter-spacing:.12em; color:#d4b46a; margin-bottom:8px;">02 &nbsp;GRILLE</span>
+            <h4 style="font-size:19px; font-weight:800; color:#fff; margin:0 0 8px; line-height:1.4;">라디에이터 그릴 블랙 도장</h4>
+            <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.64); margin:0;">기본 사양의 블랙&amp;크롬 그릴에서 크롬을 걷어내고 육각 메시 전면을 블랙으로 도장했습니다. 헤드램프와 그릴이 하나의 면으로 붙습니다.</p>
+          </div>
+        </div>
+
+        <div style="border:1px solid rgba(255,255,255,.12); border-radius:16px; overflow:hidden; background:rgba(255,255,255,.035);">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-wheel.jpg" alt="Black Edition 14인치 알루미늄 휠 블랙 도장" loading="lazy" style="width:100%; height:250px; object-fit:cover; object-position:center 55%; display:block;">
+          <div style="padding:26px 24px;">
+            <span style="display:inline-block; font-size:11px; font-weight:800; letter-spacing:.12em; color:#d4b46a; margin-bottom:8px;">03 &nbsp;WHEEL</span>
+            <h4 style="font-size:19px; font-weight:800; color:#fff; margin:0 0 8px; line-height:1.4;">14인치 알루미늄 휠 블랙 도장</h4>
+            <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.64); margin:0;">기본 실버 알루미늄 휠을 블랙으로 도장합니다. 175R14 LT 8PR 타이어와 맞물려 발밑이 가라앉아 보이고, 차체가 더 낮고 단단하게 읽힙니다.</p>
+          </div>
+        </div>
+
+        <div style="border:1px solid rgba(255,255,255,.12); border-radius:16px; overflow:hidden; background:rgba(255,255,255,.035);">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-mirror-emblem.jpg" alt="Black Edition 아웃사이드 미러와 블랙 엠블럼" loading="lazy" style="width:100%; height:250px; object-fit:cover; object-position:center; display:block;">
+          <div style="padding:26px 24px;">
+            <span style="display:inline-block; font-size:11px; font-weight:800; letter-spacing:.12em; color:#d4b46a; margin-bottom:8px;">04 &nbsp;DETAIL</span>
+            <h4 style="font-size:19px; font-weight:800; color:#fff; margin:0 0 8px; line-height:1.4;">아웃사이드 미러 · 엠블럼 블랙</h4>
+            <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.64); margin:0;">바디 컬러 아웃사이드 미러와 전면 엠블럼까지 블랙으로 맞춰, 밝은 포인트가 남지 않도록 마무리했습니다.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 갤러리 -->
+      <div class="ca-grid-3 ca-mt-md" style="gap:14px;">
+        <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-angle.jpg" alt="Black Edition 전면" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; object-position:center 50%; border-radius:14px; display:block;">
+        <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-rear.jpg" alt="Black Edition 후면" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; object-position:center 62%; border-radius:14px; display:block;">
+        <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-cutout.jpg" alt="Black Edition 스튜디오" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; object-position:center 62%; border-radius:14px; display:block; background:#fff;">
+      </div>
+
+      <h3 class="ca-h3 ca-mt-lg ca-text-center" style="color:#fff;">기본 사양과 무엇이 다른가</h3>
+
+      <div class="ca-mt-md" style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
+        <table style="width:100%; min-width:560px; border-collapse:collapse; font-size:15px; border-radius:14px; overflow:hidden; background:rgba(255,255,255,.035);">
+          <thead>
+            <tr style="background:rgba(255,255,255,.09);">
+              <th scope="col" style="padding:16px 18px; text-align:left; font-weight:700; color:#fff;">항목</th>
+              <th scope="col" style="padding:16px 18px; text-align:center; font-weight:700; color:rgba(255,255,255,.7);">기본 사양</th>
+              <th scope="col" style="padding:16px 18px; text-align:center; font-weight:800; color:#d4b46a; letter-spacing:.06em;">BLACK EDITION</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-top:1px solid rgba(255,255,255,.09);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; color:rgba(255,255,255,.82);">외장 색상</th>
+              <td style="padding:14px 18px; text-align:center; color:rgba(255,255,255,.6);">스노우 화이트 / 다크 그레이 펄</td>
+              <td style="padding:14px 18px; text-align:center; color:#fff; font-weight:700;">블랙 전용 도장</td>
+            </tr>
+            <tr style="border-top:1px solid rgba(255,255,255,.09);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; color:rgba(255,255,255,.82);">라디에이터 그릴</th>
+              <td style="padding:14px 18px; text-align:center; color:rgba(255,255,255,.6);">블랙 &amp; 크롬</td>
+              <td style="padding:14px 18px; text-align:center; color:#fff; font-weight:700;">블랙 도장</td>
+            </tr>
+            <tr style="border-top:1px solid rgba(255,255,255,.09);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; color:rgba(255,255,255,.82);">14인치 알루미늄 휠</th>
+              <td style="padding:14px 18px; text-align:center; color:rgba(255,255,255,.6);">실버</td>
+              <td style="padding:14px 18px; text-align:center; color:#fff; font-weight:700;">블랙 도장</td>
+            </tr>
+            <tr style="border-top:1px solid rgba(255,255,255,.09);">
+              <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; color:rgba(255,255,255,.82);">아웃사이드 미러 · 엠블럼</th>
+              <td style="padding:14px 18px; text-align:center; color:rgba(255,255,255,.6);">바디 컬러 / 크롬</td>
+              <td style="padding:14px 18px; text-align:center; color:#fff; font-weight:700;">블랙</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="ca-mt-lg" style="border:1px solid rgba(212,180,106,.35); border-radius:18px; padding:34px 28px; text-align:center; background:linear-gradient(180deg, rgba(212,180,106,.08), rgba(255,255,255,.02));">
+        <div style="font-size:12px; font-weight:800; letter-spacing:.14em; color:#d4b46a; margin-bottom:10px;">BLACK EDITION 추가 금액</div>
+        <div style="font-size:42px; font-weight:800; letter-spacing:-.02em; line-height:1.1; color:#fff;">+500,000<span style="font-size:22px; font-weight:700;">원</span></div>
+        <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.6); margin:12px auto 0; max-width:520px;">차량 가격에 더해지는 금액이며, 네 곳의 도장이 모두 포함됩니다. 2인승 · 5인승 모두 선택할 수 있습니다.</p>
+        <div class="ca-hero-cta" style="justify-content:center; margin-top:24px;">
+          <a href="/purchase#consult" class="ca-btn ca-btn--primary">블랙 에디션 견적 상담</a>
+          <a href="/purchase#price" class="ca-btn ca-btn--outline" style="color:#fff; border-color:rgba(255,255,255,.4);">전체 가격표 보기</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <section class="ca-section ca-section--gray" aria-labelledby="benefit-heading">
     <div class="ca-container">
       <div class="ca-section-head ca-section-head--center">
