@@ -131,7 +131,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <a href="/price" class="ca-btn ca-btn--primary"><i class="fa-solid fa-tags"></i>&nbsp;가격표 전체 보기</a>
         <a href="#consult" class="ca-btn ca-btn--outline">견적 상담받기</a>
       </div>
-      <p class="ca-card-text ca-text-center ca-mt-md" style="max-width:640px; margin-left:auto; margin-right:auto;">기본 품목·제원·보증·유의사항은 가격표 페이지에서 확인하세요. 지자체 보조금은 지역·시기별로 달라 확정 금액을 게시하지 않습니다.</p>
+      <p class="ca-card-text ca-text-center ca-mt-md" style="max-width:640px; margin-left:auto; margin-right:auto;">기본 품목·제원·보증·유의사항은 가격표 페이지에서 확인하세요. 취득세 감면 등 세제 혜택과 실구매가는 상담을 통해 안내드립니다.</p>
     </div>
   </section>
 
