@@ -71,7 +71,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
   <!-- ============ 1. HERO ============ -->
   <section class="ca-hero" aria-label="센트로에이케이 소개">
     <div class="ca-hero-media">
-      <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg" alt="센트로에이케이 E-CV1 Black Edition 실제 주행 이미지, 도심 강변도로 정면 3/4 각도">
+      <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg?v=2" alt="센트로에이케이 E-CV1 Black Edition 실제 주행 이미지, 도심 강변도로 정면 3/4 각도">
     </div>
     <div class="ca-hero-body">
       <div class="ca-container">
@@ -107,7 +107,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <article class="ca-model-panel is-active" data-panel="2van">
           <div class="ca-model-card">
             <div class="ca-model-media">
-              <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full.jpg" alt="센트로에이케이 E-CV1 2VAN 다크 그레이 펄, 정면 45도 실제 차량 이미지">
+              <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full-2van.jpg" alt="센트로에이케이 E-CV1 2VAN 다크 그레이 펄, 정면 45도 실제 차량 이미지">
             </div>
             <div class="ca-model-info">
               <div class="ca-model-info-top">
@@ -347,7 +347,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           </div>
         </a>
         <a class="ca-usecase-card" href="/business#sme">
-          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg" alt="도심 현장에 주차된 센트로에이케이 E-CV1 베이직 실버 실제 차량">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg?v=2" alt="도심 현장에 주차된 센트로에이케이 E-CV1 베이직 실버 실제 차량">
           <div class="ca-usecase-body">
             <span class="ca-usecase-tag">Small Business</span>
             <h3 class="ca-usecase-title">소상공인·자영업</h3>
@@ -385,7 +385,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
 
       <div class="ca-tech-row">
         <div class="ca-tech-media">
-          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-underbridge-runners.jpg" alt="센트로에이케이 E-CV1 Black Edition 실제 주행 이미지, 고가도로 하부를 달리는 모습">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-underbridge-runners.jpg?v=2" alt="센트로에이케이 E-CV1 Black Edition 실제 주행 이미지, 고가도로 하부를 달리는 모습">
         </div>
         <div class="ca-tech-content">
           <span class="ca-badge">Battery</span>
@@ -489,7 +489,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         </article>
         <article class="ca-case-card">
           <div class="ca-case-media">
-            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-bridge.jpg" alt="소상공인이 매장 배송에 활용하는 센트로에이케이 E-CV1 베이직 실버 실제 차량">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-bridge.jpg?v=2" alt="소상공인이 매장 배송에 활용하는 센트로에이케이 E-CV1 베이직 실버 실제 차량">
           </div>
           <div class="ca-case-body">
             <p class="ca-case-quote">"매장과 거래처를 오가는 이동 비용이 눈에 띄게 줄었어요."</p>

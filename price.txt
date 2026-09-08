@@ -92,7 +92,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-grid-2 ca-mt-lg">
 
         <div class="ca-card" style="padding:0; overflow:hidden; border:1px solid rgba(11,18,32,.10); background:#fff;">
-          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg" alt="E-CV1 2VAN" loading="lazy" style="width:100%; height:260px; object-fit:cover; object-position:center 60%; display:block;">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg?v=2" alt="E-CV1 2VAN" loading="lazy" style="width:100%; height:260px; object-fit:cover; object-position:center 60%; display:block;">
           <div style="padding:28px 28px 30px;">
             <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;">
               <div>
@@ -119,7 +119,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         </div>
 
         <div class="ca-card" style="padding:0; overflow:hidden; border:1px solid rgba(11,18,32,.10); background:#fff;">
-          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full.jpg" alt="E-CV1 5VAN" loading="lazy" style="width:100%; height:260px; object-fit:cover; object-position:center 60%; display:block;">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full.jpg?v=2" alt="E-CV1 5VAN" loading="lazy" style="width:100%; height:260px; object-fit:cover; object-position:center 60%; display:block;">
           <div style="padding:28px 28px 30px;">
             <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;">
               <div>

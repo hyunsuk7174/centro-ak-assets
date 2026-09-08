@@ -338,7 +338,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <p class="ca-card-text">양쪽 슬라이딩 도어로 승하차와 승객·화물 이동이 편리하며, 후방 카메라와 무선 안드로이드오토·애플카플레이 등 2VAN과 동일한 편의 사양을 지원합니다.</p>
         </div>
         <div class="ca-card">
-          <div class="ca-card-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside-1.jpg" alt="E-CV1 5VAN 베이직 실버 정면 45도, 바이펑션 Full LED 헤드램프" loading="lazy"></div>
+          <div class="ca-card-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside-1-5van.jpg" alt="E-CV1 5VAN 베이직 실버 정면 45도, 바이펑션 Full LED 헤드램프" loading="lazy"></div>
           <div class="ca-card-icon"><i class="fa-solid fa-car-side"></i></div>
           <h3 class="ca-card-title">EXTERIOR</h3>
           <p class="ca-card-text">최상위 수준의 바이펑션 Full LED 헤드램프, LED 리어 콤비네이션 램프 등 2VAN과 동일한 익스테리어 사양을 갖췄으며, Black Edition·스노우 화이트·다크 그레이 펄·베이직 실버 4가지 색상으로 선택할 수 있습니다.</p>

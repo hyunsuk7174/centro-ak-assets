@@ -87,7 +87,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           </div>
         </div>
         <div class="ca-page-hero-media">
-          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg" alt="E-CV1 2VAN Black Edition 정면 45도 실차 사진" loading="lazy">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg?v=2" alt="E-CV1 2VAN Black Edition 정면 45도 실차 사진" loading="lazy">
           <span class="ca-page-hero-media-tag">E-CV1 2VAN · Black Edition</span>
         </div>
       </div>
@@ -105,10 +105,10 @@ body.ca-has-stickybar { padding-bottom:64px; }
 
       <h3 class="ca-gallery-group-title"><span class="ca-color-swatch is-black" aria-hidden="true"></span>Black Edition</h3>
       <div class="ca-grid-4">
-        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black_08.jpg" alt="E-CV1 2VAN Black Edition 전면 그릴·바이펑션 Full LED 헤드램프 클로즈업" loading="lazy">
-        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg" alt="E-CV1 2VAN Black Edition 강변도로 배경 정면 45도" loading="lazy">
-        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-3-4-underbridge.jpg" alt="E-CV1 2VAN Black Edition 고가도로 하부, 후면 45도" loading="lazy">
-        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black_09.jpg" alt="E-CV1 2VAN Black Edition 교각 배경 측면·전면 앵글" loading="lazy">
+        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black_08.jpg?v=2" alt="E-CV1 2VAN Black Edition 전면 그릴·바이펑션 Full LED 헤드램프 클로즈업" loading="lazy">
+        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg?v=2" alt="E-CV1 2VAN Black Edition 강변도로 배경 정면 45도" loading="lazy">
+        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-3-4-underbridge.jpg?v=2" alt="E-CV1 2VAN Black Edition 고가도로 하부, 후면 45도" loading="lazy">
+        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black_09.jpg?v=2" alt="E-CV1 2VAN Black Edition 교각 배경 측면·전면 앵글" loading="lazy">
       </div>
 
       <h3 class="ca-gallery-group-title"><span class="ca-color-swatch is-white" aria-hidden="true"></span>스노우 화이트</h3>
@@ -116,20 +116,20 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cargo-rear-open-full.jpg" alt="E-CV1 2VAN 스노우 화이트, 리어 카고도어 오픈 전체 적재공간" loading="lazy">
         <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-parking-entry-2.jpg" alt="E-CV1 2VAN 스노우 화이트 주차장 진출입 컷" loading="lazy">
         <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-side-boxes.jpg" alt="E-CV1 2VAN 스노우 화이트 측면 전체 프로필" loading="lazy">
-        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-badge-victory.jpg" alt="E-CV1 2VAN 스노우 화이트 후면 VICTORY 뱃지 클로즈업" loading="lazy">
+        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-badge-victory.jpg?v=2" alt="E-CV1 2VAN 스노우 화이트 후면 VICTORY 뱃지 클로즈업" loading="lazy">
       </div>
 
       <h3 class="ca-gallery-group-title"><span class="ca-color-swatch is-darkgray" aria-hidden="true"></span>다크 그레이 펄</h3>
       <div class="ca-grid-4">
-        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full.jpg" alt="E-CV1 2VAN 다크 그레이 펄 정면 45도 전체 컷" loading="lazy">
-        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-3-4-victory-badge.jpg" alt="E-CV1 2VAN 다크 그레이 펄 후면 45도, VICTORY 뱃지" loading="lazy">
+        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full-2van.jpg" alt="E-CV1 2VAN 다크 그레이 펄 정면 45도 전체 컷" loading="lazy">
+        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-3-4-victory-badge-2van.jpg" alt="E-CV1 2VAN 다크 그레이 펄 후면 45도, VICTORY 뱃지" loading="lazy">
         <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-liftgate-open-mountain.jpg" alt="E-CV1 2VAN 다크 그레이 펄 리어 리프트게이트 오픈, 빈 적재공간" loading="lazy">
         <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/interior-cabin-full-view-seats.jpg" alt="E-CV1 2VAN 다크 그레이 펄 전좌석 풀캐빈 뷰(도어 오픈)" loading="lazy">
       </div>
 
       <h3 class="ca-gallery-group-title"><span class="ca-color-swatch is-silver" aria-hidden="true"></span>베이직 실버</h3>
       <div class="ca-grid-4">
-        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside-1.jpg" alt="E-CV1 2VAN 베이직 실버 한강변 정면 45도" loading="lazy">
+        <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside-1.jpg?v=2" alt="E-CV1 2VAN 베이직 실버 한강변 정면 45도" loading="lazy">
         <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-side-profile-park.jpg" alt="E-CV1 2VAN 베이직 실버 측면 프로필, 공원 배경" loading="lazy">
         <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-side-door-open-cargo-empty.jpg" alt="E-CV1 2VAN 베이직 실버 슬라이딩 도어 오픈, 빈 카고 내부" loading="lazy">
         <img class="ca-gallery-photo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/interior-cargo-rear-door-view.jpg" alt="E-CV1 2VAN 베이직 실버 리어 도어 안쪽에서 본 카고 뷰" loading="lazy">

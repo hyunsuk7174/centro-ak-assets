@@ -82,7 +82,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       </div>
 
       <div class="ca-tech-row is-reverse" id="sme">
-        <div class="ca-tech-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg" alt="도심 상업지역을 주행하는 E-CV1 베이직 실버 전기 상용밴"></div>
+        <div class="ca-tech-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg?v=2" alt="도심 상업지역을 주행하는 E-CV1 베이직 실버 전기 상용밴"></div>
         <div class="ca-tech-content">
           <span class="ca-badge">Small Business</span>
           <h2 class="ca-h2 ca-mt-md">소상공인·자영업</h2>
