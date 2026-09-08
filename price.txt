@@ -220,7 +220,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
             <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">배터리 (종류 / 용량)</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">CATL LFP / 41.86 kWh</td></tr>
             <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">충전 방식</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">DC COMBO1 (급속 / 완속)</td></tr>
             <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">타이어</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">175R14 LT 8PR</td></tr>
-            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">외장 색상</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">스노우 화이트 (기본) · 다크 그레이 펄 · 베이직 실버 · 블랙 에디션 전용 펄</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">외장 색상</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">스노우 화이트 · 다크 그레이 펄 · 베이직 실버 (추가 금액 없음) · 블랙 에디션 전용 펄 (BLACK EDITION 전용)</td></tr>
             <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">보증</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">일반·차체 2년 4만km (소모품 제외) · 배터리 &amp; 동력전달장치 5년 20만km</td></tr>
           </tbody>
         </table>
@@ -339,28 +339,28 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head ca-text-center">
         <span class="ca-eyebrow">Color</span>
         <h2 class="ca-h2" id="colors-heading">외장 컬러</h2>
-        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">스노우 화이트는 기본 색상이며, 유광 펄 색상 3종 선택 시 +80,000원입니다.</p>
+        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">스노우 화이트 · 다크 그레이 펄 · 베이직 실버는 추가 금액 없이 선택할 수 있습니다. 블랙 에디션 전용 펄은 BLACK EDITION 트림(+500,000원)에만 적용됩니다.</p>
       </div>
       <div class="ca-grid-4 ca-mt-lg" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px;">
         <div class="ca-card" style="padding:0; overflow:hidden; background:#fff; border:1px solid rgba(11,18,32,.10);">
           <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/color-snow-white.jpg" alt="E-CV1 스노우 화이트" loading="lazy" style="width:100%; aspect-ratio:3/2; object-fit:cover; display:block;">
           <div style="padding:16px 18px;">
             <div style="display:flex; align-items:center; gap:10px;"><span style="width:18px; height:18px; border-radius:50%; background:#f4f5f6; border:1px solid rgba(11,18,32,.15); flex:0 0 auto;"></span><strong>스노우 화이트</strong></div>
-            <div style="font-size:12px; color:rgba(11,18,32,.5); margin-top:4px; letter-spacing:.04em;">SNOW WHITE (SWW) · 기본</div>
+            <div style="font-size:12px; color:rgba(11,18,32,.5); margin-top:4px; letter-spacing:.04em;">SNOW WHITE (SWW) · 추가 금액 없음</div>
           </div>
         </div>
         <div class="ca-card" style="padding:0; overflow:hidden; background:#fff; border:1px solid rgba(11,18,32,.10);">
           <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/color-dark-gray-pearl.jpg" alt="E-CV1 다크 그레이 펄" loading="lazy" style="width:100%; aspect-ratio:3/2; object-fit:cover; display:block;">
           <div style="padding:16px 18px;">
             <div style="display:flex; align-items:center; gap:10px;"><span style="width:18px; height:18px; border-radius:50%; background:#3d4046; flex:0 0 auto;"></span><strong>다크 그레이 펄</strong></div>
-            <div style="font-size:12px; color:rgba(11,18,32,.5); margin-top:4px; letter-spacing:.04em;">DARK GRAY PEARL (DGP) · +80,000원</div>
+            <div style="font-size:12px; color:rgba(11,18,32,.5); margin-top:4px; letter-spacing:.04em;">DARK GRAY PEARL (DGP) · 추가 금액 없음</div>
           </div>
         </div>
         <div class="ca-card" style="padding:0; overflow:hidden; background:#fff; border:1px solid rgba(11,18,32,.10);">
           <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/color-basic-silver.jpg" alt="E-CV1 베이직 실버" loading="lazy" style="width:100%; aspect-ratio:3/2; object-fit:cover; display:block;">
           <div style="padding:16px 18px;">
             <div style="display:flex; align-items:center; gap:10px;"><span style="width:18px; height:18px; border-radius:50%; background:#c3c7cc; flex:0 0 auto;"></span><strong>베이직 실버</strong></div>
-            <div style="font-size:12px; color:rgba(11,18,32,.5); margin-top:4px; letter-spacing:.04em;">BASIC SILVER (BSV) · +80,000원</div>
+            <div style="font-size:12px; color:rgba(11,18,32,.5); margin-top:4px; letter-spacing:.04em;">BASIC SILVER (BSV) · 추가 금액 없음</div>
           </div>
         </div>
         <div class="ca-card" style="padding:0; overflow:hidden; background:#0e0f12; color:#fff; border:1px solid rgba(255,255,255,.08);">
