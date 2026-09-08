@@ -1553,3 +1553,20 @@ body.ca-noscroll{ overflow:hidden; }
 .ca-root.ca-root a.ca-btn--primary,
 .ca-root.ca-root a.ca-btn--accent{ color:#fff; }
 .ca-root.ca-root .ca-lead-cta-list a{ color: inherit; }
+/* === TYPE SCALE TUNE (2026-09) === */
+/* === TYPE SCALE TUNE (2026-09) ===
+   현대·기아 사이트 기준으로 제목 크기를 한 단계 낮춰 통일.
+   (히어로 76→60, 페이지 타이틀 64→52, 섹션 제목 40→36, 소제목 24→22, 리드 18→17) */
+.ca-root.ca-root .ca-hero-title{ font-size: clamp(34px, 4.6vw, 60px); line-height:1.12; }
+.ca-root.ca-root .ca-h1{ font-size: clamp(30px, 4vw, 52px); line-height:1.15; }
+.ca-root.ca-root .ca-h2{ font-size: clamp(24px, 2.8vw, 36px); line-height:1.25; }
+.ca-root.ca-root .ca-h3{ font-size: clamp(18px, 1.8vw, 22px); line-height:1.35; }
+.ca-root.ca-root .ca-lead{ font-size: clamp(15px, 1.2vw, 17px); }
+.ca-root.ca-root .ca-model-name{ font-size: clamp(22px, 2.6vw, 30px); }
+.ca-root.ca-root .ca-stat-num{ font-size: clamp(30px, 3.2vw, 44px); }
+
+/* 가운데 정렬 섹션 헤더는 블록 자체도 가운데로 */
+.ca-root.ca-root .ca-section-head.ca-text-center{ margin-left:auto; margin-right:auto; }
+
+/* 블랙 에디션 섹션: 아이브로우 점 색상을 골드로 */
+#black-edition .ca-eyebrow::before{ background:#d4b46a; }
