@@ -333,18 +333,19 @@
       category: "black-edition",
       catLabel: "Black Edition",
       applicability: "블랙 에디션 전용",
-      title: "외장 바디 블랙 도장",
+      title: "외장 바디 블랙 펄 도장",
       isNew: true,
-      summary: "스노우 화이트·다크 그레이 펄 대신 차체 전체를 블랙으로 도장한 전용 외장입니다.",
-      description: "기본 사양의 외장 색상 대신 루프에서 도어, 사이드 스텝까지 차체 전체를 블랙으로 도장합니다. 그릴·휠·미러의 블랙 도장과 함께 한 가지 톤으로 이어지는 블랙 에디션의 바탕이 되는 사양입니다.",
+      summary: "스노우 화이트·다크 그레이 펄 대신 차체 전체를 펄이 살아 있는 블랙 펄로 도장한 전용 외장입니다.",
+      description: "기본 사양의 외장 색상 대신 루프에서 도어, 사이드 스텝까지 차체 전체를 블랙 펄로 도장합니다. 그늘에서는 깊은 검정으로, 빛 아래에서는 펄 입자가 은은하게 살아나 단색 블랙과는 다른 깊이를 냅니다. 그릴·휠·미러의 블랙 도장과 함께 한 가지 톤으로 이어지는 블랙 에디션의 바탕이 되는 사양입니다.",
       features: [
-        "차체 전체 블랙 도장 (루프·도어·사이드 스텝 포함)",
+        "차체 전체 블랙 펄 도장 (루프·도어·사이드 스텝 포함)",
+        "빛 아래에서 펄 입자가 살아나는 깊이 있는 블랙",
         "블랙 에디션 4개 도장 사양 중 기본이 되는 항목",
         "2인승 · 5인승 VAN 공통 적용"
       ],
       applicModel: "E-CV1 Black Edition 전용",
       image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-body.jpg",
-      imageAlt: "E-CV1 Black Edition 외장 바디 블랙 도장",
+      imageAlt: "E-CV1 Black Edition 외장 바디 블랙 펄 도장",
       objectPosition: "center 55%"
     },
     {

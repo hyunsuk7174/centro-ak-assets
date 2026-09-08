@@ -201,7 +201,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
             <span class="ca-eyebrow">Black Edition</span>
             <h3 class="ca-h2">블랙 에디션 전용 사양</h3>
           </div>
-          <p class="ca-lead" style="max-width:460px;">바디·그릴·휠·미러를 모두 블랙으로 도장한 E-CV1 전용 사양입니다. 2인승·5인승 공통, 추가 500,000원.</p>
+          <p class="ca-lead" style="max-width:460px;">바디는 블랙 펄, 그릴·휠·미러는 블랙으로 도장한 E-CV1 전용 사양입니다. 2인승·5인승 공통, 추가 500,000원.</p>
         </div>
         <div class="centro-option-grid" id="centro-option-grid-black-edition"></div>
       </div>

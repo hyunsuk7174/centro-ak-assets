@@ -118,7 +118,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head ca-text-center">
         <span class="ca-eyebrow" style="color:#d4b46a;">2026 E-CV1</span>
         <h2 class="ca-h2" id="be-heading" style="color:#fff;">BLACK EDITION</h2>
-        <p class="ca-lead ca-mt-md" style="max-width:640px; margin:16px auto 0; color:rgba(255,255,255,.72);">바디·그릴·휠·미러를 모두 블랙으로 도장한 E-CV1 전용 사양입니다.<br>옵션을 얹은 것이 아니라, 처음부터 검게 완성했습니다.</p>
+        <p class="ca-lead ca-mt-md" style="max-width:640px; margin:16px auto 0; color:rgba(255,255,255,.72);">바디는 펄이 살아 있는 <strong style="color:#fff;">블랙 펄</strong> 도장, 그릴·휠·미러는 같은 검정으로 맞춘 E-CV1 전용 사양입니다.<br>옵션을 얹은 것이 아니라, 처음부터 검게 완성했습니다.</p>
       </div>
 
       <figure style="margin:40px 0 0; border-radius:20px; overflow:hidden; position:relative;">
@@ -127,7 +127,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       </figure>
 
       <h3 class="ca-h3 ca-mt-lg ca-text-center" style="color:#fff;">BLACK EDITION 전용 사양</h3>
-      <p class="ca-card-text ca-text-center" style="color:rgba(255,255,255,.55); margin:8px auto 0; max-width:560px;">밝게 남는 부품 없이, 바디부터 그릴·휠·미러까지 한 가지 검정으로 맞췄습니다.</p>
+      <p class="ca-card-text ca-text-center" style="color:rgba(255,255,255,.55); margin:8px auto 0; max-width:560px;">빛을 받으면 펄 입자가 은은하게 살아나는 블랙 펄 바디에, 그릴·휠·미러를 같은 검정으로 맞췄습니다.</p>
 
       <div class="ca-grid-2 ca-mt-md">
 
@@ -135,8 +135,8 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-body.jpg" alt="Black Edition 외장 바디 블랙 도장" loading="lazy" style="width:100%; height:250px; object-fit:cover; object-position:center 55%; display:block;">
           <div style="padding:26px 24px;">
             <span style="display:inline-block; font-size:11px; font-weight:800; letter-spacing:.12em; color:#d4b46a; margin-bottom:8px;">01 &nbsp;BODY</span>
-            <h4 style="font-size:19px; font-weight:800; color:#fff; margin:0 0 8px; line-height:1.4;">외장 바디 블랙 도장</h4>
-            <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.64); margin:0;">기본 사양의 스노우 화이트·다크 그레이 펄 대신 차체 전체를 블랙으로 도장합니다. 루프에서 도어, 사이드 스텝까지 끊김 없이 한 톤으로 이어집니다.</p>
+            <h4 style="font-size:19px; font-weight:800; color:#fff; margin:0 0 8px; line-height:1.4;">외장 바디 블랙 펄 도장</h4>
+            <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.64); margin:0;">기본 사양의 스노우 화이트·다크 그레이 펄 대신 차체 전체를 <strong style="color:#fff;">블랙 펄</strong>로 도장합니다. 그늘에서는 깊은 검정, 빛 아래에서는 펄 입자가 은은하게 살아나 단색 블랙과는 다른 깊이를 냅니다. 루프에서 도어, 사이드 스텝까지 한 톤으로 이어집니다.</p>
           </div>
         </div>
 
@@ -191,7 +191,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
             <tr style="border-top:1px solid rgba(255,255,255,.09);">
               <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; color:rgba(255,255,255,.82);">외장 색상</th>
               <td style="padding:14px 18px; text-align:center; color:rgba(255,255,255,.6);">스노우 화이트 / 다크 그레이 펄</td>
-              <td style="padding:14px 18px; text-align:center; color:#fff; font-weight:700;">블랙 전용 도장</td>
+              <td style="padding:14px 18px; text-align:center; color:#fff; font-weight:700;">블랙 펄 전용 도장</td>
             </tr>
             <tr style="border-top:1px solid rgba(255,255,255,.09);">
               <th scope="row" style="padding:14px 18px; text-align:left; font-weight:600; color:rgba(255,255,255,.82);">라디에이터 그릴</th>
@@ -215,7 +215,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-mt-lg" style="border:1px solid rgba(212,180,106,.35); border-radius:18px; padding:34px 28px; text-align:center; background:linear-gradient(180deg, rgba(212,180,106,.08), rgba(255,255,255,.02));">
         <div style="font-size:12px; font-weight:800; letter-spacing:.14em; color:#d4b46a; margin-bottom:10px;">BLACK EDITION 추가 금액</div>
         <div style="font-size:42px; font-weight:800; letter-spacing:-.02em; line-height:1.1; color:#fff;">+500,000<span style="font-size:22px; font-weight:700;">원</span></div>
-        <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.6); margin:12px auto 0; max-width:520px;">차량 가격에 더해지는 금액이며, 네 곳의 도장이 모두 포함됩니다. 2인승 · 5인승 모두 선택할 수 있습니다.</p>
+        <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.6); margin:12px auto 0; max-width:520px;">차량 가격에 더해지는 금액이며, 블랙 펄 바디 도장과 그릴·휠·미러 블랙 도장이 모두 포함됩니다. 2인승 · 5인승 모두 선택할 수 있습니다.</p>
         <div class="ca-hero-cta" style="justify-content:center; margin-top:24px;">
           <a href="/purchase#consult" class="ca-btn ca-btn--primary">블랙 에디션 견적 상담</a>
           <a href="/purchase#price" class="ca-btn ca-btn--outline" style="color:#fff; border-color:rgba(255,255,255,.4);">전체 가격표 보기</a>

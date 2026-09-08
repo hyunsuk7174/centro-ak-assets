@@ -131,7 +131,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-mt-md" style="max-width:900px; margin-left:auto; margin-right:auto; background:#0b1220; color:#fff; border-radius:16px; padding:22px 28px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px;">
         <div style="flex:1 1 320px;">
           <div style="font-size:11px; font-weight:800; letter-spacing:.14em; color:#d4b46a; margin-bottom:6px;">BLACK EDITION</div>
-          <div style="font-size:17px; font-weight:700; line-height:1.4;">바디 · 그릴 · 휠 · 미러 블랙 도장 <span style="opacity:.6; font-weight:500;">— 2인승 · 5인승 공통 선택</span></div>
+          <div style="font-size:17px; font-weight:700; line-height:1.4;">블랙 펄 바디 · 그릴 · 휠 · 미러 블랙 도장 <span style="opacity:.6; font-weight:500;">— 2인승 · 5인승 공통 선택</span></div>
         </div>
         <div style="display:flex; align-items:center; gap:18px; flex-wrap:wrap;">
           <div style="font-size:26px; font-weight:800; letter-spacing:-.02em;">+500,000<span style="font-size:15px; font-weight:700;">원</span></div>
