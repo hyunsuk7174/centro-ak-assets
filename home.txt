@@ -27,6 +27,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <a href="/ecv1-5van">E-CV1 5VAN</a>
         </div>
       </div>
+      <div class="ca-nav-item"><a href="/price" class="ca-nav-link">Price</a></div>
       <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
       <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
       <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
@@ -52,6 +53,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <a href="/ecv1-5van">E-CV1 5VAN</a>
     </div>
   </div>
+  <a href="/price" class="ca-mobile-link">Price</a>
   <a href="/technology" class="ca-mobile-link">Technology</a>
   <a href="/business" class="ca-mobile-link">Business Solutions</a>
   <a href="/purchase" class="ca-mobile-link">Purchase</a>
@@ -605,7 +607,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <ul>
           <li><a href="/ecv1-2van">E-CV1 2VAN</a></li>
           <li><a href="/ecv1-5van">E-CV1 5VAN</a></li>
-          <li><a href="/purchase">가격 확인</a></li>
+          <li><a href="/price">가격표</a></li>
         </ul>
       </div>
       <div class="ca-footer-col">

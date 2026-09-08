@@ -26,6 +26,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <a href="/ecv1-5van">E-CV1 5VAN</a>
         </div>
       </div>
+      <div class="ca-nav-item"><a href="/price" class="ca-nav-link">Price</a></div>
       <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
       <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
       <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
@@ -47,6 +48,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <a href="/ecv1-5van">E-CV1 5VAN</a>
     </div>
   </div>
+  <a href="/price" class="ca-mobile-link">Price</a>
   <a href="/technology" class="ca-mobile-link">Technology</a>
   <a href="/business" class="ca-mobile-link">Business Solutions</a>
   <a href="/purchase" class="ca-mobile-link">Purchase</a>
@@ -141,7 +143,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         </div>
 
         <div style="border:1px solid rgba(255,255,255,.12); border-radius:16px; overflow:hidden; background:rgba(255,255,255,.035);">
-          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-grille.jpg" alt="Black Edition 라디에이터 그릴 블랙 도장" loading="lazy" style="width:100%; height:250px; object-fit:cover; object-position:center 45%; display:block;">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-grille.jpg" alt="Black Edition 라디에이터 그릴 블랙 도장" loading="lazy" style="width:100%; height:250px; object-fit:cover; object-position:center 32%; display:block;">
           <div style="padding:26px 24px;">
             <span style="display:inline-block; font-size:11px; font-weight:800; letter-spacing:.12em; color:#d4b46a; margin-bottom:8px;">02 &nbsp;GRILLE</span>
             <h4 style="font-size:19px; font-weight:800; color:#fff; margin:0 0 8px; line-height:1.4;">라디에이터 그릴 블랙 도장</h4>
@@ -173,7 +175,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-grid-3 ca-mt-md" style="gap:14px;">
         <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-angle.jpg" alt="Black Edition 전면" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; object-position:center 50%; border-radius:14px; display:block;">
         <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-rear.jpg" alt="Black Edition 후면" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; object-position:center 62%; border-radius:14px; display:block;">
-        <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-cutout.jpg" alt="Black Edition 스튜디오" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; object-position:center 62%; border-radius:14px; display:block; background:#fff;">
+        <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-cutout.jpg" alt="Black Edition 스튜디오" loading="lazy" style="width:100%; aspect-ratio:4/3; object-fit:cover; object-position:center 80%; border-radius:14px; display:block; background:#fff;">
       </div>
 
       <h3 class="ca-h3 ca-mt-lg ca-text-center" style="color:#fff;">기본 사양과 무엇이 다른가</h3>
@@ -218,7 +220,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <p style="font-size:14.5px; line-height:1.7; color:rgba(255,255,255,.6); margin:12px auto 0; max-width:520px;">차량 가격에 더해지는 금액이며, 블랙 펄 바디 도장과 그릴·휠·미러 블랙 도장이 모두 포함됩니다. 2인승 · 5인승 모두 선택할 수 있습니다.</p>
         <div class="ca-hero-cta" style="justify-content:center; margin-top:24px;">
           <a href="/purchase#consult" class="ca-btn ca-btn--primary">블랙 에디션 견적 상담</a>
-          <a href="/purchase#price" class="ca-btn ca-btn--outline" style="color:#fff; border-color:rgba(255,255,255,.4);">전체 가격표 보기</a>
+          <a href="/price" class="ca-btn ca-btn--outline" style="color:#fff; border-color:rgba(255,255,255,.4);">전체 가격표 보기</a>
         </div>
       </div>
 
@@ -399,7 +401,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       </div>
       <div class="ca-footer-col">
         <h4>Models</h4>
-        <ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/purchase">가격 확인</a></li></ul>
+        <ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/price">가격표</a></li></ul>
       </div>
       <div class="ca-footer-col">
         <h4>Company</h4>

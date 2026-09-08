@@ -1,0 +1,368 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<style>
+/* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
+#doz_header_wrap, #doz_footer_wrap { display:none !important; }
+#doz_content_wrap, .inline_page { padding:0 !important; margin:0 !important; }
+body.ca-has-stickybar { padding-bottom:64px; }
+</style>
+
+<a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
+<div class="ca-root">
+
+<header class="ca-header is-scrolled" id="ca-header">
+  <div class="ca-container">
+    <a href="/" class="ca-logo" aria-label="센트로에이케이 홈으로 이동">
+      <img class="centro-header-logo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고">
+    </a>
+    <nav class="ca-nav" aria-label="주 메뉴">
+      <div class="ca-nav-item">
+        <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+        <div class="ca-dropdown"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+      </div>
+      <div class="ca-nav-item"><a href="/price" class="ca-nav-link">Price</a></div>
+      <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
+      <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
+      <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
+      <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
+      <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+    </nav>
+    <div class="ca-header-actions">
+      <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
+      <button class="ca-menu-toggle" aria-label="메뉴 열기" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="ca-mobile-nav" aria-label="모바일 메뉴">
+  <div class="ca-mobile-group">
+    <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
+    <div class="ca-mobile-sub"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+  </div>
+  <a href="/price" class="ca-mobile-link">Price</a>
+  <a href="/technology" class="ca-mobile-link">Technology</a>
+  <a href="/business" class="ca-mobile-link">Business Solutions</a>
+  <a href="/purchase" class="ca-mobile-link">Purchase</a>
+  <a href="/service" class="ca-mobile-link">Service</a>
+  <a href="/brand" class="ca-mobile-link">Brand</a>
+  <div class="ca-mobile-cta">
+    <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
+    <a href="/purchase#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
+    <a href="/service" class="ca-btn ca-btn--ghost ca-btn--block">서비스센터 찾기</a>
+  </div>
+</nav>
+
+<main id="ca-main">
+
+  <!-- PAGE HERO -->
+  <section class="ca-page-hero">
+    <div class="ca-container">
+      <nav class="ca-breadcrumb" aria-label="현재 위치">
+        <a href="/">홈</a><span>/</span><span>가격표</span>
+      </nav>
+      <div class="ca-page-hero-grid">
+        <div class="ca-page-hero-text">
+          <span class="ca-eyebrow">2026 Price List</span>
+          <h1 class="ca-h1">2026 E-CV1 가격표</h1>
+          <p class="ca-lead ca-mt-md" style="max-width:620px;">2인승 2VAN과 5인승 5VAN, 그리고 블랙 에디션까지. 표시 금액은 모두 부가세 제외 공급가액이며, 2025년도 출시 기념 제조사 300만원 추가 지원 프로모션이 적용된 가격입니다.</p>
+          <div class="ca-hero-cta ca-mt-lg">
+            <a href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/2026-ecv1-price-list.pdf" class="ca-btn ca-btn--primary" target="_blank" rel="noopener" download><i class="fa-solid fa-file-pdf"></i>&nbsp;가격표 PDF 내려받기</a>
+            <a href="/purchase#consult" class="ca-btn ca-btn--ghost">견적 상담 신청</a>
+          </div>
+        </div>
+        <div class="ca-page-hero-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ecv1-2026-lineup.jpg" alt="2026 E-CV1 라인업" loading="lazy">
+          <span class="ca-page-hero-media-tag">2026 E-CV1 · 2VAN / 5VAN / Black Edition</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모델별 가격 -->
+  <section class="ca-section" id="models" aria-labelledby="models-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-text-center">
+        <span class="ca-eyebrow">Models</span>
+        <h2 class="ca-h2" id="models-heading">모델별 판매 가격</h2>
+        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">정가에서 제조사 지원 300만원이 빠진 프로모션 적용가입니다.</p>
+      </div>
+
+      <div class="ca-grid-2 ca-mt-lg">
+
+        <div class="ca-card" style="padding:0; overflow:hidden; border:1px solid rgba(11,18,32,.10); background:#fff;">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg" alt="E-CV1 2VAN" loading="lazy" style="width:100%; height:260px; object-fit:cover; object-position:center 60%; display:block;">
+          <div style="padding:28px 28px 30px;">
+            <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+              <div>
+                <span class="ca-eyebrow" style="display:block; margin-bottom:4px;">2인승 · 화물 특화</span>
+                <h3 class="ca-h3" style="margin:0;">E-CV1 2 VAN</h3>
+              </div>
+              <span style="display:inline-block; padding:6px 12px; border-radius:999px; background:rgba(37,99,235,.10); color:#2563eb; font-size:12.5px; font-weight:700;">제조사 300만원 지원</span>
+            </div>
+            <div style="margin-top:22px; display:flex; align-items:flex-end; gap:14px; flex-wrap:wrap;">
+              <div style="font-size:40px; font-weight:800; letter-spacing:-.02em; line-height:1;">24,800,000<span style="font-size:20px; font-weight:700;">원</span></div>
+              <div style="font-size:15px; color:rgba(11,18,32,.45); text-decoration:line-through; padding-bottom:6px;">27,800,000원</div>
+            </div>
+            <div style="font-size:13px; color:rgba(11,18,32,.55); margin-top:6px;">부가세 제외 공급가액</div>
+            <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:22px; padding-top:20px; border-top:1px solid rgba(11,18,32,.08);">
+              <div><div style="font-size:12px; color:rgba(11,18,32,.5);">승차 인원</div><div style="font-weight:700; margin-top:2px;">2명</div></div>
+              <div><div style="font-size:12px; color:rgba(11,18,32,.5);">적재 중량</div><div style="font-weight:700; margin-top:2px;">700kg</div></div>
+              <div><div style="font-size:12px; color:rgba(11,18,32,.5);">적재함 길이</div><div style="font-weight:700; margin-top:2px;">2,270mm</div></div>
+            </div>
+            <div class="ca-hero-cta" style="margin-top:22px;">
+              <a href="/purchase#consult" class="ca-btn ca-btn--primary ca-btn--sm">견적 상담</a>
+              <a href="/ecv1-2van" class="ca-btn ca-btn--ghost ca-btn--sm">모델 자세히</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ca-card" style="padding:0; overflow:hidden; border:1px solid rgba(11,18,32,.10); background:#fff;">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full.jpg" alt="E-CV1 5VAN" loading="lazy" style="width:100%; height:260px; object-fit:cover; object-position:center 60%; display:block;">
+          <div style="padding:28px 28px 30px;">
+            <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+              <div>
+                <span class="ca-eyebrow" style="display:block; margin-bottom:4px;">5인승 · 승객 + 화물</span>
+                <h3 class="ca-h3" style="margin:0;">E-CV1 5 VAN</h3>
+              </div>
+              <span style="display:inline-block; padding:6px 12px; border-radius:999px; background:rgba(37,99,235,.10); color:#2563eb; font-size:12.5px; font-weight:700;">제조사 300만원 지원</span>
+            </div>
+            <div style="margin-top:22px; display:flex; align-items:flex-end; gap:14px; flex-wrap:wrap;">
+              <div style="font-size:40px; font-weight:800; letter-spacing:-.02em; line-height:1;">26,300,000<span style="font-size:20px; font-weight:700;">원</span></div>
+              <div style="font-size:15px; color:rgba(11,18,32,.45); text-decoration:line-through; padding-bottom:6px;">29,300,000원</div>
+            </div>
+            <div style="font-size:13px; color:rgba(11,18,32,.55); margin-top:6px;">부가세 제외 공급가액</div>
+            <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:22px; padding-top:20px; border-top:1px solid rgba(11,18,32,.08);">
+              <div><div style="font-size:12px; color:rgba(11,18,32,.5);">승차 인원</div><div style="font-weight:700; margin-top:2px;">5명</div></div>
+              <div><div style="font-size:12px; color:rgba(11,18,32,.5);">적재 중량</div><div style="font-weight:700; margin-top:2px;">460kg</div></div>
+              <div><div style="font-size:12px; color:rgba(11,18,32,.5);">적재함 길이</div><div style="font-weight:700; margin-top:2px;">1,375mm</div></div>
+            </div>
+            <div class="ca-hero-cta" style="margin-top:22px;">
+              <a href="/purchase#consult" class="ca-btn ca-btn--primary ca-btn--sm">견적 상담</a>
+              <a href="/ecv1-5van" class="ca-btn ca-btn--ghost ca-btn--sm">모델 자세히</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 블랙 에디션 -->
+      <div class="ca-mt-md" style="background:#070809; color:#fff; border-radius:16px; padding:26px 28px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:18px;">
+        <div style="display:flex; align-items:center; gap:20px; flex:1 1 420px;">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/black-edition-angle.jpg" alt="E-CV1 Black Edition" loading="lazy" style="width:120px; height:80px; object-fit:cover; border-radius:10px; flex:0 0 auto;">
+          <div>
+            <div style="font-size:11px; font-weight:800; letter-spacing:.14em; color:#d4b46a; margin-bottom:6px;">BLACK EDITION · 2VAN / 5VAN 공통</div>
+            <div style="font-size:17px; font-weight:700; line-height:1.4;">블랙 펄 바디 · 그릴 · 휠 · 미러 블랙 도장</div>
+            <div style="font-size:13.5px; color:rgba(255,255,255,.6); margin-top:4px;">차량 가격에 더해지는 전용 사양 금액</div>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:18px; flex-wrap:wrap;">
+          <div style="font-size:30px; font-weight:800; letter-spacing:-.02em;">+500,000<span style="font-size:16px; font-weight:700;">원</span></div>
+          <a href="/ecv1-2van#black-edition" class="ca-btn ca-btn--outline" style="color:#fff; border-color:rgba(255,255,255,.45); padding:10px 18px; font-size:14px;">자세히 보기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 한눈에 비교 -->
+  <section class="ca-section ca-section--gray" id="compare" aria-labelledby="compare-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-text-center">
+        <span class="ca-eyebrow">Compare</span>
+        <h2 class="ca-h2" id="compare-heading">한눈에 비교</h2>
+      </div>
+      <div class="ca-mt-lg" style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
+        <table style="width:100%; min-width:640px; border-collapse:separate; border-spacing:0; background:#fff; border-radius:16px; overflow:hidden; font-size:15px; box-shadow:0 1px 2px rgba(11,18,32,.06);">
+          <thead>
+            <tr style="background:#0b1220; color:#fff;">
+              <th scope="col" style="padding:18px 20px; text-align:left; font-weight:700; width:30%;">구분</th>
+              <th scope="col" style="padding:18px 20px; text-align:center; font-weight:800;">E-CV1 2VAN</th>
+              <th scope="col" style="padding:18px 20px; text-align:center; font-weight:800;">E-CV1 5VAN</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">정가 (부가세 제외)</th><td style="padding:16px 20px; text-align:center; color:rgba(11,18,32,.55); border-top:1px solid rgba(11,18,32,.08);">27,800,000원</td><td style="padding:16px 20px; text-align:center; color:rgba(11,18,32,.55); border-top:1px solid rgba(11,18,32,.08);">29,300,000원</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">프로모션 적용가</th><td style="padding:16px 20px; text-align:center; font-weight:800; font-size:17px; color:#2563eb; border-top:1px solid rgba(11,18,32,.08);">24,800,000원</td><td style="padding:16px 20px; text-align:center; font-weight:800; font-size:17px; color:#2563eb; border-top:1px solid rgba(11,18,32,.08);">26,300,000원</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">블랙 에디션 (선택)</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">+500,000원 · 두 모델 공통</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">승차 인원</th><td style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">2명</td><td style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">5명</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">적재 중량</th><td style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">700kg</td><td style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">460kg</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">전장 × 전폭 × 전고</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">4,400 × 1,745 × 1,940 mm</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">적재함 전장 × 전폭 × 전고</th><td style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">2,270 × 1,450 × 1,280 mm</td><td style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">1,375 × 1,450 × 1,280 mm</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">축거</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">2,850 mm</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">모터 출력 / 토크</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">60 kW / 200 N·m</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">배터리</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">CATL LFP 41.86 kWh</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">외장 색상</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">스노우 화이트 · 다크 그레이 펄 · 블랙 펄 (Black Edition)</td></tr>
+            <tr><th scope="row" style="padding:16px 20px; text-align:left; font-weight:600; background:rgba(11,18,32,.03); border-top:1px solid rgba(11,18,32,.08);">보증</th><td colspan="2" style="padding:16px 20px; text-align:center; border-top:1px solid rgba(11,18,32,.08);">일반·차체 2년 40,000km · 배터리 &amp; 동력전달장치 5년 200,000km</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 기본 품목 -->
+  <section class="ca-section" id="standard" aria-labelledby="standard-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-text-center">
+        <span class="ca-eyebrow">Standard Equipment</span>
+        <h2 class="ca-h2" id="standard-heading">기본 품목</h2>
+        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">2VAN·5VAN 공통으로 기본 적용되는 사양입니다. 별도 옵션 비용 없이 모두 포함됩니다.</p>
+      </div>
+
+      <div class="ca-grid-3 ca-mt-lg">
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3 class="ca-card-title">파워 일렉트릭</h3>
+          <ul style="margin:0; padding-left:18px; font-size:14.5px; line-height:1.75; color:rgba(11,18,32,.72);">
+            <li>60kW 구동 모터 · CATL LFP 배터리 41.86kWh · 감속기</li>
+            <li>회생 제동 브레이크 시스템 (1·3단계)</li>
+            <li>하부 프로텍터 · 전동식 파워 스티어링 (MDPS)</li>
+            <li>통합 주행 모드 (Normal / Sport)</li>
+            <li>실외 V2L (3.3kWh / AC250V, 14A)</li>
+          </ul>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3 class="ca-card-title">안전 · 운전자 보조</h3>
+          <ul style="margin:0; padding-left:18px; font-size:14.5px; line-height:1.75; color:rgba(11,18,32,.72);">
+            <li>전방 충돌 방지 보조 (차량·보행자) · 전방 충돌 경보</li>
+            <li>EBD-ABS (BAS 내장) · ESC · HAC · ESS</li>
+            <li>운전석·동승석 에어백 · 전좌석 3점식 시트벨트 (프리텐셔너)</li>
+            <li>TPMS · 시트벨트 리마인더 · 가상 엔진 사운드 · 후진 경고음</li>
+            <li>스페어 타이어 · MSD 스위치</li>
+          </ul>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-car-side"></i></div>
+          <h3 class="ca-card-title">외장</h3>
+          <ul style="margin:0; padding-left:18px; font-size:14.5px; line-height:1.75; color:rgba(11,18,32,.72);">
+            <li>DURR 도장 기술 · 블랙&amp;크롬 라디에이터 그릴</li>
+            <li>Full LED 헤드램프 (프로젝션) · LED 주간주행등 · LED 턴 시그널</li>
+            <li>LED 리어 콤비네이션 램프 · LED 보조제동등 · LED 번호판등</li>
+            <li>바디 컬러 아웃사이드 미러 (LED 방향지시등 · 전동 조절)</li>
+            <li>안개등 (전·후) · 프라이버시 리어 글라스 · 사이드 스텝 · 루프 안테나</li>
+            <li>14인치 알루미늄 휠 · 175R14 LT 8PR 타이어 · 충전구 (DC COMBO1)</li>
+          </ul>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-couch"></i></div>
+          <h3 class="ca-card-title">내장 · 시트</h3>
+          <ul style="margin:0; padding-left:18px; font-size:14.5px; line-height:1.75; color:rgba(11,18,32,.72);">
+            <li>블루/블랙 인테리어 · 슈퍼비전 클러스터 (4.2인치 컬러 LCD)</li>
+            <li>LED 룸램프 (1열·적재함) · 하이그로시 전자식 기어 노브</li>
+            <li>메탈 에어벤트 그릴 · 도어 맵포켓 · A필러 손잡이</li>
+            <li>스테인리스 적재함 · 테일게이트 손잡이</li>
+            <li>직물/인조가죽 시트 · 리클라이닝&amp;슬라이딩 · 분리형 헤드레스트 · 시트 일체형 암레스트</li>
+          </ul>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-sliders"></i></div>
+          <h3 class="ca-card-title">편의</h3>
+          <ul style="margin:0; padding-left:18px; font-size:14.5px; line-height:1.75; color:rgba(11,18,32,.72);">
+            <li>파워윈도우 · 파워도어록 · 윈도우 잠금 장치</li>
+            <li>공기 가열식 보조히터 (PTC) · 배터리 히팅 시스템 · 매뉴얼 에어컨</li>
+            <li>트립컴퓨터 · 오토라이트 컨트롤 헤드램프 · 후방 주차 거리 경고</li>
+            <li>리어글라스 열선 · 원터치 충전구 오픈 (도어 연동)</li>
+            <li>격벽 · 보호봉 · 확장형 코일매트 · 스마트 키 (2개) · 전자식 다이얼 변속기</li>
+          </ul>
+        </div>
+        <div class="ca-card">
+          <div class="ca-card-icon"><i class="fa-solid fa-tablet-screen-button"></i></div>
+          <h3 class="ca-card-title">인포테인먼트 · 액세서리</h3>
+          <ul style="margin:0; padding-left:18px; font-size:14.5px; line-height:1.75; color:rgba(11,18,32,.72);">
+            <li>10.1인치 멀티미디어 (무선 안드로이드 오토 · 무선 애플 카플레이)</li>
+            <li>후방모니터 · 4K 블랙박스 룸미러 (2CH) · 블루투스 핸즈프리</li>
+            <li>스티어링 휠 오디오 리모컨 · 고성능 2스피커 · USB 입력/충전 (2A)</li>
+            <li>비상용 완속 충전 케이블 (3.3kWh / 220V) · USB&amp;C타입 충전 소켓</li>
+            <li>비상 공구 키트 · 소화기</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ca-card ca-mt-md" style="background:#fff; padding:26px 28px; border:1px solid rgba(11,18,32,.10); display:flex; gap:24px; flex-wrap:wrap; align-items:flex-start;">
+        <div style="flex:0 0 auto;"><span class="ca-eyebrow">5 VAN Only</span><h3 class="ca-card-title" style="margin-top:6px;">5VAN 추가 기본 품목</h3></div>
+        <div style="flex:1 1 420px; display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px 28px; font-size:14.5px; line-height:1.7; color:rgba(11,18,32,.72);">
+          <div><strong style="color:var(--ca-black);">시트</strong><br>2열 시트 (고정식, 90° 폴딩) · 2열 3점식 벨트 · 2열 시트벨트 리마인더 · 유아용 고정시트 · 분리형 헤드레스트</div>
+          <div><strong style="color:var(--ca-black);">내장</strong><br>2열 프라이버시 글라스 (매뉴얼 윈도우) · 5밴 전용 격벽 (글라스 타입·보호봉) · 5밴 전용 스테인리스 적재함 (고정 고리 4개) · 2열 어시스트 그립</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 보증 & 유의사항 & 다운로드 -->
+  <section class="ca-section ca-section--gray" id="notes" aria-labelledby="notes-heading">
+    <div class="ca-container">
+      <div class="ca-grid-2" style="gap:16px;">
+        <div class="ca-card" style="background:#fff; padding:26px; border:1px solid rgba(11,18,32,.10);">
+          <div style="font-weight:700; font-size:15px; margin-bottom:6px;"><i class="fa-solid fa-shield-halved" style="color:#2563eb;"></i>&nbsp; 일반 / 차체 보증</div>
+          <div style="font-size:24px; font-weight:800; letter-spacing:-.02em;">2년 40,000km</div>
+          <p class="ca-card-text" style="margin:6px 0 0;">소모품 제외 · 출고일 기준</p>
+        </div>
+        <div class="ca-card" style="background:#fff; padding:26px; border:1px solid rgba(11,18,32,.10);">
+          <div style="font-weight:700; font-size:15px; margin-bottom:6px;"><i class="fa-solid fa-battery-full" style="color:#2563eb;"></i>&nbsp; 배터리 &amp; 동력전달장치</div>
+          <div style="font-size:24px; font-weight:800; letter-spacing:-.02em;">5년 200,000km</div>
+          <p class="ca-card-text" style="margin:6px 0 0;">배터리 / 모터 / BMS</p>
+        </div>
+      </div>
+
+      <div class="ca-mt-md" style="background:#fff; border:1px solid rgba(11,18,32,.10); border-radius:16px; padding:24px 26px;">
+        <h3 class="ca-card-title" id="notes-heading" style="margin-bottom:10px;">가격표 유의사항</h3>
+        <ul style="margin:0; padding-left:18px; font-size:14px; line-height:1.8; color:rgba(11,18,32,.72);">
+          <li>판매 가격은 판매 조건 및 선택 품목에 따라 달라질 수 있으며, 양산 버전에 따라 변경될 수 있습니다.</li>
+          <li>지자체 전기차 보조금은 지역·시기별로 달라져 확정 금액을 게시하지 않습니다. 실구매가는 상담을 통해 안내드립니다.</li>
+          <li>V2L은 배터리 잔량 30% 이상일 때 사용할 수 있습니다.</li>
+          <li>주행 가능 거리는 환경부 인증 표준모드 기준이며 도로 상태·주행 모드·적재·외기온도에 따라 실제와 차이가 있습니다.</li>
+          <li>통합 주행 모드 — 노멀 (회생제동 1단계), 에코 (회생제동 3단계)</li>
+          <li>혹한기 배터리 잔여량 부족 시 출력 저하가 발생할 수 있어 적정 충전량 유지가 필요하며, 동절기에는 실주행거리가 감소할 수 있습니다.</li>
+        </ul>
+      </div>
+
+      <div class="ca-mt-lg ca-text-center">
+        <div class="ca-hero-cta" style="justify-content:center;">
+          <a href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/2026-ecv1-price-list.pdf" class="ca-btn ca-btn--primary" target="_blank" rel="noopener" download><i class="fa-solid fa-file-pdf"></i>&nbsp;차량 가격표 PDF</a>
+          <a href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ecv1-parts-price-list.pdf" class="ca-btn ca-btn--outline" target="_blank" rel="noopener" download><i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;부품 가격 리스트 PDF</a>
+          <a href="/purchase#consult" class="ca-btn ca-btn--accent">견적 상담 신청</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="ca-footer">
+  <div class="ca-container">
+    <div class="ca-footer-top">
+      <div>
+        <div class="ca-footer-brand"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고"></div>
+        <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
+        <div class="ca-footer-social"><a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a></div>
+      </div>
+      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/price">가격표</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Company</h4><ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:070-8657-0905">070-8657-0905</a></li></ul></div>
+    </div>
+    <div class="ca-footer-corp">
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 황현석 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
+      대표전화: 070-8657-0905 &nbsp;|&nbsp; 이메일: admin@centroak.com</p>
+    </div>
+    <div class="ca-footer-bottom">
+      <div class="ca-footer-legal"><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">영상정보처리기기 운영방침</a></div>
+      <span>&copy; <span id="ca-year"></span> CENTRO AK Co., Ltd. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
+  <a href="tel:070-8657-0905" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="/purchase#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
+  <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
+<script>
+document.body.classList.add('ca-has-stickybar');
+</script>

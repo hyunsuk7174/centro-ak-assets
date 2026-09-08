@@ -22,6 +22,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
         <div class="ca-dropdown"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
       </div>
+      <div class="ca-nav-item"><a href="/price" class="ca-nav-link">Price</a></div>
       <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
       <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
       <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
@@ -40,6 +41,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
     <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
     <div class="ca-mobile-sub"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
   </div>
+  <a href="/price" class="ca-mobile-link">Price</a>
   <a href="/technology" class="ca-mobile-link">Technology</a>
   <a href="/business" class="ca-mobile-link">Business Solutions</a>
   <a href="/purchase" class="ca-mobile-link">Purchase</a>
@@ -144,7 +146,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
         <div class="ca-footer-social"><a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a></div>
       </div>
-      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/purchase">가격 확인</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/price">가격표</a></li></ul></div>
       <div class="ca-footer-col"><h4>Company</h4><ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li></ul></div>
       <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:070-8657-0905">070-8657-0905</a></li></ul></div>
     </div>
