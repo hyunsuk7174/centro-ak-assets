@@ -534,42 +534,98 @@ body.ca-has-stickybar { padding-bottom:64px; }
   <!-- ============ 8. CUSTOMER CASES ============ -->
   <section class="ca-section" id="cases" aria-labelledby="cases-heading">
     <div class="ca-container">
+      <style>
+        .ca-cs-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px;}
+        @media (max-width:1024px){.ca-cs-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+        @media (max-width:640px){.ca-cs-grid{grid-template-columns:1fr;}}
+        .ca-cs-card{background:#fff; border:1px solid rgba(11,18,32,.10); border-radius:18px; overflow:hidden; display:flex; flex-direction:column;}
+        .ca-cs-media{position:relative; aspect-ratio:16/11; background:#0b1220; overflow:hidden;}
+        .ca-cs-media img{width:100%; height:100%; object-fit:cover; display:block; position:absolute; inset:0; opacity:0; transition:opacity .35s;}
+        .ca-cs-media img.is-on{opacity:1;}
+        .ca-cs-media .ca-cs-dots{position:absolute; right:14px; bottom:12px; display:flex; gap:6px;}
+        .ca-cs-media .ca-cs-dots button{width:9px; height:9px; border-radius:50%; border:0; background:rgba(255,255,255,.45); cursor:pointer; padding:0;}
+        .ca-cs-media .ca-cs-dots button.is-on{background:#fff;}
+        .ca-cs-media .ca-cs-nav{position:absolute; top:50%; transform:translateY(-50%); width:34px; height:34px; border-radius:50%; border:0; background:rgba(0,0,0,.35); color:#fff; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:13px;}
+        .ca-cs-media .ca-cs-nav.prev{left:12px;} .ca-cs-media .ca-cs-nav.next{right:12px;}
+        .ca-cs-badge{position:absolute; left:14px; top:14px; font-size:11px; font-weight:800; letter-spacing:.06em; padding:6px 10px; border-radius:999px; background:rgba(11,18,32,.78); color:#fff; backdrop-filter:blur(4px); z-index:1;}
+        .ca-cs-body{padding:22px 24px 24px; display:flex; flex-direction:column; gap:8px; flex:1;}
+        .ca-cs-tag{font-size:12px; font-weight:700; color:#2563eb; letter-spacing:.04em;}
+        .ca-cs-name{font-size:19px; font-weight:800; letter-spacing:-.01em; line-height:1.3; margin:0;}
+        .ca-cs-desc{font-size:14.5px; line-height:1.65; color:rgba(11,18,32,.72); margin:0;}
+        .ca-cs-spec{margin-top:auto; padding-top:10px; border-top:1px solid rgba(11,18,32,.08); font-size:13px; color:rgba(11,18,32,.6); display:flex; flex-wrap:wrap; gap:6px 14px;}
+        .ca-cs-spec b{color:#0b1220; font-weight:700;}
+      </style>
       <div class="ca-section-head">
         <span class="ca-eyebrow">Customer Stories</span>
-        <h2 class="ca-h2" id="cases-heading">고객의 하루가 어떻게 바뀌었을까요</h2>
-        <p class="ca-lead ca-mt-md">E-CV1과 함께 일하는 고객들의 현장 이야기를 소개합니다.</p>
+        <h2 class="ca-h2" id="cases-heading">E-CV1과 함께 일하는 고객들</h2>
+        <p class="ca-lead ca-mt-md">프랜차이즈 식자재 배송부터 급식·유통, 세탁 픽업까지 — 실제 고객의 E-CV1은 각자의 브랜드를 입고 도심을 달리고 있습니다.</p>
       </div>
-      <div class="ca-grid-3">
-        <article class="ca-case-card">
-          <div class="ca-case-media">
-            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-side-boxes.jpg" alt="도심 배송 사업자가 활용하는 센트로에이케이 E-CV1 2VAN 스노우 화이트 실제 차량">
+      <div class="ca-cs-grid ca-mt-lg">
+
+        <article class="ca-cs-card">
+          <div class="ca-cs-media" data-cs-gallery>
+            <span class="ca-cs-badge">BLACK EDITION</span>
+            <img class="is-on" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-dosmas-1.jpg" alt="도스마스 멕시칸 그릴 브랜드 랩핑을 적용한 E-CV1 2VAN Black Edition 측면" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-dosmas-3.jpg" alt="도스마스 E-CV1 전면, 보닛 로고" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-dosmas-2.jpg" alt="도스마스 E-CV1 후면, QR 코드와 가맹 문의 안내" loading="lazy">
           </div>
-          <div class="ca-case-body">
-            <p class="ca-case-quote">"유류비가 줄고, 적재 공간은 오히려 넉넉해졌습니다."</p>
-            <div class="ca-case-meta"><strong>배송·물류</strong> · E-CV1 2VAN 이용 고객</div>
-          </div>
-        </article>
-        <article class="ca-case-card">
-          <div class="ca-case-media">
-            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-bridge.jpg?v=2" alt="소상공인이 매장 배송에 활용하는 센트로에이케이 E-CV1 베이직 실버 실제 차량">
-          </div>
-          <div class="ca-case-body">
-            <p class="ca-case-quote">"매장과 거래처를 오가는 이동 비용이 눈에 띄게 줄었어요."</p>
-            <div class="ca-case-meta"><strong>소상공인</strong> · E-CV1 2VAN 이용 고객</div>
+          <div class="ca-cs-body">
+            <span class="ca-cs-tag">F&amp;B 프랜차이즈 · 식자재 배송</span>
+            <h3 class="ca-cs-name">도스마스 (DOS MAS) 멕시칸 그릴</h3>
+            <p class="ca-cs-desc">부리또 프랜차이즈 도스마스의 업무 차량. 블랙 펄 차체 위에 브랜드 그래픽을 풀 랩핑해 매장 사이를 오가는 동안 그 자체로 움직이는 광고판이 됩니다.</p>
+            <div class="ca-cs-spec"><span>모델 <b>E-CV1 2VAN Black Edition</b></span><span>활용 <b>식자재 배송 · 브랜드 홍보</b></span></div>
           </div>
         </article>
-        <article class="ca-case-card">
-          <div class="ca-case-media">
-            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/5van_06_driver_seat_view.jpg" alt="시설 관리 기사가 활용하는 센트로에이케이 E-CV1 5VAN 실제 차량">
+
+        <article class="ca-cs-card">
+          <div class="ca-cs-media" data-cs-gallery>
+            <span class="ca-cs-badge">2VAN</span>
+            <img class="is-on" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-paldo-3.jpg" alt="팔도 무한푸드 광고를 적용한 E-CV1 2VAN 다크 그레이 펄 측면" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-paldo-1.jpg" alt="팔도 무한푸드 E-CV1 후측면" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-paldo-2.jpg" alt="팔도 무한푸드 E-CV1 후면" loading="lazy">
           </div>
-          <div class="ca-case-body">
-            <p class="ca-case-quote">"직원과 장비를 함께 옮길 수 있어 현장 대응이 빨라졌습니다."</p>
-            <div class="ca-case-meta"><strong>출장·시설관리</strong> · E-CV1 5VAN 이용 고객</div>
+          <div class="ca-cs-body">
+            <span class="ca-cs-tag">단체급식 · 도시락 · 야채과일 유통</span>
+            <h3 class="ca-cs-name">팔도 무한푸드 · 팔도야채과일</h3>
+            <p class="ca-cs-desc">단체급식·도시락과 야채·과일 유통을 함께 하는 사업자의 배송 차량. 최대 700kg 적재와 낮은 유지비로 매일 반복되는 새벽 배송 루트를 소화합니다.</p>
+            <div class="ca-cs-spec"><span>모델 <b>E-CV1 2VAN 다크 그레이 펄</b></span><span>활용 <b>급식·식자재 배송</b></span></div>
           </div>
         </article>
+
+        <article class="ca-cs-card">
+          <div class="ca-cs-media" data-cs-gallery>
+            <span class="ca-cs-badge">2VAN</span>
+            <img class="is-on" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-myungclean-1.jpg" alt="명크린 × 매일새옷 세탁 서비스 랩핑을 적용한 E-CV1 2VAN 스노우 화이트 측면" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-myungclean-2.jpg" alt="명크린 E-CV1 전면, 보닛 캐릭터 로고" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-myungclean-3.jpg" alt="명크린 E-CV1 후측면" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-myungclean-5.jpg" alt="명크린 E-CV1 전측면" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/customer-myungclean-4.jpg" alt="명크린 E-CV1 후면, 문 앞 세탁 서비스 안내" loading="lazy">
+          </div>
+          <div class="ca-cs-body">
+            <span class="ca-cs-tag">생활 서비스 · 세탁 픽업&amp;배송</span>
+            <h3 class="ca-cs-name">명크린 × 매일새옷 (부산)</h3>
+            <p class="ca-cs-desc">부산의 세탁 전문점 명크린과 세탁 앱 매일새옷이 함께 운영하는 문 앞 세탁 서비스 차량. 아파트 단지를 조용히 오가는 전기밴의 정숙성이 생활 서비스에 잘 맞습니다.</p>
+            <div class="ca-cs-spec"><span>모델 <b>E-CV1 2VAN 스노우 화이트</b></span><span>활용 <b>세탁물 수거·배송</b></span></div>
+          </div>
+        </article>
+
       </div>
+      <p class="ca-card-text ca-text-center ca-mt-lg" style="color:rgba(11,18,32,.5);">E-CV1을 업무에 활용 중인 고객사의 차량 사진을 보내주시면 고객 스토리에 소개해 드립니다. &nbsp;<a href="mailto:admin@centroak.com" style="color:#2563eb; font-weight:700;">admin@centroak.com</a></p>
     </div>
   </section>
+  <script>
+  (function(){
+    document.querySelectorAll('[data-cs-gallery]').forEach(function(g){
+      var imgs=g.querySelectorAll('img'); if(imgs.length<2) return;
+      var i=0, dots=document.createElement('div'); dots.className='ca-cs-dots';
+      imgs.forEach(function(_,k){ var d=document.createElement('button'); d.type='button'; d.setAttribute('aria-label','사진 '+(k+1)); if(k===0) d.classList.add('is-on'); d.addEventListener('click',function(){go(k);}); dots.appendChild(d); });
+      function go(k){ i=(k+imgs.length)%imgs.length; imgs.forEach(function(im,idx){im.classList.toggle('is-on',idx===i);}); dots.querySelectorAll('button').forEach(function(d,idx){d.classList.toggle('is-on',idx===i);}); }
+      var prev=document.createElement('button'); prev.type='button'; prev.className='ca-cs-nav prev'; prev.setAttribute('aria-label','이전 사진'); prev.innerHTML='<i class="fa-solid fa-chevron-left"></i>'; prev.addEventListener('click',function(){go(i-1);});
+      var next=document.createElement('button'); next.type='button'; next.className='ca-cs-nav next'; next.setAttribute('aria-label','다음 사진'); next.innerHTML='<i class="fa-solid fa-chevron-right"></i>'; next.addEventListener('click',function(){go(i+1);});
+      g.appendChild(prev); g.appendChild(next); g.appendChild(dots);
+    });
+  })();
+  </script>
 
   <!-- ============ 9. CATALOG DOWNLOAD ============ -->
   <section class="ca-section" aria-labelledby="catalog-heading">
