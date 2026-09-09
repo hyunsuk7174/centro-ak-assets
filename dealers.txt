@@ -1,0 +1,509 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<style>
+/* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
+#doz_header_wrap, #doz_footer_wrap { display:none !important; }
+#doz_content_wrap, .inline_page { padding:0 !important; margin:0 !important; }
+body.ca-has-stickybar { padding-bottom:64px; }
+</style>
+
+<a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
+<div class="ca-root">
+
+<header class="ca-header is-scrolled" id="ca-header">
+  <div class="ca-container">
+    <a href="/" class="ca-logo" aria-label="센트로에이케이 홈으로 이동">
+      <img class="centro-header-logo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고">
+    </a>
+    <nav class="ca-nav" aria-label="주 메뉴">
+      <div class="ca-nav-item">
+        <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+        <div class="ca-dropdown"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+      </div>
+      <div class="ca-nav-item"><a href="/price" class="ca-nav-link">Price</a></div>
+      <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
+      <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
+      <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
+      <div class="ca-nav-item"><a href="/dealers" class="ca-nav-link">Dealers</a></div>
+      <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
+      <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+    </nav>
+    <div class="ca-header-actions">
+      <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
+      <button class="ca-menu-toggle" aria-label="메뉴 열기" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="ca-mobile-nav" aria-label="모바일 메뉴">
+  <div class="ca-mobile-group">
+    <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
+    <div class="ca-mobile-sub"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+  </div>
+  <a href="/price" class="ca-mobile-link">Price</a>
+  <a href="/technology" class="ca-mobile-link">Technology</a>
+  <a href="/business" class="ca-mobile-link">Business Solutions</a>
+  <a href="/purchase" class="ca-mobile-link">Purchase</a>
+  <a href="/dealers" class="ca-mobile-link">Dealers</a>
+  <a href="/service" class="ca-mobile-link">Service</a>
+  <a href="/brand" class="ca-mobile-link">Brand</a>
+  <div class="ca-mobile-cta">
+    <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
+    <a href="/dealers#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
+    <a href="/service" class="ca-btn ca-btn--ghost ca-btn--block">서비스센터 찾기</a>
+  </div>
+</nav>
+
+<main id="ca-main">
+
+  <style>
+    .ca-dl-filter{display:flex; flex-wrap:wrap; gap:8px; justify-content:center;}
+    .ca-dl-filter button{border:1px solid rgba(11,18,32,.14); background:#fff; color:rgba(11,18,32,.75); font:inherit; font-size:14px; font-weight:600; padding:10px 18px; border-radius:999px; cursor:pointer; transition:all .18s;}
+    .ca-dl-filter button span{font-weight:500; color:rgba(11,18,32,.45); margin-left:4px; font-size:12.5px;}
+    .ca-dl-filter button:hover{border-color:rgba(11,18,32,.35);}
+    .ca-dl-filter button.is-active{background:#0b1220; border-color:#0b1220; color:#fff;}
+    .ca-dl-filter button.is-active span{color:rgba(255,255,255,.6);}
+    .ca-dl-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px;}
+    @media (max-width:860px){.ca-dl-grid{grid-template-columns:1fr;}}
+    .ca-dl-card{background:#fff; border:1px solid rgba(11,18,32,.10); border-radius:18px; overflow:hidden; display:flex; flex-direction:column;}
+    .ca-dl-card[hidden]{display:none;}
+    .ca-dl-media{position:relative; aspect-ratio:16/10; background:#0b1220; overflow:hidden;}
+    .ca-dl-media img{width:100%; height:100%; object-fit:cover; display:block; position:absolute; inset:0; opacity:0; transition:opacity .35s;}
+    .ca-dl-media img.is-on{opacity:1;}
+    .ca-dl-media .ca-dl-dots{position:absolute; right:14px; bottom:12px; display:flex; gap:6px;}
+    .ca-dl-media .ca-dl-dots button{width:9px; height:9px; border-radius:50%; border:0; background:rgba(255,255,255,.45); cursor:pointer; padding:0;}
+    .ca-dl-media .ca-dl-dots button.is-on{background:#fff;}
+    .ca-dl-media .ca-dl-nav{position:absolute; top:50%; transform:translateY(-50%); width:34px; height:34px; border-radius:50%; border:0; background:rgba(0,0,0,.35); color:#fff; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:13px;}
+    .ca-dl-media .ca-dl-nav.prev{left:12px;} .ca-dl-media .ca-dl-nav.next{right:12px;}
+    .ca-dl-badges{position:absolute; left:14px; top:14px; display:flex; gap:6px; flex-wrap:wrap;}
+    .ca-dl-badge{font-size:11px; font-weight:800; letter-spacing:.06em; padding:6px 10px; border-radius:999px; background:rgba(11,18,32,.78); color:#fff; backdrop-filter:blur(4px);}
+    .ca-dl-badge--hq{background:#2563eb;} .ca-dl-badge--drive{background:#d4b46a; color:#1a1400;} .ca-dl-badge--soon{background:rgba(255,255,255,.9); color:#0b1220;}
+    .ca-dl-placeholder{position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; color:rgba(255,255,255,.55); background:radial-gradient(120% 80% at 50% 0%, #1b2436 0%, #0b1220 70%); font-size:13px; letter-spacing:.06em;}
+    .ca-dl-placeholder i{font-size:34px; color:rgba(255,255,255,.35);}
+    .ca-dl-body{padding:24px 26px 26px; display:flex; flex-direction:column; gap:14px; flex:1;}
+    .ca-dl-head{display:flex; align-items:flex-start; justify-content:space-between; gap:12px;}
+    .ca-dl-name{font-size:20px; font-weight:800; letter-spacing:-.01em; line-height:1.3; margin:0;}
+    .ca-dl-region{flex:0 0 auto; font-size:12px; font-weight:700; color:#2563eb; background:rgba(37,99,235,.08); padding:6px 10px; border-radius:8px; white-space:nowrap;}
+    .ca-dl-rows{display:grid; grid-template-columns:20px 1fr; gap:8px 10px; font-size:14.5px; line-height:1.6; color:rgba(11,18,32,.78);}
+    .ca-dl-rows i{color:rgba(11,18,32,.4); font-size:13px; margin-top:5px; text-align:center;}
+    .ca-dl-rows a{color:inherit; text-decoration:none; font-weight:600;}
+    .ca-dl-rows a:hover{color:#2563eb;}
+    .ca-dl-cars{border-top:1px solid rgba(11,18,32,.08); padding-top:14px;}
+    .ca-dl-cars-title{font-size:12px; font-weight:800; letter-spacing:.1em; color:rgba(11,18,32,.5); margin-bottom:8px;}
+    .ca-dl-car{display:flex; align-items:center; justify-content:space-between; gap:10px; padding:8px 0; border-bottom:1px dashed rgba(11,18,32,.08); font-size:14px;}
+    .ca-dl-car:last-child{border-bottom:0;}
+    .ca-dl-car strong{font-weight:700;}
+    .ca-dl-car small{color:rgba(11,18,32,.5); margin-left:6px; font-size:12.5px;}
+    .ca-dl-status{font-size:11.5px; font-weight:800; padding:4px 9px; border-radius:999px; white-space:nowrap;}
+    .ca-dl-status--on{background:rgba(16,185,129,.12); color:#047857;}
+    .ca-dl-status--drive{background:rgba(212,180,106,.22); color:#7a5a12;}
+    .ca-dl-status--soon{background:rgba(11,18,32,.06); color:rgba(11,18,32,.6);}
+    .ca-dl-actions{display:flex; gap:8px; flex-wrap:wrap; margin-top:auto; padding-top:6px;}
+    .ca-dl-actions .ca-btn{flex:1 1 auto; justify-content:center;}
+    .ca-dl-empty{text-align:center; padding:40px 0; color:rgba(11,18,32,.5);}
+    .ca-dl-stat{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px;}
+    .ca-dl-stat div{background:#fff; border:1px solid rgba(11,18,32,.10); border-radius:14px; padding:18px 20px;}
+    .ca-dl-stat b{display:block; font-size:28px; font-weight:800; letter-spacing:-.02em; line-height:1.1;}
+    .ca-dl-stat span{font-size:13px; color:rgba(11,18,32,.55);}
+  </style>
+
+  <!-- PAGE HERO -->
+  <section class="ca-page-hero">
+    <div class="ca-container">
+      <nav class="ca-breadcrumb" aria-label="현재 위치">
+        <a href="/">홈</a><span>/</span><span>딜러 안내</span>
+      </nav>
+      <div class="ca-page-hero-grid">
+        <div class="ca-page-hero-text">
+          <span class="ca-eyebrow">Dealer Network</span>
+          <h1 class="ca-h1">전국 딜러 · 전시장 안내</h1>
+          <p class="ca-lead ca-mt-md" style="max-width:620px;">E-CV1을 직접 보고, 타보고, 상담받을 수 있는 센트로에이케이 공식 딜러입니다. 시승차 운영 매장은 전화 예약 후 시승이 가능하며, 전시차 현황은 매장별로 안내드립니다.</p>
+          <div class="ca-hero-cta ca-mt-lg">
+            <a href="#dealer-list" class="ca-btn ca-btn--primary"><i class="fa-solid fa-location-dot"></i>&nbsp;가까운 전시장 찾기</a>
+            <a href="/purchase#consult" class="ca-btn ca-btn--ghost">견적 · 시승 상담</a>
+          </div>
+        </div>
+        <div class="ca-page-hero-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-busan-1.jpg" alt="센트로에이케이 부산·경남 지역본부 전시장" loading="lazy">
+          <span class="ca-page-hero-media-tag">부산 · 경남 지역본부 (xEV Auto Shop)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 딜러 목록 -->
+  <section class="ca-section" id="dealer-list" aria-labelledby="dealers-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-text-center">
+        <span class="ca-eyebrow">Showrooms</span>
+        <h2 class="ca-h2" id="dealers-heading">지역별 전시장</h2>
+        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">지역을 선택하면 해당 권역의 전시장만 표시됩니다.</p>
+      </div>
+
+      <div class="ca-dl-stat ca-mt-lg">
+        <div><b>9</b><span>전국 전시장 · 딜러</span></div>
+        <div><b>6</b><span>권역 (수도권 · 강원 · 충청 · 영남 · 호남 · 제주)</span></div>
+        <div><b>3</b><span>시승차 운영 매장</span></div>
+        <div><b>1</b><span>지역본부 (부산 · 경남)</span></div>
+      </div>
+
+      <div class="ca-dl-filter ca-mt-lg" role="tablist" aria-label="지역 선택">
+        <button class="is-active" data-region="all">전체<span>9</span></button>
+        <button data-region="capital">수도권<span>3</span></button>
+        <button data-region="gangwon">강원<span>1</span></button>
+        <button data-region="chungcheong">충청<span>1</span></button>
+        <button data-region="yeongnam">영남<span>2</span></button>
+        <button data-region="honam">호남<span>1</span></button>
+        <button data-region="jeju">제주<span>1</span></button>
+      </div>
+
+      <div class="ca-dl-grid ca-mt-lg" id="ca-dl-grid">
+
+        <!-- 부산·경남 지역본부 -->
+        <article class="ca-dl-card" data-region="yeongnam">
+          <div class="ca-dl-media" data-gallery>
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-busan-1.jpg" alt="부산·경남 지역본부 xEV Auto Shop 외관" class="is-on" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-busan-2.jpg" alt="부산·경남 지역본부 정비 공간과 전시차" loading="lazy">
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--hq">지역본부</span><span class="ca-dl-badge ca-dl-badge--drive">시승차 운영</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">부산 · 경남 지역본부<br><span style="font-size:14px; font-weight:600; color:rgba(11,18,32,.55);">xEV Auto Shop</span></h3><span class="ca-dl-region">부산 · 경남 전역</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>부산 강서구 화전산단4로 31 거양프라자</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:051-941-6135">051-941-6135</a> · <a href="tel:010-2217-8506">010-2217-8506</a></div>
+              <i class="fa-regular fa-clock"></i><div>평일 09:00~18:00 · 토 예약제 운영 · 일·공휴일 휴무</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 · 시승차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 2VAN</strong><small>화물밴 · 2인승</small></div><span class="ca-dl-status ca-dl-status--drive">시승 · 전시</span></div>
+              <div class="ca-dl-car"><div><strong>E-CV1 5VAN</strong><small>멀티밴 · 5인승</small></div><span class="ca-dl-status ca-dl-status--drive">시승 · 전시</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:051-941-6135" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/부산 강서구 화전산단4로 31" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/purchase#consult" class="ca-btn ca-btn--ghost ca-btn--sm">견적 상담</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 미래전기차 서울 강동점 -->
+        <article class="ca-dl-card" data-region="capital">
+          <div class="ca-dl-media" data-gallery>
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-mirae-gangdong-1.jpg" alt="미래전기차 서울 강동점 외관" class="is-on" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-mirae-gangdong-2.jpg" alt="미래전기차 서울 강동점 앞 E-CV1 2VAN" loading="lazy">
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--soon">전시차 입고 예정</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">미래전기차 서울 강동점</h3><span class="ca-dl-region">서울 강동구</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>서울 강동구 올림픽로 572 103호</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:02-478-1414">02-478-1414</a></div>
+              <i class="fa-regular fa-clock"></i><div>평일 09:00~18:00 · 토·일 10:00~17:00</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 전시차</strong><small>모델 확정 후 안내</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:02-478-1414" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/서울 강동구 올림픽로 572" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/purchase#consult" class="ca-btn ca-btn--ghost ca-btn--sm">견적 상담</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 미래전기차 일산점 -->
+        <article class="ca-dl-card" data-region="capital">
+          <div class="ca-dl-media" data-gallery>
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-mirae-ilsan-1.jpg" alt="미래전기차 일산점 외관" class="is-on" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-mirae-ilsan-2.jpg" alt="미래전기차 일산점 E-CV1 ZONE 실내 전시" loading="lazy">
+            <div class="ca-dl-badges"><span class="ca-dl-badge">E-CV1 ZONE 운영</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">미래전기차 일산점</h3><span class="ca-dl-region">경기 고양시</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>경기 고양시 일산서구 송산로 528 101~105호</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:0507-139-3290">0507-139-3290</a></div>
+              <i class="fa-regular fa-clock"></i><div>매일 09:00~19:30</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 5VAN</strong><small>스노우 화이트</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+              <div class="ca-dl-car"><div><strong>E-CV1 5VAN</strong><small>블랙 (BLACK EDITION)</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:0507-139-3290" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/경기 고양시 일산서구 송산로 528" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/purchase#consult" class="ca-btn ca-btn--ghost ca-btn--sm">견적 상담</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 아이엠EV -->
+        <article class="ca-dl-card" data-region="capital">
+          <div class="ca-dl-media" data-gallery>
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-iamev-1.jpg" alt="아이엠EV 부천 전시장 앞 E-CV1 2VAN" class="is-on" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-iamev-2.jpg" alt="아이엠EV 부천 전시장 정면" loading="lazy">
+            <div class="ca-dl-badges"><span class="ca-dl-badge">24시간 영업</span><span class="ca-dl-badge ca-dl-badge--soon">전시차 입고 예정</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">아이엠EV</h3><span class="ca-dl-region">경기 부천시</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>경기 부천시 원미구 길주로 428 SJ로얄팰리스 101호</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:010-5122-5282">010-5122-5282</a></div>
+              <i class="fa-regular fa-clock"></i><div>연중무휴 · 24시간 영업</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 전시차</strong><small>모델 확정 후 안내</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:010-5122-5282" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/경기 부천시 원미구 길주로 428" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/purchase#consult" class="ca-btn ca-btn--ghost ca-btn--sm">견적 상담</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 정선 사북전시장 -->
+        <article class="ca-dl-card" data-region="gangwon">
+          <div class="ca-dl-media" data-gallery>
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-jeongseon-1.jpg" alt="센트로에이케이 정선 사북전시장" class="is-on" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-jeongseon-2.jpg" alt="센트로에이케이 지정정비센터 (Victory Auto)" loading="lazy">
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--hq">직영 전시장</span><span class="ca-dl-badge">지정정비센터</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">센트로에이케이 정선 사북전시장</h3><span class="ca-dl-region">강원 정선</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>강원 정선군 사북읍 소금강로 3574</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:010-4109-4291">010-4109-4291</a></div>
+              <i class="fa-regular fa-clock"></i><div>평일 09:00~18:00 · 토 10:00~15:00 (유선 예약제) · 일·공휴일 휴무</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 5VAN</strong><small>스노우 화이트</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:010-4109-4291" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/강원 정선군 사북읍 소금강로 3574" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/service" class="ca-btn ca-btn--ghost ca-btn--sm">정비 안내</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 아우토컴퍼니 천안전시장 -->
+        <article class="ca-dl-card" data-region="chungcheong">
+          <div class="ca-dl-media" data-gallery>
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-auto-cheonan-1.jpg" alt="아우토컴퍼니 천안전시장 외관" class="is-on" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-auto-cheonan-2.jpg" alt="아우토컴퍼니 천안전시장 정면" loading="lazy">
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--soon">전시차 입고 예정</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">아우토컴퍼니 천안전시장</h3><span class="ca-dl-region">충남 천안</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>충남 천안시 동남구 충절로 387 1층</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:0507-1336-7311">0507-1336-7311</a></div>
+              <i class="fa-regular fa-clock"></i><div>연중무휴 · 월~일 09:00~18:00</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 전시차</strong><small>모델 확정 후 안내</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:0507-1336-7311" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/충남 천안시 동남구 충절로 387" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/purchase#consult" class="ca-btn ca-btn--ghost ca-btn--sm">견적 상담</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 지엔제이모빌리티 -->
+        <article class="ca-dl-card" data-region="yeongnam">
+          <div class="ca-dl-media">
+            <div class="ca-dl-placeholder"><i class="fa-solid fa-store"></i><span>전시장 사진 준비 중</span></div>
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--drive">시승차 운영</span><span class="ca-dl-badge ca-dl-badge--soon">오픈 준비 중</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">지엔제이모빌리티</h3><span class="ca-dl-region">대구 달성군</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>대구 달성군 다사읍 매곡로14길 8, 112호</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:010-8716-7816">010-8716-7816</a></div>
+              <i class="fa-regular fa-clock"></i><div>월~금 09:00~18:00 · 주말 예약제 운영 (유선 문의)</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 · 시승차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 2VAN</strong><small>다크 그레이 펄 · 시승차 겸 전시차</small></div><span class="ca-dl-status ca-dl-status--soon">전시장 오픈 후 입고</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:010-8716-7816" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/대구 달성군 다사읍 매곡로14길 8" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/purchase#consult" class="ca-btn ca-btn--ghost ca-btn--sm">견적 상담</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 셀리안츠 -->
+        <article class="ca-dl-card" data-region="honam">
+          <div class="ca-dl-media" data-gallery>
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-selliance-1.jpg" alt="셀리안츠 광주 시승차 E-CV1 2VAN" class="is-on" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-selliance-2.jpg" alt="셀리안츠 광주 빛그린산단 시승차" loading="lazy">
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--drive">시승차 운영</span><span class="ca-dl-badge ca-dl-badge--soon">오픈 준비 중</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">셀리안츠</h3><span class="ca-dl-region">광주 광산구 · 남구</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>광주 광산구 빛그린16로 27</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:010-4134-5861">010-4134-5861</a> · <a href="tel:010-4050-8472">010-4050-8472</a></div>
+              <i class="fa-regular fa-clock"></i><div>월~금 09:00~18:00 · 주말 예약제 운영 (유선 문의)</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 · 시승차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 2VAN</strong><small>스노우 화이트 · 시승차 겸 전시차</small></div><span class="ca-dl-status ca-dl-status--soon">전시장 오픈 후 입고</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:010-4134-5861" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/광주 광산구 빛그린16로 27" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/purchase#consult" class="ca-btn ca-btn--ghost ca-btn--sm">견적 상담</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 아우토컴퍼니 제주점 -->
+        <article class="ca-dl-card" data-region="jeju">
+          <div class="ca-dl-media" data-gallery>
+            <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-auto-jeju-1.jpg" alt="아우토컴퍼니 제주점 외관" class="is-on" loading="lazy">
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--soon">전시차 입고 예정</span></div>
+          </div>
+          <div class="ca-dl-body">
+            <div class="ca-dl-head"><h3 class="ca-dl-name">아우토컴퍼니 제주점</h3><span class="ca-dl-region">제주 제주시</span></div>
+            <div class="ca-dl-rows">
+              <i class="fa-solid fa-location-dot"></i><div>제주 제주시 오광로 164</div>
+              <i class="fa-solid fa-phone"></i><div><a href="tel:0507-1397-7311">0507-1397-7311</a></div>
+              <i class="fa-regular fa-clock"></i><div>월~일 10:00~18:00</div>
+            </div>
+            <div class="ca-dl-cars">
+              <div class="ca-dl-cars-title">전시차 현황</div>
+              <div class="ca-dl-car"><div><strong>E-CV1 전시차</strong><small>모델 확정 후 안내</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+            </div>
+            <div class="ca-dl-actions">
+              <a href="tel:0507-1397-7311" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
+              <a href="https://map.kakao.com/link/search/제주 제주시 오광로 164" target="_blank" rel="noopener" class="ca-btn ca-btn--ghost ca-btn--sm"><i class="fa-solid fa-map"></i>&nbsp;길찾기</a>
+              <a href="/purchase#consult" class="ca-btn ca-btn--ghost ca-btn--sm">견적 상담</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <div class="ca-dl-empty" id="ca-dl-empty" hidden>해당 지역에 등록된 전시장이 아직 없습니다. 본사로 문의해 주세요.</div>
+
+      <p class="ca-card-text ca-mt-md" style="color:rgba(11,18,32,.55); font-size:13.5px;">전시차·시승차 현황은 입고 일정에 따라 달라질 수 있습니다. 방문 전 매장에 전화로 확인해 주세요. 시승은 운전면허 소지자에 한해 예약 후 진행됩니다.</p>
+    </div>
+  </section>
+
+  <!-- 시승 안내 -->
+  <section class="ca-section ca-section--gray" id="testdrive" aria-labelledby="testdrive-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-text-center">
+        <span class="ca-eyebrow">Test Drive</span>
+        <h2 class="ca-h2" id="testdrive-heading">시승차 운영 매장</h2>
+        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">아래 매장에서는 E-CV1 시승차를 운영합니다. 전화로 예약하시면 원하시는 시간에 직접 타보실 수 있습니다.</p>
+      </div>
+      <div class="ca-grid-3 ca-mt-lg">
+        <div class="ca-card" style="background:#fff; border:1px solid rgba(11,18,32,.10);">
+          <span class="ca-eyebrow">부산 · 경남</span>
+          <h3 class="ca-card-title" style="margin-top:6px;">부산 · 경남 지역본부</h3>
+          <p class="ca-card-text">E-CV1 2VAN · 5VAN 시승차 운영 (전시 겸용)</p>
+          <a href="tel:051-941-6135" class="ca-btn ca-btn--outline ca-btn--sm" style="margin-top:12px;"><i class="fa-solid fa-phone"></i>&nbsp;051-941-6135</a>
+        </div>
+        <div class="ca-card" style="background:#fff; border:1px solid rgba(11,18,32,.10);">
+          <span class="ca-eyebrow">대구</span>
+          <h3 class="ca-card-title" style="margin-top:6px;">지엔제이모빌리티</h3>
+          <p class="ca-card-text">E-CV1 2VAN 다크 그레이 펄 시승차 · 전시장 오픈 후 운영</p>
+          <a href="tel:010-8716-7816" class="ca-btn ca-btn--outline ca-btn--sm" style="margin-top:12px;"><i class="fa-solid fa-phone"></i>&nbsp;010-8716-7816</a>
+        </div>
+        <div class="ca-card" style="background:#fff; border:1px solid rgba(11,18,32,.10);">
+          <span class="ca-eyebrow">광주</span>
+          <h3 class="ca-card-title" style="margin-top:6px;">셀리안츠</h3>
+          <p class="ca-card-text">E-CV1 2VAN 스노우 화이트 시승차 · 전시장 오픈 후 운영</p>
+          <a href="tel:010-4134-5861" class="ca-btn ca-btn--outline ca-btn--sm" style="margin-top:12px;"><i class="fa-solid fa-phone"></i>&nbsp;010-4134-5861</a>
+        </div>
+      </div>
+
+      <div class="ca-mt-lg" style="background:#0b1220; color:#fff; border-radius:18px; padding:30px 32px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:18px;">
+        <div>
+          <div style="font-size:12px; font-weight:800; letter-spacing:.14em; color:rgba(255,255,255,.55); margin-bottom:6px;">CENTRO AK 본사</div>
+          <div style="font-size:19px; font-weight:700; line-height:1.4;">가까운 전시장이 없거나 법인·플릿 도입을 검토 중이시면 본사로 문의해 주세요.</div>
+          <div style="font-size:14px; color:rgba(255,255,255,.6); margin-top:6px;">신규 딜러 · 전시장 개설 문의도 함께 받고 있습니다.</div>
+        </div>
+        <div class="ca-hero-cta" style="margin:0;">
+          <a href="tel:070-8657-0905" class="ca-btn ca-btn--accent"><i class="fa-solid fa-phone"></i>&nbsp;070-8657-0905</a>
+          <a href="/purchase#consult" class="ca-btn ca-btn--outline" style="color:#fff; border-color:rgba(255,255,255,.45);">상담 신청</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+  (function(){
+    var btns=document.querySelectorAll('.ca-dl-filter button');
+    var cards=document.querySelectorAll('.ca-dl-card');
+    var empty=document.getElementById('ca-dl-empty');
+    btns.forEach(function(b){ b.addEventListener('click',function(){
+      btns.forEach(function(x){x.classList.remove('is-active');}); b.classList.add('is-active');
+      var r=b.getAttribute('data-region'); var n=0;
+      cards.forEach(function(c){ var show=(r==='all'||c.getAttribute('data-region')===r); c.hidden=!show; if(show) n++; });
+      empty.hidden = n>0;
+    });});
+    document.querySelectorAll('[data-gallery]').forEach(function(g){
+      var imgs=g.querySelectorAll('img'); if(imgs.length<2) return;
+      var i=0, dots=document.createElement('div'); dots.className='ca-dl-dots';
+      imgs.forEach(function(_,k){ var d=document.createElement('button'); d.type='button'; d.setAttribute('aria-label','사진 '+(k+1)); if(k===0) d.classList.add('is-on'); d.addEventListener('click',function(){go(k);}); dots.appendChild(d); });
+      function go(k){ i=(k+imgs.length)%imgs.length; imgs.forEach(function(im,idx){im.classList.toggle('is-on',idx===i);}); dots.querySelectorAll('button').forEach(function(d,idx){d.classList.toggle('is-on',idx===i);}); }
+      var prev=document.createElement('button'); prev.type='button'; prev.className='ca-dl-nav prev'; prev.setAttribute('aria-label','이전 사진'); prev.innerHTML='<i class="fa-solid fa-chevron-left"></i>'; prev.addEventListener('click',function(){go(i-1);});
+      var next=document.createElement('button'); next.type='button'; next.className='ca-dl-nav next'; next.setAttribute('aria-label','다음 사진'); next.innerHTML='<i class="fa-solid fa-chevron-right"></i>'; next.addEventListener('click',function(){go(i+1);});
+      g.appendChild(prev); g.appendChild(next); g.appendChild(dots);
+    });
+  })();
+  </script>
+
+</main>
+
+
+<footer class="ca-footer">
+  <div class="ca-container">
+    <div class="ca-footer-top">
+      <div>
+        <div class="ca-footer-brand"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고"></div>
+        <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
+        <div class="ca-footer-social"><a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a></div>
+      </div>
+      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/price">가격표</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Company</h4><ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/dealers">딜러·전시장 찾기</a></li><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:070-8657-0905">070-8657-0905</a></li></ul></div>
+    </div>
+    <div class="ca-footer-corp">
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 황현석 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
+      대표전화: 070-8657-0905 &nbsp;|&nbsp; 이메일: admin@centroak.com</p>
+    </div>
+    <div class="ca-footer-bottom">
+      <div class="ca-footer-legal"><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">영상정보처리기기 운영방침</a></div>
+      <span>&copy; <span id="ca-year"></span> CENTRO AK Co., Ltd. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
+  <a href="tel:070-8657-0905" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="/purchase#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
+  <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
+<script>
+document.body.classList.add('ca-has-stickybar');
+</script>
