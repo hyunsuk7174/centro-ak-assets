@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css?v=20260909">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option.css">
 <style>
 /* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
@@ -104,7 +104,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head">
         <span class="ca-eyebrow">Real Photos</span>
         <h2 class="ca-h2" id="gallery-heading">4가지 색상, 실제 촬영 사진으로 확인하세요</h2>
-        <p class="ca-lead ca-mt-md">Black Edition · 스노우 화이트 · 다크 그레이 펄 · 베이직 실버 4가지 색상 모두 개별 촬영한 실차 사진입니다.</p>
+        <p class="ca-lead ca-mt-md">Black Edition · 스노우 화이트 · 다크 그레이 펄 · 베이직 실버<br>4가지 색상을 모두 개별 촬영한 실차 사진입니다.</p>
       </div>
 
       <h3 class="ca-gallery-group-title"><span class="ca-color-swatch is-black" aria-hidden="true"></span>Black Edition</h3>
@@ -337,7 +337,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head ca-section-head--center">
         <span class="ca-eyebrow">Details</span>
         <h2 class="ca-h2" id="detail-heading">2026 E-CV1 2VAN, 디테일까지 확인하세요</h2>
-        <p class="ca-lead ca-mt-md">안전사양·배터리·편의 기능의 실제 구조와 작동 방식이 궁금하다면, <a href="/technology#option-details" class="ca-link-arrow">옵션 세부사항 페이지</a>에서 사진으로 확인하세요.</p>
+        <p class="ca-lead ca-mt-md">안전사양·배터리·편의 기능의 실제 구조와 작동 방식이 궁금하다면,<br><a href="/technology#option-details" class="ca-link-arrow">옵션 세부사항 페이지</a>에서 사진으로 확인하세요.</p>
       </div>
       <div class="ca-grid-3">
         <div class="ca-card">

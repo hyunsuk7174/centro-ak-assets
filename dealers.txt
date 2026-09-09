@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css?v=20260909">
 <style>
 /* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
 #doz_header_wrap, #doz_footer_wrap { display:none !important; }
@@ -410,7 +410,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head ca-text-center">
         <span class="ca-eyebrow">Test Drive</span>
         <h2 class="ca-h2" id="testdrive-heading">시승차 운영 매장</h2>
-        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">아래 매장에서는 E-CV1 시승차를 운영합니다. 전화로 예약하시면 원하시는 시간에 직접 타보실 수 있습니다.</p>
+        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">아래 매장에서는 E-CV1 시승차를 운영합니다.<br>전화로 예약하시면 원하시는 시간에 직접 타보실 수 있습니다.</p>
       </div>
       <div class="ca-grid-3 ca-mt-lg">
         <div class="ca-card" style="background:#fff; border:1px solid rgba(11,18,32,.10);">

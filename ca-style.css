@@ -1570,3 +1570,21 @@ body.ca-noscroll{ overflow:hidden; }
 
 /* 블랙 에디션 섹션: 아이브로우 점 색상을 골드로 */
 #black-edition .ca-eyebrow::before{ background:#d4b46a; }
+
+/* ---------- 2026-09-09 타이포 정리: 문장 단위 줄바꿈 ---------- */
+.ca-root.ca-root .ca-section-head{ max-width: 900px; }
+.ca-root.ca-root .ca-lead,
+.ca-root.ca-root .ca-h1,
+.ca-root.ca-root .ca-h2,
+.ca-root.ca-root .ca-h3,
+.ca-root.ca-root .ca-hero-title,
+.ca-root.ca-root .ca-card-text,
+.ca-root.ca-root .ca-card-title{ word-break: keep-all; overflow-wrap: break-word; }
+.ca-root.ca-root .ca-h1,
+.ca-root.ca-root .ca-h2,
+.ca-root.ca-root .ca-hero-title{ text-wrap: balance; }
+.ca-root.ca-root .ca-lead{ text-wrap: pretty; }
+.ca-root.ca-root .ca-page-hero-text .ca-lead{ text-wrap: balance; }
+@media (max-width:860px){
+  .ca-root.ca-root .ca-lead br{ display:none; }
+}

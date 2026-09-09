@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css?v=20260909">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option.css">
 <style>
 /* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
@@ -88,7 +88,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <div class="ca-tech-content">
           <span class="ca-badge">Battery</span>
           <h2 class="ca-h2 ca-mt-md" id="battery-heading">CATL LFP 배터리, 검증된 안정성</h2>
-          <p class="ca-lead">41.9kWh 용량의 CATL LFP 배터리를 탑재해 화재 안전성과 내구성을 확보했습니다. 상용차에 필요한 반복 충·방전 환경에서도 안정적인 성능을 유지합니다.</p>
+          <p class="ca-lead">41.9kWh 용량의 CATL LFP 배터리를 탑재해 화재 안전성과 내구성을 확보했습니다.<br>상용차에 필요한 반복 충·방전 환경에서도 안정적인 성능을 유지합니다.</p>
           <ul class="ca-tech-list">
             <li><i class="fa-solid fa-check"></i>CATL LFP 41.9kWh 배터리</li>
             <li><i class="fa-solid fa-check"></i>최대 출력 60kW · 최대 토크 200Nm</li>
@@ -104,7 +104,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <div class="ca-tech-content">
           <span class="ca-badge">Safety</span>
           <h2 class="ca-h2 ca-mt-md">다중 안전장치, 운전자를 지키는 기본값</h2>
-          <p class="ca-lead">AEB(전방충돌방지보조), ESC, ABS, EBD와 듀얼 에어백을 기본 탑재해 주행 중 발생할 수 있는 위험을 줄입니다.</p>
+          <p class="ca-lead">AEB(전방충돌방지보조)·ESC·ABS·EBD와 듀얼 에어백을 기본 탑재해 주행 중 위험을 줄입니다.</p>
           <ul class="ca-tech-list">
             <li><i class="fa-solid fa-check"></i>AEB 전방충돌방지보조</li>
             <li><i class="fa-solid fa-check"></i>ESC 차체자세제어, ABS, EBD</li>
@@ -120,7 +120,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <div class="ca-tech-content">
           <span class="ca-badge">Connected</span>
           <h2 class="ca-h2 ca-mt-md">V2L·V2V, 전기차의 활용 폭을 넓히다</h2>
-          <p class="ca-lead">V2L(Vehicle to Load)로 차량 배터리를 외부 전원으로 활용하고, V2V(Vehicle to Vehicle) 기능으로 다른 전기차에 전력을 공급할 수 있습니다. 10.1인치 디스플레이로 운행 정보를 한눈에 확인하세요.</p>
+          <p class="ca-lead">V2L(Vehicle to Load)로 차량 배터리를 외부 전원으로 활용하고, V2V(Vehicle to Vehicle) 기능으로 다른 전기차에 전력을 공급할 수 있습니다.<br>10.1인치 디스플레이로 운행 정보를 한눈에 확인하세요.</p>
           <ul class="ca-tech-list">
             <li><i class="fa-solid fa-check"></i>V2L 외부 전원 공급 기능</li>
             <li><i class="fa-solid fa-check"></i>V2V 차량 간 전력 공유</li>
@@ -207,7 +207,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
             <span class="ca-eyebrow">Black Edition</span>
             <h3 class="ca-h2">블랙 에디션 전용 사양</h3>
           </div>
-          <p class="ca-lead" style="max-width:460px;">바디는 블랙 펄, 그릴·휠·미러는 블랙으로 도장한 E-CV1 전용 사양입니다. 2인승·5인승 공통, 추가 500,000원.</p>
+          <p class="ca-lead" style="max-width:460px;">바디는 블랙 펄, 그릴·휠·미러는 블랙으로 도장한 E-CV1 전용 사양입니다.<br>2인승·5인승 공통, 추가 500,000원.</p>
         </div>
         <div class="centro-option-grid" id="centro-option-grid-black-edition"></div>
       </div>

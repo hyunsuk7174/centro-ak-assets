@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css?v=20260909">
 <style>
 /* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
 #doz_header_wrap, #doz_footer_wrap { display:none !important; }
@@ -74,7 +74,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head">
         <span class="ca-eyebrow">Network</span>
         <h2 class="ca-h2" id="network-heading">전국 서비스 네트워크</h2>
-        <p class="ca-lead ca-mt-md">※ 아래 숫자와 지역 목록은 관리자가 최신 운영 현황으로 업데이트하는 영역입니다.</p>
+        <p class="ca-lead ca-mt-md">직영 부품센터와 전국 지정정비업체가 함께 E-CV1의 점검·수리·부품 공급을 책임집니다.</p>
       </div>
       <div class="ca-network-stats">
         <div class="ca-network-stat">
@@ -100,7 +100,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head">
         <span class="ca-eyebrow">A/S 지정정비 센터</span>
         <h2 class="ca-h2" id="finder-heading">전국 지정정비 센터 52개 거점</h2>
-        <p class="ca-lead ca-mt-md">지역명 또는 업체명을 입력해 검색해 보세요. ※ 표기된 지정정비 센터는 운영 상황에 따라 변동될 수 있습니다.</p>
+        <p class="ca-lead ca-mt-md">지역명 또는 업체명을 입력해 검색해 보세요.<br>※ 표기된 지정정비 센터는 운영 상황에 따라 변동될 수 있습니다.</p>
       </div>
       <div class="ca-form" style="max-width:480px; margin-bottom:24px;">
         <div class="ca-form-row">

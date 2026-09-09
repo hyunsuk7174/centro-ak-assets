@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css?v=20260909">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option.css">
 <style>
 /* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
@@ -262,7 +262,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head">
         <span class="ca-eyebrow">Specifications</span>
         <h2 class="ca-h2" id="spec-heading">E-CV1 5VAN 주요 제원</h2>
-        <p class="ca-lead ca-mt-md">※ 아래 수치는 관리자가 최신 인증 제원으로 업데이트하는 영역입니다. 확정 전 수치는 임의로 게시하지 않습니다.</p>
+        <p class="ca-lead ca-mt-md">2026년형 E-CV1 5VAN 공식 카탈로그 기준 제원입니다.</p>
       </div>
       <div style="overflow-x:auto;">
       <table style="width:100%; border-collapse:collapse; min-width:560px;">
@@ -274,7 +274,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <tr style="border-bottom:1px solid var(--ca-border);"><th style="text-align:left; padding:16px 12px; font-weight:700;">최대 토크</th><td style="padding:16px 12px;">200Nm</td></tr>
           <tr style="border-bottom:1px solid var(--ca-border);"><th style="text-align:left; padding:16px 12px; font-weight:700;">안전 사양</th><td style="padding:16px 12px;">AEB, ESC, ABS, EBD, 듀얼 에어백, 뒷좌석 ISOFIX 유아용 시트 고정장치</td></tr>
           <tr style="border-bottom:1px solid var(--ca-border);"><th style="text-align:left; padding:16px 12px; font-weight:700;">익스테리어</th><td style="padding:16px 12px;">바이펑션 Full LED 헤드램프, LED 리어 콤비네이션 램프</td></tr>
-          <tr style="border-bottom:1px solid var(--ca-border);"><th style="text-align:left; padding:16px 12px; font-weight:700;">연결티드</th><td style="padding:16px 12px;">V2L, V2V, 10.1인치 디스플레이</td></tr>
+          <tr style="border-bottom:1px solid var(--ca-border);"><th style="text-align:left; padding:16px 12px; font-weight:700;">커넥티드</th><td style="padding:16px 12px;">V2L, V2V, 10.1인치 디스플레이</td></tr>
           <tr><th style="text-align:left; padding:16px 12px; font-weight:700;">보증</th><td style="padding:16px 12px;">주요 전동 부품 5년 또는 20만km</td></tr>
         </tbody>
       </table>
@@ -291,7 +291,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head ca-section-head--center">
         <span class="ca-eyebrow">Option Photos</span>
         <h2 class="ca-h2" id="option-photo-heading">5VAN 탑승자를 위한 옵션, 사진으로 직접 확인하세요</h2>
-        <p class="ca-lead ca-mt-md">공식 스펙시트 사진을 바탕으로, 승객과 화물을 함께 태우는 5VAN에 특히 유용한 옵션을 직접 담았습니다.</p>
+        <p class="ca-lead ca-mt-md">공식 스펙시트를 바탕으로, 승객과 화물을 함께 태우는 5VAN에 유용한 옵션을 담았습니다.</p>
       </div>
 
       <div class="centro-option-grid" id="centro-option-grid-5van"></div>
@@ -308,7 +308,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head ca-section-head--center">
         <span class="ca-eyebrow">Details</span>
         <h2 class="ca-h2" id="detail-heading">E-CV1 5VAN, 디테일까지 확인하세요</h2>
-        <p class="ca-lead ca-mt-md">배터리·모터·안전·커넥티드 사양은 2VAN과 동일한 플랫폼을 기반으로 하며, 5인승 좌석 구성에 맞춰 실내 공간이 설계되었습니다. 안전사양·배터리·편의 기능의 실제 구조가 궁금하다면 <a href="/technology#option-details" class="ca-link-arrow">옵션 세부사항 페이지</a>에서 사진으로 확인하세요.</p>
+        <p class="ca-lead ca-mt-md">배터리·모터·안전·커넥티드 사양은 2VAN과 동일한 플랫폼을 기반으로 하며, 5인승 좌석 구성에 맞춰 실내 공간이 설계되었습니다.<br>안전사양·배터리·편의 기능의 실제 구조가 궁금하다면 <a href="/technology#option-details" class="ca-link-arrow">옵션 세부사항 페이지</a>에서 사진으로 확인하세요.</p>
       </div>
       <div class="ca-grid-3">
         <div class="ca-card">
