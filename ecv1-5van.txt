@@ -33,6 +33,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-nav-item"><a href="/dealers" class="ca-nav-link">Dealers</a></div>
       <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
       <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+      <div class="ca-nav-item"><a href="/news" class="ca-nav-link">News</a></div>
     </nav>
     <div class="ca-header-actions">
       <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
@@ -56,6 +57,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
   <a href="/dealers" class="ca-mobile-link">Dealers</a>
   <a href="/service" class="ca-mobile-link">Service</a>
   <a href="/brand" class="ca-mobile-link">Brand</a>
+  <a href="/news" class="ca-mobile-link">News</a>
   <div class="ca-mobile-cta">
     <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
     <a href="/dealers#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
@@ -397,7 +399,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
         <div class="ca-footer-social">
           <a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a>
-          <a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.instagram.com/centroak.kor_official/" target="_blank" rel="noopener" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a>
           <a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a>
         </div>
       </div>
@@ -407,7 +409,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       </div>
       <div class="ca-footer-col">
         <h4>Company</h4>
-        <ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li></ul>
+        <ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li><li><a href="/news">뉴스</a></li></ul>
       </div>
       <div class="ca-footer-col">
         <h4>Support</h4>
@@ -444,9 +446,9 @@ body.ca-has-stickybar { padding-bottom:64px; }
   });
 </script>
 
-<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option-data.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js?v=20260909"></script>
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option-data.js?v=20260909"></script>
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro-option.js?v=20260909"></script>
 <script>
 document.body.classList.add('ca-has-stickybar');
 </script>

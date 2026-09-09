@@ -1,0 +1,340 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css">
+<style>
+/* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
+#doz_header_wrap, #doz_footer_wrap { display:none !important; }
+#doz_content_wrap, .inline_page { padding:0 !important; margin:0 !important; }
+body.ca-has-stickybar { padding-bottom:64px; }
+</style>
+
+<a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
+<div class="ca-root">
+
+<header class="ca-header is-scrolled" id="ca-header">
+  <div class="ca-container">
+    <a href="/" class="ca-logo" aria-label="센트로에이케이 홈으로 이동">
+      <img class="centro-header-logo" src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고">
+    </a>
+    <nav class="ca-nav" aria-label="주 메뉴">
+      <div class="ca-nav-item">
+        <a href="#" class="ca-nav-link">Models <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+        <div class="ca-dropdown"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+      </div>
+      <div class="ca-nav-item"><a href="/price" class="ca-nav-link">Price</a></div>
+      <div class="ca-nav-item"><a href="/technology" class="ca-nav-link">Technology</a></div>
+      <div class="ca-nav-item"><a href="/business" class="ca-nav-link">Business Solutions</a></div>
+      <div class="ca-nav-item"><a href="/purchase" class="ca-nav-link">Purchase</a></div>
+      <div class="ca-nav-item"><a href="/dealers" class="ca-nav-link">Dealers</a></div>
+      <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
+      <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+      <div class="ca-nav-item"><a href="/news" class="ca-nav-link">News</a></div>
+    </nav>
+    <div class="ca-header-actions">
+      <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--sm">견적 상담</a>
+      <button class="ca-menu-toggle" aria-label="메뉴 열기" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="ca-mobile-nav" aria-label="모바일 메뉴">
+  <div class="ca-mobile-group">
+    <button class="ca-mobile-group-toggle">Models <i class="fa-solid fa-chevron-down"></i></button>
+    <div class="ca-mobile-sub"><a href="/ecv1-2van">E-CV1 2VAN</a><a href="/ecv1-5van">E-CV1 5VAN</a></div>
+  </div>
+  <a href="/price" class="ca-mobile-link">Price</a>
+  <a href="/technology" class="ca-mobile-link">Technology</a>
+  <a href="/business" class="ca-mobile-link">Business Solutions</a>
+  <a href="/purchase" class="ca-mobile-link">Purchase</a>
+  <a href="/dealers" class="ca-mobile-link">Dealers</a>
+  <a href="/service" class="ca-mobile-link">Service</a>
+  <a href="/brand" class="ca-mobile-link">Brand</a>
+  <a href="/news" class="ca-mobile-link">News</a>
+  <div class="ca-mobile-cta">
+    <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
+    <a href="/dealers#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
+    <a href="/service" class="ca-btn ca-btn--ghost ca-btn--block">서비스센터 찾기</a>
+  </div>
+</nav>
+
+<main id="ca-main">
+
+  <style>
+    .ca-nw-filter{display:flex; flex-wrap:wrap; gap:8px; justify-content:center;}
+    .ca-nw-filter button{border:1px solid rgba(11,18,32,.14); background:#fff; color:rgba(11,18,32,.75); font:inherit; font-size:14px; font-weight:600; padding:10px 18px; border-radius:999px; cursor:pointer; transition:all .18s;}
+    .ca-nw-filter button span{font-weight:500; color:rgba(11,18,32,.45); margin-left:4px; font-size:12.5px;}
+    .ca-nw-filter button:hover{border-color:rgba(11,18,32,.35);}
+    .ca-nw-filter button.is-active{background:#0b1220; border-color:#0b1220; color:#fff;}
+    .ca-nw-filter button.is-active span{color:rgba(255,255,255,.6);}
+    .ca-nw-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px;}
+    @media (max-width:1024px){.ca-nw-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+    @media (max-width:640px){.ca-nw-grid{grid-template-columns:1fr;}}
+    .ca-nw-card{background:#fff; border:1px solid rgba(11,18,32,.10); border-radius:18px; overflow:hidden; display:flex; flex-direction:column; text-decoration:none; color:inherit; transition:transform .2s, box-shadow .2s;}
+    .ca-nw-card:hover{transform:translateY(-4px); box-shadow:0 18px 40px rgba(11,18,32,.10);}
+    .ca-nw-card[hidden]{display:none;}
+    .ca-nw-media{position:relative; aspect-ratio:16/10; background:#0b1220; overflow:hidden;}
+    .ca-nw-media img{width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s;}
+    .ca-nw-card:hover .ca-nw-media img{transform:scale(1.04);}
+    .ca-nw-badge{position:absolute; left:14px; top:14px; font-size:11px; font-weight:800; letter-spacing:.06em; padding:6px 10px; border-radius:999px; background:rgba(11,18,32,.78); color:#fff; backdrop-filter:blur(4px);}
+    .ca-nw-badge--video{background:#d4b46a; color:#1a1400;}
+    .ca-nw-badge--review{background:#2563eb;}
+    .ca-nw-body{padding:22px 24px 24px; display:flex; flex-direction:column; gap:10px; flex:1;}
+    .ca-nw-meta{display:flex; align-items:center; gap:8px; font-size:12.5px; color:rgba(11,18,32,.55); font-weight:600;}
+    .ca-nw-meta .ca-nw-press{color:#2563eb;}
+    .ca-nw-meta .dot{width:3px; height:3px; border-radius:50%; background:rgba(11,18,32,.3);}
+    .ca-nw-title{font-size:18px; font-weight:800; letter-spacing:-.01em; line-height:1.4; margin:0; color:#0b1220;}
+    .ca-nw-sum{font-size:14.5px; line-height:1.65; color:rgba(11,18,32,.72); margin:0;}
+    .ca-nw-more{margin-top:auto; padding-top:8px; font-size:13.5px; font-weight:700; color:#0b1220; display:inline-flex; align-items:center; gap:6px;}
+    .ca-nw-card:hover .ca-nw-more{color:#2563eb;}
+    .ca-nw-empty{text-align:center; padding:40px 0; color:rgba(11,18,32,.5);}
+    .ca-nw-feature{display:grid; grid-template-columns:1.15fr 1fr; gap:0; background:#0b1220; color:#fff; border-radius:22px; overflow:hidden; text-decoration:none;}
+    @media (max-width:860px){.ca-nw-feature{grid-template-columns:1fr;}}
+    .ca-nw-feature-media{position:relative; min-height:320px;}
+    .ca-nw-feature-media img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover;}
+    .ca-nw-feature-body{padding:44px 44px; display:flex; flex-direction:column; justify-content:center; gap:14px;}
+    @media (max-width:640px){.ca-nw-feature-body{padding:28px 24px;}}
+    .ca-nw-feature .ca-nw-meta{color:rgba(255,255,255,.6);} .ca-nw-feature .ca-nw-meta .ca-nw-press{color:#d4b46a;} .ca-nw-feature .ca-nw-meta .dot{background:rgba(255,255,255,.35);}
+    .ca-nw-feature .ca-nw-title{font-size:26px; color:#fff;}
+    .ca-nw-feature .ca-nw-sum{color:rgba(255,255,255,.75); font-size:15.5px;}
+    .ca-nw-feature .ca-nw-more{color:#fff;}
+    .ca-nw-press-strip{display:flex; flex-wrap:wrap; justify-content:center; gap:10px 28px; font-size:14px; font-weight:700; color:rgba(11,18,32,.45); letter-spacing:.02em;}
+  </style>
+
+  <!-- PAGE HERO -->
+  <section class="ca-page-hero">
+    <div class="ca-container">
+      <nav class="ca-breadcrumb" aria-label="현재 위치">
+        <a href="/">홈</a><span>/</span><span>뉴스</span>
+      </nav>
+      <div class="ca-page-hero-grid">
+        <div class="ca-page-hero-text">
+          <span class="ca-eyebrow">News &amp; Press</span>
+          <h1 class="ca-h1">센트로에이케이 뉴스</h1>
+          <p class="ca-lead ca-mt-md" style="max-width:620px;">E-CV1 출시부터 시승기, 미디어 리뷰까지 — 언론에 보도된 센트로에이케이의 소식을 한곳에 모았습니다. 기사 제목을 누르면 해당 매체의 원문으로 이동합니다.</p>
+          <div class="ca-hero-cta ca-mt-lg">
+            <a href="#news-list" class="ca-btn ca-btn--primary"><i class="fa-solid fa-newspaper"></i>&nbsp;기사 보기</a>
+            <a href="mailto:admin@centroak.com?subject=%5B%EC%B7%A8%EC%9E%AC%C2%B7%EC%A0%9C%ED%9C%B4%20%EB%AC%B8%EC%9D%98%5D" class="ca-btn ca-btn--ghost">취재 · 제휴 문의</a>
+          </div>
+        </div>
+        <div class="ca-page-hero-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ecv1-2026-lineup.jpg" alt="2026 E-CV1 2VAN · 5VAN · Black Edition 라인업" loading="lazy">
+          <span class="ca-page-hero-media-tag">2026 E-CV1 라인업</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="ca-section" aria-labelledby="news-featured-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-text-center" style="max-width:none;">
+        <span class="ca-eyebrow">Latest</span>
+        <h2 class="ca-h2" id="news-featured-heading">최신 보도</h2>
+      </div>
+      <a class="ca-nw-feature ca-mt-lg" href="https://sports.khan.co.kr/article/202604071249003/" target="_blank" rel="noopener">
+        <div class="ca-nw-feature-media">
+          <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ecv1-2026-lineup.jpg" alt="2026 E-CV1 라인업" loading="lazy">
+        </div>
+        <div class="ca-nw-feature-body">
+          <div class="ca-nw-meta"><span class="ca-nw-press">스포츠경향</span><span class="dot"></span><span>2026.04.07</span><span class="dot"></span><span>신차 · 출시</span></div>
+          <h3 class="ca-nw-title">“다마스 대체 전기밴 등장”… 1800만원대 ‘2026 E-CV1’ 출격</h3>
+          <p class="ca-nw-sum">2인승 화물밴과 5인승 멀티밴으로 구성된 2026년형 E-CV1 라인업 출시 소식. 다마스 이후 비어 있던 소형 상용 시장의 전기차 대안으로 소개되었으며, 제조사 지원 프로모션 적용 시 실구매가가 1,800만원대라고 전했습니다.</p>
+          <span class="ca-nw-more">기사 원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- NEWS LIST -->
+  <section class="ca-section ca-section--gray" id="news-list" aria-labelledby="news-list-heading">
+    <div class="ca-container">
+      <div class="ca-section-head ca-text-center" style="max-width:none;">
+        <span class="ca-eyebrow">Press Coverage</span>
+        <h2 class="ca-h2" id="news-list-heading">언론 보도</h2>
+        <p class="ca-lead ca-mt-md" style="margin-left:auto; margin-right:auto;">최신 기사 순으로 정리했습니다. 기사 내 가격·보조금은 보도 시점 기준이며, 현재 판매 가격은 가격표 페이지를 확인해 주세요.</p>
+      </div>
+
+      <div class="ca-nw-filter ca-mt-lg" role="tablist" aria-label="기사 분류">
+        <button type="button" class="is-active" data-cat="all">전체 <span>9</span></button>
+        <button type="button" data-cat="launch">신차 · 출시 <span>6</span></button>
+        <button type="button" data-cat="review">시승기 · 리뷰 <span>2</span></button>
+        <button type="button" data-cat="video">영상 <span>1</span></button>
+      </div>
+
+      <div class="ca-nw-grid ca-mt-lg" id="news-grid">
+
+        <a class="ca-nw-card" data-cat="launch" href="https://sports.khan.co.kr/article/202604071249003/" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ecv1-2026-lineup.jpg" alt="2026 E-CV1 라인업" loading="lazy"><span class="ca-nw-badge">신차 · 출시</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">스포츠경향</span><span class="dot"></span><span>2026.04.07</span></div>
+            <h3 class="ca-nw-title">“다마스 대체 전기밴 등장”… 1800만원대 ‘2026 E-CV1’ 출격</h3>
+            <p class="ca-nw-sum">2인승·5인승으로 구성된 2026년형 E-CV1 라인업을 소개하며, 소형 상용 시장의 전기차 대안으로 조명한 기사입니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <a class="ca-nw-card" data-cat="video" href="https://www.dailycar.co.kr/content/news.html?type=view&amp;autoId=57756" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg?v=2" alt="도심을 주행하는 E-CV1" loading="lazy"><span class="ca-nw-badge ca-nw-badge--video"><i class="fa-solid fa-play"></i>&nbsp;영상</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">TV 데일리카</span><span class="dot"></span><span>2025.09.12</span></div>
+            <h3 class="ca-nw-title">[TV 데일리카] 소상공 자영업자에게 딱 맞는 0.7톤 전기 화물차..센트로에이케이 E-CV1</h3>
+            <p class="ca-nw-sum">데일리카 영상 리뷰. 60kW 모터와 41.86kWh LFP 배터리, 급속 40분 충전, V2L·V2V 기능 등 E-CV1의 핵심 포인트를 영상으로 소개합니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <a class="ca-nw-card" data-cat="review" href="https://www.dailycar.co.kr/content/news.html?type=view&amp;autoId=57757" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg?v=2" alt="강변을 주행하는 E-CV1" loading="lazy"><span class="ca-nw-badge ca-nw-badge--review">시승기</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">데일리카</span><span class="dot"></span><span>2025.06.24</span></div>
+            <h3 class="ca-nw-title">[시승기] 도심형 스타일, 실용성 돋보이는 0.7톤 전기밴..센트로에이케이 E-CV1</h3>
+            <p class="ca-nw-sum">하영선 기자의 E-CV1 시승기. 정숙성과 경제성, 도심형 디자인과 실용적인 적재 공간을 중심으로 실제 주행 느낌을 전합니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <a class="ca-nw-card" data-cat="review" href="https://www.dailycar.co.kr/content/news.html?type=view&amp;autoId=57605" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/cargo-rear-open-full.jpg" alt="E-CV1 적재함 개방 모습" loading="lazy"><span class="ca-nw-badge ca-nw-badge--review">포토 리뷰</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">데일리카</span><span class="dot"></span><span>2025.06.12</span></div>
+            <h3 class="ca-nw-title">[데일리카 컷] 소상공인에게 적합한 0.7톤 도심형 전기 밴..센트로에이케이 E-CV1</h3>
+            <p class="ca-nw-sum">외관·실내·적재함을 사진으로 살펴보는 포토 리뷰. 알루미늄 적재함 바닥, 10.1인치 디스플레이, 회생제동 등 실용 사양을 짚었습니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <a class="ca-nw-card" data-cat="launch" href="https://www.bizwnews.com/news/articleView.html?idxno=104215" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-side-profile-park.jpg" alt="E-CV1 측면" loading="lazy"><span class="ca-nw-badge">신차 · 출시</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">비즈월드</span><span class="dot"></span><span>2025.06.02</span></div>
+            <h3 class="ca-nw-title">센트로에이케이, 한국형 전용 모델 전기 화물밴 ‘E-CV1’ 출시</h3>
+            <p class="ca-nw-sum">산시 빅토리 그룹과의 파트너십으로 개발한 한국형 전용 모델 E-CV1의 출시와 환경부·국토교통부 인증 완료 소식을 전한 기사입니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <a class="ca-nw-card" data-cat="launch" href="https://www.dnews.co.kr/uhtml/view.jsp?idxno=202505250941391960462" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-bridge.jpg?v=2" alt="E-CV1 전면" loading="lazy"><span class="ca-nw-badge">신차 · 출시</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">대한경제</span><span class="dot"></span><span>2025.05.25</span></div>
+            <h3 class="ca-nw-title">센트로에이케이, ‘실구매가 1900만원대’ 0.7t급 전기화물차 출시</h3>
+            <p class="ca-nw-sum">0.7톤급 소형 전기화물차 E-CV1의 국내 출시를 다룬 기사로, 보조금 적용 시 실구매가와 주요 제원을 소개했습니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <a class="ca-nw-card" data-cat="launch" href="https://v.daum.net/v/20250523101217173" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-rear-3-4-underbridge.jpg?v=2" alt="E-CV1 후측면" loading="lazy"><span class="ca-nw-badge">신차 · 출시</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">오토타임즈</span><span class="dot"></span><span>2025.05.23</span></div>
+            <h3 class="ca-nw-title">센트로에이케이, 전기 화물차 E-CV1 출시..실구매가 1,900만원대</h3>
+            <p class="ca-nw-sum">41.86kWh 배터리와 1회 충전 184km 주행거리, 5년/20만km 보증과 전국 정비 네트워크 등 출시 당시 상품 구성을 정리한 기사입니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <a class="ca-nw-card" data-cat="launch" href="https://www.cvinfo.com/news/articleView.html?idxno=29361" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-full.jpg?v=2" alt="E-CV1 전측면" loading="lazy"><span class="ca-nw-badge">신차 · 출시</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">상용차매거진</span><span class="dot"></span><span>2025.05.22</span></div>
+            <h3 class="ca-nw-title">센트로에이케이, 한국 시장 전용 전기 화물밴 ‘E-CV1’ 모델 공식 출시</h3>
+            <p class="ca-nw-sum">상용차 전문 매체가 전한 E-CV1 공식 출시 소식. 한국 시장 전용 개발 배경과 인증, 판매·서비스 체계를 소개했습니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <a class="ca-nw-card" data-cat="launch" href="https://www.carmgz.kr/news/articleView.html?idxno=14436" target="_blank" rel="noopener">
+          <div class="ca-nw-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/interior-dashboard-tablet-androidauto.jpg" alt="E-CV1 실내 대시보드" loading="lazy"><span class="ca-nw-badge">신차 · 출시</span></div>
+          <div class="ca-nw-body">
+            <div class="ca-nw-meta"><span class="ca-nw-press">카매거진</span><span class="dot"></span><span>2025.05.20</span></div>
+            <h3 class="ca-nw-title">한국형 전용 모델 전기 화물밴 ‘E-CV1’ 국내 인증 완료…합리적 가격에 공식 출시</h3>
+            <p class="ca-nw-sum">환경부·국토교통부 인증 완료와 함께 공식 출시된 E-CV1을 소개하며, 전국 정비망을 통한 사후관리 체계를 함께 다뤘습니다.</p>
+            <span class="ca-nw-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+      </div>
+      <p class="ca-nw-empty" id="ca-nw-empty" hidden>해당 분류의 기사가 없습니다.</p>
+
+      <div class="ca-mt-lg">
+        <p class="ca-text-center" style="font-size:12.5px; font-weight:800; letter-spacing:.14em; color:rgba(11,18,32,.4); margin-bottom:14px;">FEATURED IN</p>
+        <div class="ca-nw-press-strip">
+          <span>스포츠경향</span><span>데일리카</span><span>비즈월드</span><span>대한경제</span><span>오토타임즈</span><span>상용차매거진</span><span>카매거진</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESS CONTACT -->
+  <section class="ca-section ca-section--dark" aria-labelledby="press-contact-heading">
+    <div class="ca-container">
+      <div class="ca-model-card" style="grid-template-columns:1fr; text-align:center; padding:56px 32px; background:transparent; border:1px solid rgba(255,255,255,.15);">
+        <div>
+          <span class="ca-eyebrow ca-flex-center">Press Contact</span>
+          <h2 class="ca-h2" id="press-contact-heading" style="color:#fff;">취재 · 인터뷰 · 제휴 문의</h2>
+          <p class="ca-lead ca-mt-md" style="color:rgba(255,255,255,.7); margin-left:auto; margin-right:auto;">보도자료, 차량 시승 취재, 제휴 제안은 아래 연락처로 문의해 주세요. 이미지·제원 자료를 빠르게 제공드립니다.</p>
+          <div class="ca-mt-lg ca-flex-center" style="gap:14px; flex-wrap:wrap;">
+            <a href="mailto:admin@centroak.com" class="ca-btn ca-btn--accent"><i class="fa-solid fa-envelope"></i>&nbsp;admin@centroak.com</a>
+            <a href="tel:070-8657-0905" class="ca-btn ca-btn--outline" style="color:#fff; border-color:rgba(255,255,255,.45);"><i class="fa-solid fa-phone"></i>&nbsp;070-8657-0905</a>
+            <a href="https://www.instagram.com/centroak.kor_official/" target="_blank" rel="noopener" class="ca-btn ca-btn--outline" style="color:#fff; border-color:rgba(255,255,255,.45);"><i class="fa-brands fa-instagram"></i>&nbsp;인스타그램</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+  (function(){
+    var btns=document.querySelectorAll('.ca-nw-filter button');
+    var cards=document.querySelectorAll('#news-grid .ca-nw-card');
+    var empty=document.getElementById('ca-nw-empty');
+    btns.forEach(function(b){ b.addEventListener('click',function(){
+      btns.forEach(function(x){x.classList.remove('is-active');}); b.classList.add('is-active');
+      var c=b.getAttribute('data-cat'); var n=0;
+      cards.forEach(function(k){ var show=(c==='all'||k.getAttribute('data-cat')===c); k.hidden=!show; if(show) n++; });
+      empty.hidden = n>0;
+    });});
+  })();
+  </script>
+
+</main>
+
+
+
+<footer class="ca-footer">
+  <div class="ca-container">
+    <div class="ca-footer-top">
+      <div>
+        <div class="ca-footer-brand"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/centro_ak_logo_2_transparent_trimmed.png" alt="CENTRO AK 센트로에이케이 로고"></div>
+        <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
+        <div class="ca-footer-social"><a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a><a href="https://www.instagram.com/centroak.kor_official/" target="_blank" rel="noopener" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a></div>
+      </div>
+      <div class="ca-footer-col"><h4>Models</h4><ul><li><a href="/ecv1-2van">E-CV1 2VAN</a></li><li><a href="/ecv1-5van">E-CV1 5VAN</a></li><li><a href="/price">가격표</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Company</h4><ul><li><a href="/brand">브랜드 스토리</a></li><li><a href="/technology">기술력</a></li><li><a href="/business">비즈니스 솔루션</a></li><li><a href="/news">뉴스</a></li></ul></div>
+      <div class="ca-footer-col"><h4>Support</h4><ul><li><a href="/dealers">딜러·전시장 찾기</a></li><li><a href="/service">서비스센터 찾기</a></li><li><a href="/purchase#consult">견적·시승 신청</a></li><li><a href="tel:070-8657-0905">070-8657-0905</a></li></ul></div>
+    </div>
+    <div class="ca-footer-corp">
+      <p>주식회사 센트로에이케이 &nbsp;|&nbsp; 대표자: 황현석 &nbsp;|&nbsp; 사업자등록번호: 434-81-02909<br>
+      사업장 소재지: 경기도 평택시 진위면 서탄로 69 &nbsp;|&nbsp; 법인등록번호: 131311-0295042<br>
+      대표전화: 070-8657-0905 &nbsp;|&nbsp; 이메일: admin@centroak.com</p>
+    </div>
+    <div class="ca-footer-bottom">
+      <div class="ca-footer-legal"><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">영상정보처리기기 운영방침</a></div>
+      <span>&copy; <span id="ca-year"></span> CENTRO AK Co., Ltd. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ca-mobile-stickybar" aria-label="빠른 상담 메뉴">
+  <a href="tel:070-8657-0905" class="ca-sticky-call"><i class="fa-solid fa-phone"></i>전화</a>
+  <a href="/purchase#consult" class="ca-sticky-quote"><i class="fa-solid fa-file-pen"></i>상담신청</a>
+  <a href="/purchase" class="ca-sticky-drive"><i class="fa-solid fa-car-side"></i>견적확인</a>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js?v=20260909"></script>
+<script>
+document.body.classList.add('ca-has-stickybar');
+</script>

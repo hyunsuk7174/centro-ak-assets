@@ -7,6 +7,7 @@
 #doz_header_wrap, #doz_footer_wrap { display:none !important; }
 #doz_content_wrap, .inline_page { padding:0 !important; margin:0 !important; }
 body.ca-has-stickybar { padding-bottom:64px; }
+@media (max-width:860px){ #service .ca-lead, #brand-trust .ca-lead, #network-heading { white-space:normal !important; } }
 </style>
 
 <a href="#ca-main" class="ca-skip-link">본문 바로가기</a>
@@ -34,6 +35,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-nav-item"><a href="/dealers" class="ca-nav-link">Dealers</a></div>
       <div class="ca-nav-item"><a href="/service" class="ca-nav-link">Service</a></div>
       <div class="ca-nav-item"><a href="/brand" class="ca-nav-link">Brand</a></div>
+      <div class="ca-nav-item"><a href="/news" class="ca-nav-link">News</a></div>
     </nav>
 
     <div class="ca-header-actions">
@@ -61,6 +63,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
   <a href="/dealers" class="ca-mobile-link">Dealers</a>
   <a href="/service" class="ca-mobile-link">Service</a>
   <a href="/brand" class="ca-mobile-link">Brand</a>
+  <a href="/news" class="ca-mobile-link">News</a>
   <div class="ca-mobile-cta">
     <a href="/purchase#consult" class="ca-btn ca-btn--accent ca-btn--block">견적 상담 신청</a>
     <a href="/dealers#testdrive" class="ca-btn ca-btn--ghost ca-btn--block">시승 신청</a>
@@ -428,8 +431,8 @@ body.ca-has-stickybar { padding-bottom:64px; }
     <div class="ca-container">
       <div class="ca-section-head">
         <span class="ca-eyebrow">Service &amp; Parts Network</span>
-        <h2 class="ca-h2" id="network-heading">전국 A/S와 부품 공급까지 책임집니다</h2>
-        <p class="ca-lead ca-mt-md">센트로에이케이는 차량 판매 이후에도 전국 서비스 네트워크와 국내 부품 공급 체계로 다운타임을 최소화합니다.</p>
+        <h2 class="ca-h2" id="network-heading" style="white-space:nowrap;">전국 A/S와 부품 공급까지 책임집니다</h2>
+        <p class="ca-lead ca-mt-md" style="max-width:none; white-space:nowrap;">판매 이후에도 전국 서비스 네트워크와 국내 부품 공급으로 다운타임을 최소화합니다.</p>
       </div>
       <div class="ca-network-stats">
         <div class="ca-network-stat">
@@ -457,7 +460,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
       <div class="ca-section-head">
         <span class="ca-eyebrow">Brand</span>
         <h2 class="ca-h2" id="trust-heading">한국 도심에 맞게 개발된 전기 상용차</h2>
-        <p class="ca-lead ca-mt-md">센트로에이케이는 한국의 도심 비즈니스 환경과 도로 여건에 맞춰 E-CV1을 개발·인증하고, 국내 유통·서비스 체계를 직접 운영합니다.</p>
+        <p class="ca-lead ca-mt-md" style="max-width:none; white-space:nowrap;">한국 도심 환경에 맞춰 E-CV1을 개발·인증하고, 국내 유통·서비스 체계를 직접 운영합니다.</p>
       </div>
       <div class="ca-trust-strip">
         <span class="ca-trust-item"><i class="fa-solid fa-circle-check"></i>국내 안전·환경 기준 인증 절차 준수</span>
@@ -471,13 +474,70 @@ body.ca-has-stickybar { padding-bottom:64px; }
     </div>
   </section>
 
+  <!-- ============ 7-1. NEWS ============ -->
+  <section class="ca-section ca-section--gray" id="news" aria-labelledby="news-heading">
+    <div class="ca-container">
+      <style>
+        .ca-hn-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px;}
+        @media (max-width:1024px){.ca-hn-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+        @media (max-width:640px){.ca-hn-grid{grid-template-columns:1fr;}}
+        .ca-hn-card{background:#fff; border:1px solid rgba(11,18,32,.10); border-radius:18px; overflow:hidden; display:flex; flex-direction:column; text-decoration:none; color:inherit; transition:transform .2s, box-shadow .2s;}
+        .ca-hn-card:hover{transform:translateY(-4px); box-shadow:0 18px 40px rgba(11,18,32,.10);}
+        .ca-hn-media{position:relative; aspect-ratio:16/10; background:#0b1220; overflow:hidden;}
+        .ca-hn-media img{width:100%; height:100%; object-fit:cover; display:block;}
+        .ca-hn-badge{position:absolute; left:14px; top:14px; font-size:11px; font-weight:800; letter-spacing:.06em; padding:6px 10px; border-radius:999px; background:rgba(11,18,32,.78); color:#fff;}
+        .ca-hn-badge--video{background:#d4b46a; color:#1a1400;} .ca-hn-badge--review{background:#2563eb;}
+        .ca-hn-body{padding:20px 22px 22px; display:flex; flex-direction:column; gap:8px; flex:1;}
+        .ca-hn-meta{display:flex; align-items:center; gap:8px; font-size:12.5px; color:rgba(11,18,32,.55); font-weight:600;}
+        .ca-hn-meta b{color:#2563eb; font-weight:700;}
+        .ca-hn-title{font-size:17px; font-weight:800; letter-spacing:-.01em; line-height:1.4; margin:0; color:#0b1220;}
+        .ca-hn-more{margin-top:auto; padding-top:6px; font-size:13px; font-weight:700; color:#0b1220;}
+        .ca-hn-card:hover .ca-hn-more{color:#2563eb;}
+      </style>
+      <div class="ca-section-head">
+        <span class="ca-eyebrow">News</span>
+        <h2 class="ca-h2" id="news-heading">언론이 주목한 E-CV1</h2>
+        <p class="ca-lead ca-mt-md">출시 소식부터 시승기까지, 미디어에 보도된 센트로에이케이의 최신 뉴스입니다.</p>
+      </div>
+      <div class="ca-hn-grid ca-mt-lg">
+        <a class="ca-hn-card" href="https://sports.khan.co.kr/article/202604071249003/" target="_blank" rel="noopener">
+          <div class="ca-hn-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ecv1-2026-lineup.jpg" alt="2026 E-CV1 라인업" loading="lazy"><span class="ca-hn-badge">신차 · 출시</span></div>
+          <div class="ca-hn-body">
+            <div class="ca-hn-meta"><b>스포츠경향</b><span>2026.04.07</span></div>
+            <h3 class="ca-hn-title">“다마스 대체 전기밴 등장”… 1800만원대 ‘2026 E-CV1’ 출격</h3>
+            <span class="ca-hn-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+        <a class="ca-hn-card" href="https://www.dailycar.co.kr/content/news.html?type=view&amp;autoId=57756" target="_blank" rel="noopener">
+          <div class="ca-hn-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-cityscape.jpg?v=2" alt="도심을 주행하는 E-CV1" loading="lazy"><span class="ca-hn-badge ca-hn-badge--video"><i class="fa-solid fa-play"></i>&nbsp;영상</span></div>
+          <div class="ca-hn-body">
+            <div class="ca-hn-meta"><b>TV 데일리카</b><span>2025.09.12</span></div>
+            <h3 class="ca-hn-title">소상공 자영업자에게 딱 맞는 0.7톤 전기 화물차..센트로에이케이 E-CV1</h3>
+            <span class="ca-hn-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+        <a class="ca-hn-card" href="https://www.dailycar.co.kr/content/news.html?type=view&amp;autoId=57757" target="_blank" rel="noopener">
+          <div class="ca-hn-media"><img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/exterior-front-3-4-riverside.jpg?v=2" alt="강변을 주행하는 E-CV1" loading="lazy"><span class="ca-hn-badge ca-hn-badge--review">시승기</span></div>
+          <div class="ca-hn-body">
+            <div class="ca-hn-meta"><b>데일리카</b><span>2025.06.24</span></div>
+            <h3 class="ca-hn-title">[시승기] 도심형 스타일, 실용성 돋보이는 0.7톤 전기밴..센트로에이케이 E-CV1</h3>
+            <span class="ca-hn-more">원문 보기 <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+      </div>
+      <div class="ca-text-center ca-mt-lg">
+        <a href="/news" class="ca-btn ca-btn--primary"><i class="fa-solid fa-newspaper"></i>&nbsp;뉴스 전체 보기</a>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ 8. CUSTOMER CASES ============ -->
-  <section class="ca-section ca-section--gray" id="cases" aria-labelledby="cases-heading">
+  <section class="ca-section" id="cases" aria-labelledby="cases-heading">
     <div class="ca-container">
       <div class="ca-section-head">
         <span class="ca-eyebrow">Customer Stories</span>
         <h2 class="ca-h2" id="cases-heading">고객의 하루가 어떻게 바뀌었을까요</h2>
-        <p class="ca-lead ca-mt-md">※ 아래 사례는 실제 고객 인터뷰 진행 전까지 노출되는 콘텐츠 자리입니다. 출고 고객 인터뷰 확보 후 실제 사례로 교체해 주세요.</p>
+        <p class="ca-lead ca-mt-md">E-CV1과 함께 일하는 고객들의 현장 이야기를 소개합니다.</p>
       </div>
       <div class="ca-grid-3">
         <article class="ca-case-card">
@@ -600,7 +660,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <p class="ca-footer-desc">한국 도심 비즈니스 환경에 맞춘 전기 상용차를 개발·수입·판매하고, 전국 A/S와 부품 공급까지 책임지는 전기 모빌리티 기업입니다.</p>
         <div class="ca-footer-social">
           <a href="#" aria-label="유튜브"><i class="fa-brands fa-youtube"></i></a>
-          <a href="#" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.instagram.com/centroak.kor_official/" target="_blank" rel="noopener" aria-label="인스타그램"><i class="fa-brands fa-instagram"></i></a>
           <a href="#" aria-label="블로그"><i class="fa-solid fa-blog"></i></a>
         </div>
       </div>
@@ -617,7 +677,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <ul>
           <li><a href="/brand">브랜드 스토리</a></li>
           <li><a href="/technology">기술력</a></li>
-          <li><a href="/business">비즈니스 솔루션</a></li>
+          <li><a href="/business">비즈니스 솔루션</a></li><li><a href="/news">뉴스</a></li>
         </ul>
       </div>
       <div class="ca-footer-col">
@@ -654,7 +714,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js?v=20260909"></script>
 <script>
 document.body.classList.add('ca-has-stickybar');
 </script>
