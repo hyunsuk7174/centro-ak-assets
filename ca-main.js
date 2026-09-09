@@ -17,6 +17,7 @@
     initFooterYear();
     initOptionGallery();
     initVideoGallery();
+    initSocialLinks();
   });
 
   /* 1. 헤더 스크롤 시 배경 전환 */
@@ -333,4 +334,13 @@
     });
   }
 
+
+  /* 12. 소셜 링크 (푸터) */
+  function initSocialLinks(){
+    var links = { '인스타그램': 'https://www.instagram.com/centroak.kor_official/' };
+    document.querySelectorAll('.ca-footer-social a[aria-label]').forEach(function(a){
+      var url = links[a.getAttribute('aria-label')];
+      if(url){ a.setAttribute('href', url); a.setAttribute('target','_blank'); a.setAttribute('rel','noopener'); }
+    });
+  }
 })();

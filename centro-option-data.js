@@ -190,8 +190,8 @@
         "다양한 노면·적재 상태에서 안정적인 제동 성능"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/brake-disc-caliper-product.jpg",
-      imageAlt: "E-CV1 EBD-ABS 적용 디스크 브레이크 & 캘리퍼 실물",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ebd-abs-illustration.jpg",
+      imageAlt: "E-CV1 EBD-ABS 제동력 자동 배분 시스템 일러스트",
       objectPosition: "center"
     },
     {
@@ -569,7 +569,7 @@
         "조수석 하단 배치로 접근성 향상"
       ],
       applicModel: "E-CV1 전 트림 기본 적용",
-      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/charging-port-user-photo.png",
+      image: "https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/charging-port-open.jpg",
       imageAlt: "E-CV1 조수석 하단 푸쉬 오픈 타입 충전구, 개방된 모습",
       objectPosition: "center"
     },
