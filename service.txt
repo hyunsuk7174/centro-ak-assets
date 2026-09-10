@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css?v=20260909">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-style.css?v=20260910">
 <style>
 /* 아임웹 기본 헤더/푸터 숨김 (새 디자인이 자체 헤더/푸터를 포함) */
 #doz_header_wrap, #doz_footer_wrap { display:none !important; }
@@ -341,7 +341,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js?v=20260909"></script>
+<script src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-main.js?v=20260910"></script>
 <script>
 document.body.classList.add('ca-has-stickybar');
 </script>
