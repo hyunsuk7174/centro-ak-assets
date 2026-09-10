@@ -349,7 +349,7 @@
     try{
       var d = new Date(); var stamp = d.getFullYear()*10000 + (d.getMonth()+1)*100 + d.getDate();
       var s = document.createElement('script');
-      s.src = 'https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-i18n.js?d=' + stamp;
+      s.src = 'https://hyunsuk7174.github.io/centro-ak-assets/ca-i18n.js?d=' + stamp;
       s.defer = true; document.head.appendChild(s);
     }catch(e){}
   })();
