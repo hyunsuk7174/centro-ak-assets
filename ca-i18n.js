@@ -137,13 +137,13 @@
       if(lang === 'ko') return;
       for(var i=0;i<muts.length;i++){ var a = muts[i].addedNodes; for(var j=0;j<a.length;j++) queue.push(a[j]); }
       if(pending) return; pending = true;
-      requestAnimationFrame(function(){
+      setTimeout(function(){
         pending = false;
         var list = queue; queue = [];
         mo.disconnect();
         for(var k=0;k<list.length;k++){ if(list[k].isConnected) walk(list[k]); }
         mo.observe(document.body, {childList:true, subtree:true});
-      });
+      }, 0);
     });
     mo.observe(document.body, {childList:true, subtree:true});
   }
