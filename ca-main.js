@@ -343,4 +343,14 @@
       if(url){ a.setAttribute('href', url); a.setAttribute('target','_blank'); a.setAttribute('rel','noopener'); }
     });
   }
+
+  /* 13. 다국어(KO/EN/ZH) 스크립트 로드 — 하루 단위 캐시 무효화 */
+  (function(){
+    try{
+      var d = new Date(); var stamp = d.getFullYear()*10000 + (d.getMonth()+1)*100 + d.getDate();
+      var s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/ca-i18n.js?d=' + stamp;
+      s.defer = true; document.head.appendChild(s);
+    }catch(e){}
+  })();
 })();
