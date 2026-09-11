@@ -182,28 +182,82 @@
 
   /* 8. 상담/견적 신청 폼 (프론트 검증 + 로컬 데모 처리) */
   function initLeadForm(){
-    var form = document.querySelector('#ca-lead-form');
-    if(!form) return;
-    var success = document.querySelector('#ca-form-success');
+    var forms = document.querySelectorAll('#ca-lead-form, form.ca-form');
+    if(!forms.length) return;
+    var ENDPOINT = 'https://formsubmit.co/ajax/admin@centroak.com';   // 접수 메일 수신 주소
+    var TYPE_LABEL = { quote:'가격/견적 상담', testdrive:'시승 신청', dealer:'딜러 상담', fleet:'법인·플릿 문의', service:'A/S·부품 문의' };
+    var MODEL_LABEL = { '2van':'E-CV1 2VAN', '5van':'E-CV1 5VAN', undecided:'아직 결정하지 않음' };
 
-    form.addEventListener('submit', function(e){
-      e.preventDefault();
-      if(!form.checkValidity()){
-        form.reportValidity();
-        return;
-      }
-      // 실제 서버가 없는 정적 사이트이므로, 아임웹 폼 위젯 또는
-      // 폼 수집 서비스 연동 전까지는 콘솔 로그 + 완료 메시지로 대체합니다.
-      var data = Object.fromEntries(new FormData(form).entries());
-      console.log('[CENTRO AK] 상담 신청 데이터:', data);
+    forms.forEach(function(form){
+      var success = form.querySelector('.ca-form-success') || document.querySelector('#ca-form-success');
+      var btn = form.querySelector('button[type="submit"]');
+      var btnText = '';
+      var errBox = null;
 
-      form.reset();
-      if(success){
-        success.classList.add('is-visible');
-        success.setAttribute('tabindex','-1');
-        success.focus();
-        setTimeout(function(){ success.classList.remove('is-visible'); }, 6000);
+      function showError(msg){
+        if(!errBox){
+          errBox = document.createElement('div');
+          errBox.className = 'ca-form-error';
+          errBox.setAttribute('role','alert');
+          errBox.style.cssText = 'margin-top:12px;padding:12px 14px;border-radius:10px;background:#fef2f2;color:#b91c1c;font-size:14px;line-height:1.6;';
+          form.appendChild(errBox);
+        }
+        errBox.textContent = msg;
+        errBox.style.display = 'block';
       }
+
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        if(!form.checkValidity()){ form.reportValidity(); return; }
+        if(form.dataset.sending === '1') return;
+
+        var raw = Object.fromEntries(new FormData(form).entries());
+        var typeKo = TYPE_LABEL[raw.type] || raw.type || '';
+        var modelKo = MODEL_LABEL[raw.model] || raw.model || '';
+        var payload = {
+          '상담유형': typeKo,
+          '관심모델': modelKo,
+          '이름': raw.name || '',
+          '연락처': raw.phone || '',
+          '지역': raw.region || '',
+          '문의내용': raw.message || '',
+          '접수경로': location.href,
+          '접수시각': new Date().toLocaleString('ko-KR', { timeZone:'Asia/Seoul' }),
+          '표시언어': (document.documentElement.getAttribute('data-ca-lang') || 'ko'),
+          _subject: '[센트로에이케이 홈페이지] ' + typeKo + ' - ' + (raw.name || '') + ' (' + (raw.phone || '') + ')',
+          _template: 'table',
+          _captcha: 'false',
+          _honey: ''
+        };
+
+        form.dataset.sending = '1';
+        if(btn){ btnText = btn.textContent; btn.disabled = true; btn.textContent = '전송 중…'; }
+        if(errBox) errBox.style.display = 'none';
+
+        fetch(ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(payload)
+        }).then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return { ok: r.ok, body: j }; }); })
+        .then(function(res){
+          if(!res.ok || (res.body && res.body.success === 'false')) throw new Error((res.body && res.body.message) || 'send failed');
+          form.reset();
+          if(success){
+            success.classList.add('is-visible');
+            success.setAttribute('tabindex','-1');
+            success.focus();
+            setTimeout(function(){ success.classList.remove('is-visible'); }, 8000);
+          }
+        })
+        .catch(function(err){
+          console.warn('[CENTRO AK] 상담 신청 전송 실패:', err);
+          showError('전송에 실패했습니다. 전화 070-8657-0905 또는 admin@centroak.com 으로 문의해 주세요.');
+        })
+        .finally(function(){
+          form.dataset.sending = '';
+          if(btn){ btn.disabled = false; btn.textContent = btnText; }
+        });
+      });
     });
   }
 
