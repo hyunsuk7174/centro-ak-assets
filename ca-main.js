@@ -18,6 +18,7 @@
     initOptionGallery();
     initVideoGallery();
     initSocialLinks();
+     initBooking();
   });
 
   /* 1. 헤더 스크롤 시 배경 전환 */
@@ -397,7 +398,9 @@
       if(url){ a.setAttribute('href', url); a.setAttribute('target','_blank'); a.setAttribute('rel','noopener'); }
     });
   }
-
+  /* 14. 정비 예약 (전산 연동) — LIVE=false 이면 ?cabook=1 로 연 미리보기에서만 보임 */
+   function initBooking(){ var LIVE = false; var URL = 'https://centroak-econtract.vercel.app/book'; try{ if(/[?&]cabook=1/.test(location.search)) localStorage.setItem('caBookPreview','1'); if(/[?&]cabook=0/.test(location.search)) localStorage.removeItem('caBookPreview'); if(!LIVE && localStorage.getItem('caBookPreview')!=='1') return; }catch(e){ if(!LIVE) return; } var svc = document.querySelector('.ca-nav a.ca-nav-link[href="/service"]'); if(svc && !document.querySelector('.ca-nav-booking')){ var it = document.createElement('div'); it.className = 'ca-nav-item ca-nav-booking'; it.innerHTML = '<a href="' + URL + '" target="_blank" rel="noopener" class="ca-nav-link">정비 예약</a>'; svc.parentElement.insertAdjacentElement('afterend', it); } var ms = document.querySelector('.ca-mobile-nav a.ca-mobile-link[href="/service"]'); if(ms && !document.querySelector('.ca-mobile-booking')){ var m = document.createElement('a'); m.href = URL; m.target = '_blank'; m.rel = 'noopener'; m.className = 'ca-mobile-link ca-mobile-booking'; m.textContent = '정비 예약'; ms.insertAdjacentElement('afterend', m); } var cta = document.querySelector('.ca-mobile-cta'); if(cta && !cta.querySelector('.ca-cta-booking')){ var b = document.createElement('a'); b.href = URL; b.target = '_blank'; b.rel = 'noopener'; b.className = 'ca-btn ca-btn--ghost ca-btn--block ca-cta-booking'; b.textContent = '정비 예약하기'; cta.appendChild(b); } if(/^\/service\/?$/.test(location.pathname) && !document.querySelector('.ca-booking-band')){ var hero = document.querySelector('.ca-page-hero'); if(hero){ var s = document.createElement('section'); s.className = 'ca-booking-band'; s.style.cssText = 'padding:8px 0 32px;'; s.innerHTML = '<div class="ca-container"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:22px 26px;border-radius:16px;background:#fff;border:1px solid #e3e8ee;box-shadow:0 6px 20px rgba(20,40,70,.06);"><div><div style="font-size:20px;font-weight:700;">지정정비소 정비 예약</div><div style="margin-top:6px;color:#5b6168;font-size:15px;">평일 09:00 ~ 18:00 · 가까운 지정정비소와 시간을 골라 바로 예약하세요</div></div><a href="' + URL + '" target="_blank" rel="noopener" class="ca-btn ca-btn--accent">정비 예약하기</a></div></div>'; hero.insertAdjacentElement('afterend', s); } } }
+   
   /* 13. 다국어(KO/EN/ZH) 스크립트 로드 — 하루 단위 캐시 무효화 */
   (function(){
     try{
