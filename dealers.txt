@@ -81,7 +81,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
     .ca-dl-media .ca-dl-nav.prev{left:12px;} .ca-dl-media .ca-dl-nav.next{right:12px;}
     .ca-dl-badges{position:absolute; left:14px; top:14px; display:flex; gap:6px; flex-wrap:wrap;}
     .ca-dl-badge{font-size:11px; font-weight:800; letter-spacing:.06em; padding:6px 10px; border-radius:999px; background:rgba(11,18,32,.78); color:#fff; backdrop-filter:blur(4px);}
-    .ca-dl-badge--hq{background:#2563eb;} .ca-dl-badge--drive{background:#d4b46a; color:#1a1400;} .ca-dl-badge--soon{background:rgba(255,255,255,.9); color:#0b1220;}
+    .ca-dl-badge--hq{background:#2563eb;} .ca-dl-badge--drive{background:#d4b46a; color:#1a1400;} .ca-dl-badge--soon{background:rgba(255,255,255,.9); color:#0b1220;} .ca-dl-badge--on{background:#059669;}
     .ca-dl-placeholder{position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; color:rgba(255,255,255,.55); background:radial-gradient(120% 80% at 50% 0%, #1b2436 0%, #0b1220 70%); font-size:13px; letter-spacing:.06em;}
     .ca-dl-placeholder i{font-size:34px; color:rgba(255,255,255,.35);}
     .ca-dl-body{padding:24px 26px 26px; display:flex; flex-direction:column; gap:14px; flex:1;}
@@ -221,7 +221,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <div class="ca-dl-media" data-gallery>
             <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-mirae-ilsan-1.jpg" alt="미래전기차 일산점 외관" class="is-on" loading="lazy">
             <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-mirae-ilsan-2.jpg" alt="미래전기차 일산점 E-CV1 ZONE 실내 전시" loading="lazy">
-            <div class="ca-dl-badges"><span class="ca-dl-badge">E-CV1 ZONE 운영</span></div>
+            <div class="ca-dl-badges"><span class="ca-dl-badge">E-CV1 ZONE 운영</span><span class="ca-dl-badge ca-dl-badge--on">전시차 입고</span></div>
           </div>
           <div class="ca-dl-body">
             <div class="ca-dl-head"><h3 class="ca-dl-name">미래전기차 일산점</h3><span class="ca-dl-region">경기 고양시</span></div>
@@ -232,8 +232,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
             </div>
             <div class="ca-dl-cars">
               <div class="ca-dl-cars-title">전시차 현황</div>
-              <div class="ca-dl-car"><div><strong>E-CV1 5VAN</strong><small>스노우 화이트</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
-              <div class="ca-dl-car"><div><strong>E-CV1 5VAN</strong><small>블랙 (BLACK EDITION)</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+              <div class="ca-dl-car"><div><strong>E-CV1 5VAN</strong><small>스노우 화이트 · 5인승 멀티밴</small></div><span class="ca-dl-status ca-dl-status--on">전시 중</span></div>
             </div>
             <div class="ca-dl-actions">
               <a href="tel:0507-139-3290" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
@@ -274,7 +273,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <div class="ca-dl-media" data-gallery>
             <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-jeongseon-1.jpg" alt="센트로에이케이 정선 사북전시장" class="is-on" loading="lazy">
             <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-jeongseon-2.jpg" alt="센트로에이케이 지정정비센터 (Victory Auto)" loading="lazy">
-            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--hq">직영 전시장</span><span class="ca-dl-badge">지정정비센터</span></div>
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--hq">직영 전시장</span><span class="ca-dl-badge">지정정비센터</span><span class="ca-dl-badge ca-dl-badge--on">전시차 입고</span></div>
           </div>
           <div class="ca-dl-body">
             <div class="ca-dl-head"><h3 class="ca-dl-name">센트로에이케이 정선 사북전시장</h3><span class="ca-dl-region">강원 정선</span></div>
@@ -285,7 +284,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
             </div>
             <div class="ca-dl-cars">
               <div class="ca-dl-cars-title">전시차 현황</div>
-              <div class="ca-dl-car"><div><strong>E-CV1 5VAN</strong><small>스노우 화이트</small></div><span class="ca-dl-status ca-dl-status--soon">입고 예정</span></div>
+              <div class="ca-dl-car"><div><strong>E-CV1 5VAN Black Edition</strong><small>블랙 펄 · 5인승 멀티밴</small></div><span class="ca-dl-status ca-dl-status--on">전시 중</span></div>
             </div>
             <div class="ca-dl-actions">
               <a href="tel:010-4109-4291" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
@@ -325,7 +324,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <article class="ca-dl-card" data-region="yeongnam">
           <div class="ca-dl-media">
             <div class="ca-dl-placeholder"><i class="fa-solid fa-store"></i><span>전시장 사진 준비 중</span></div>
-            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--drive">시승차 운영</span><span class="ca-dl-badge ca-dl-badge--soon">오픈 준비 중</span></div>
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--drive">시승차 운영</span></div>
           </div>
           <div class="ca-dl-body">
             <div class="ca-dl-head"><h3 class="ca-dl-name">지엔제이모빌리티</h3><span class="ca-dl-region">대구 달성군</span></div>
@@ -336,7 +335,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
             </div>
             <div class="ca-dl-cars">
               <div class="ca-dl-cars-title">전시차 · 시승차 현황</div>
-              <div class="ca-dl-car"><div><strong>E-CV1 2VAN</strong><small>다크 그레이 펄 · 시승차 겸 전시차</small></div><span class="ca-dl-status ca-dl-status--soon">전시장 오픈 후 입고</span></div>
+              <div class="ca-dl-car"><div><strong>E-CV1 2VAN</strong><small>다크 그레이 펄 · 시승차 겸 전시차</small></div><span class="ca-dl-status ca-dl-status--drive">시승차 운영 중</span></div>
             </div>
             <div class="ca-dl-actions">
               <a href="tel:010-8716-7816" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
@@ -351,7 +350,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
           <div class="ca-dl-media" data-gallery>
             <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-selliance-1.jpg" alt="셀리안츠 광주 시승차 E-CV1 2VAN" class="is-on" loading="lazy">
             <img src="https://cdn.jsdelivr.net/gh/hyunsuk7174/centro-ak-assets@main/dealer-selliance-2.jpg" alt="셀리안츠 광주 빛그린산단 시승차" loading="lazy">
-            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--drive">시승차 운영</span><span class="ca-dl-badge ca-dl-badge--soon">오픈 준비 중</span></div>
+            <div class="ca-dl-badges"><span class="ca-dl-badge ca-dl-badge--drive">시승차 운영</span></div>
           </div>
           <div class="ca-dl-body">
             <div class="ca-dl-head"><h3 class="ca-dl-name">셀리안츠</h3><span class="ca-dl-region">광주 광산구 · 남구</span></div>
@@ -362,7 +361,7 @@ body.ca-has-stickybar { padding-bottom:64px; }
             </div>
             <div class="ca-dl-cars">
               <div class="ca-dl-cars-title">전시차 · 시승차 현황</div>
-              <div class="ca-dl-car"><div><strong>E-CV1 2VAN</strong><small>스노우 화이트 · 시승차 겸 전시차</small></div><span class="ca-dl-status ca-dl-status--soon">전시장 오픈 후 입고</span></div>
+              <div class="ca-dl-car"><div><strong>E-CV1 2VAN</strong><small>스노우 화이트 · 시승차 겸 전시차</small></div><span class="ca-dl-status ca-dl-status--drive">시승차 운영 중</span></div>
             </div>
             <div class="ca-dl-actions">
               <a href="tel:010-4134-5861" class="ca-btn ca-btn--primary ca-btn--sm"><i class="fa-solid fa-phone"></i>&nbsp;전화</a>
@@ -422,13 +421,13 @@ body.ca-has-stickybar { padding-bottom:64px; }
         <div class="ca-card" style="background:#fff; border:1px solid rgba(11,18,32,.10);">
           <span class="ca-eyebrow">대구</span>
           <h3 class="ca-card-title" style="margin-top:6px;">지엔제이모빌리티</h3>
-          <p class="ca-card-text">E-CV1 2VAN 다크 그레이 펄 시승차 · 전시장 오픈 후 운영</p>
+          <p class="ca-card-text">E-CV1 2VAN 다크 그레이 펄 시승차 운영 중</p>
           <a href="tel:010-8716-7816" class="ca-btn ca-btn--outline ca-btn--sm" style="margin-top:12px;"><i class="fa-solid fa-phone"></i>&nbsp;010-8716-7816</a>
         </div>
         <div class="ca-card" style="background:#fff; border:1px solid rgba(11,18,32,.10);">
           <span class="ca-eyebrow">광주</span>
           <h3 class="ca-card-title" style="margin-top:6px;">셀리안츠</h3>
-          <p class="ca-card-text">E-CV1 2VAN 스노우 화이트 시승차 · 전시장 오픈 후 운영</p>
+          <p class="ca-card-text">E-CV1 2VAN 스노우 화이트 시승차 운영 중</p>
           <a href="tel:010-4134-5861" class="ca-btn ca-btn--outline ca-btn--sm" style="margin-top:12px;"><i class="fa-solid fa-phone"></i>&nbsp;010-4134-5861</a>
         </div>
       </div>
